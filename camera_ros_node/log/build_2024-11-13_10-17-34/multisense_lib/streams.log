@@ -1,0 +1,75 @@
+[0.039s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6
+[0.573s] [ 19%] Built target MultiSense
+[0.577s] [ 27%] Built target ChangeIpUtility
+[0.577s] [ 27%] Built target ChangeResolution
+[0.577s] [ 31%] Built target AprilTagTestUtility
+[0.577s] [ 36%] Built target ChangeFps
+[0.578s] [ 40%] Built target ColorImageUtility
+[0.578s] [ 44%] Built target ChangeTransmitDelay
+[0.578s] [ 51%] Built target FlashUtility
+[0.578s] [ 55%] Built target DepthImageUtility
+[0.578s] [ 57%] Built target DeviceInfoUtility
+[0.578s] [ 61%] Built target FeatureDetectorUtility
+[0.578s] [ 65%] Built target ExternalCalUtility
+[0.579s] [ 70%] Built target ImageCalUtility
+[0.579s] [ 74%] Built target ImuConfigUtility
+[0.579s] [ 78%] Built target ImuTestUtility
+[0.579s] [ 82%] Built target LidarCalUtility
+[0.579s] [ 87%] Built target PointCloudUtility
+[0.579s] [ 91%] Built target SaveImageUtility
+[0.579s] [ 95%] Built target RectifiedFocalLengthUtility
+[0.580s] [100%] Built target VersionInfoUtility
+[0.587s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6
+[0.646s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib
+[0.659s] -- Install configuration: "Release"
+[0.659s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/library_path.sh
+[0.659s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/library_path.dsv
+[0.660s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/package_run_dependencies/multisense_lib
+[0.660s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/parent_prefix_path/multisense_lib
+[0.660s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.sh
+[0.660s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.dsv
+[0.660s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/path.sh
+[0.660s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/path.dsv
+[0.661s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.bash
+[0.661s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.sh
+[0.661s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.zsh
+[0.661s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.dsv
+[0.661s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.dsv
+[0.661s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/packages/multisense_lib
+[0.662s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.662s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_libraries-extras.cmake
+[0.662s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig.cmake
+[0.662s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig-version.cmake
+[0.662s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.xml
+[0.662s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/pkgconfig/LibMultiSense.pc
+[0.663s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so.6.1.0
+[0.663s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so
+[0.663s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh
+[0.663s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh
+[0.663s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets.cmake
+[0.663s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets-release.cmake
+[0.664s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfig.cmake
+[0.664s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfigVersion.cmake
+[0.664s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh
+[0.664s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh
+[0.664s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/AprilTagTestUtility
+[0.664s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeFps
+[0.665s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeIpUtility
+[0.666s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeResolution
+[0.666s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeTransmitDelay
+[0.667s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ColorImageUtility
+[0.668s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DeviceInfoUtility
+[0.668s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DepthImageUtility
+[0.669s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ExternalCalUtility
+[0.670s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FeatureDetectorUtility
+[0.670s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/MultiSenseUpdater
+[0.670s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FlashUtility
+[0.671s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImageCalUtility
+[0.672s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuConfigUtility
+[0.672s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuTestUtility
+[0.673s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/LidarCalUtility
+[0.674s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/PointCloudUtility
+[0.674s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/RectifiedFocalLengthUtility
+[0.675s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/SaveImageUtility
+[0.675s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/VersionInfoUtility
+[0.680s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib

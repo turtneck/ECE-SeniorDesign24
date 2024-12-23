@@ -1,0 +1,4 @@
+source;share/multisense_lib/local_setup.bash
+source;share/multisense_lib/local_setup.dsv
+source;share/multisense_lib/local_setup.sh
+source;share/multisense_lib/local_setup.zsh

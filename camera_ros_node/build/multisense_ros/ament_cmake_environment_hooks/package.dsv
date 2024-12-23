@@ -1,0 +1,4 @@
+source;share/multisense_ros/local_setup.bash
+source;share/multisense_ros/local_setup.dsv
+source;share/multisense_ros/local_setup.sh
+source;share/multisense_ros/local_setup.zsh

@@ -1,0 +1,154 @@
+[0.033s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib
+[0.057s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Performing Test HAVE_CONSTEXPR
+[0.500s] -- Performing Test HAVE_CONSTEXPR - Success
+[0.505s] -- Looking for vasprintf
+[0.656s] -- Looking for vasprintf - found
+[0.663s] -- Looking for getopt
+[0.792s] -- Looking for getopt - found
+[0.962s] -- Configuring done
+[1.046s] -- Generating done
+[1.055s] -- Build files have been written to: /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib
+[1.065s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib
+[1.068s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6
+[1.162s] [  4%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o[0m
+[1.162s] [  4%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/constants.cc.o[0m
+[1.163s] [  6%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/dispatch.cc.o[0m
+[1.167s] [  8%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o[0m
+[1.170s] [ 10%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Constants.cc.o[0m
+[1.175s] [ 12%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/flash.cc.o[0m
+[1.287s] [ 14%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/TimeStamp.cc.o[0m
+[1.862s] [ 17%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Exception.cc.o[0m
+[12.962s] [ 19%] [32m[1mLinking CXX shared library libMultiSense.so[0m
+[13.162s] [ 19%] Built target MultiSense
+[13.201s] [ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ColorImageUtility/CMakeFiles/ColorImageUtility.dir/ColorImage.cc.o[0m
+[13.202s] [ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeFps/CMakeFiles/ChangeFps.dir/ChangeFps.cc.o[0m
+[13.202s] [ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeIpUtility/CMakeFiles/ChangeIpUtility.dir/ChangeIpUtility.cc.o[0m
+[13.202s] [ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/AprilTagTestUtility/CMakeFiles/AprilTagTestUtility.dir/AprilTagTestUtility.cc.o[0m
+[13.202s] [ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeTransmitDelay/CMakeFiles/ChangeTransmitDelay.dir/ChangeTransmitDelay.cc.o[0m
+[13.204s] [ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeResolution/CMakeFiles/ChangeResolution.dir/ChangeResolution.cc.o[0m
+[14.316s] [ 34%] [32m[1mLinking CXX executable ChangeTransmitDelay[0m
+[14.322s] [ 36%] [32m[1mLinking CXX executable ChangeFps[0m
+[14.480s] [ 36%] Built target ChangeTransmitDelay
+[14.494s] [ 36%] Built target ChangeFps
+[14.506s] [ 38%] [32m[1mLinking CXX executable ChangeResolution[0m
+[14.515s] [ 40%] [32mBuilding CXX object LibMultiSense/source/Utilities/DeviceInfoUtility/CMakeFiles/DeviceInfoUtility.dir/DeviceInfoUtility.cc.o[0m
+[14.532s] [ 42%] [32mBuilding CXX object LibMultiSense/source/Utilities/DepthImageUtility/CMakeFiles/DepthImageUtility.dir/DepthImageUtility.cc.o[0m
+[14.622s] [ 44%] [32m[1mLinking CXX executable AprilTagTestUtility[0m
+[14.679s] [ 44%] Built target ChangeResolution
+[14.730s] [ 46%] [32mBuilding CXX object LibMultiSense/source/Utilities/ExternalCalUtility/CMakeFiles/ExternalCalUtility.dir/ExternalCalUtility.cc.o[0m
+[14.772s] [ 48%] [32m[1mLinking CXX executable ChangeIpUtility[0m
+[14.832s] [ 48%] Built target AprilTagTestUtility
+[14.878s] [ 51%] [32mBuilding CXX object LibMultiSense/source/Utilities/FeatureDetectorUtility/CMakeFiles/FeatureDetectorUtility.dir/FeatureDetectorUtility.cc.o[0m
+[14.964s] [ 51%] Built target ChangeIpUtility
+[15.009s] [ 53%] [32mBuilding CXX object LibMultiSense/source/Utilities/FlashUtility/CMakeFiles/FlashUtility.dir/FlashUtility.cc.o[0m
+[15.348s] [ 55%] [32m[1mLinking CXX executable ColorImageUtility[0m
+[15.562s] [ 55%] Built target ColorImageUtility
+[15.613s] [ 57%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImageCalUtility/CMakeFiles/ImageCalUtility.dir/ImageCalUtility.cc.o[0m
+[15.898s] [ 59%] [32m[1mLinking CXX executable DeviceInfoUtility[0m
+[16.069s] [ 59%] Built target DeviceInfoUtility
+[16.109s] [ 61%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImuConfigUtility/CMakeFiles/ImuConfigUtility.dir/ImuConfigUtility.cc.o[0m
+[16.353s] [ 63%] [32m[1mLinking CXX executable FlashUtility[0m
+[16.586s] [ 63%] Built target FlashUtility
+[16.631s] [ 65%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImuTestUtility/CMakeFiles/ImuTestUtility.dir/ImuTestUtility.cc.o[0m
+[16.859s] [ 68%] [32m[1mLinking CXX executable ExternalCalUtility[0m
+[16.934s] [ 70%] [32m[1mLinking CXX executable DepthImageUtility[0m
+[17.052s] [ 70%] Built target ExternalCalUtility
+[17.094s] [ 72%] [32mBuilding CXX object LibMultiSense/source/Utilities/LidarCalUtility/CMakeFiles/LidarCalUtility.dir/LidarCalUtility.cc.o[0m
+[17.225s] [ 72%] Built target DepthImageUtility
+[17.284s] [ 74%] [32mBuilding CXX object LibMultiSense/source/Utilities/PointCloudUtility/CMakeFiles/PointCloudUtility.dir/PointCloudUtility.cc.o[0m
+[17.956s] [ 76%] [32m[1mLinking CXX executable FeatureDetectorUtility[0m
+[18.154s] [ 76%] Built target FeatureDetectorUtility
+[18.199s] [ 78%] [32mBuilding CXX object LibMultiSense/source/Utilities/RectifiedFocalLengthUtility/CMakeFiles/RectifiedFocalLengthUtility.dir/RectifiedFocalLengthUtility.cc.o[0m
+[18.265s] [ 80%] [32m[1mLinking CXX executable ImuConfigUtility[0m
+[18.277s] [ 82%] [32m[1mLinking CXX executable ImuTestUtility[0m
+[18.449s] [ 82%] Built target ImuTestUtility
+[18.453s] [ 82%] Built target ImuConfigUtility
+[18.489s] [ 85%] [32mBuilding CXX object LibMultiSense/source/Utilities/SaveImageUtility/CMakeFiles/SaveImageUtility.dir/SaveImageUtility.cc.o[0m
+[18.497s] [ 87%] [32mBuilding CXX object LibMultiSense/source/Utilities/VersionInfoUtility/CMakeFiles/VersionInfoUtility.dir/VersionInfoUtility.cc.o[0m
+[18.633s] [ 89%] [32m[1mLinking CXX executable ImageCalUtility[0m
+[18.815s] [ 89%] Built target ImageCalUtility
+[19.031s] [ 91%] [32m[1mLinking CXX executable LidarCalUtility[0m
+[19.217s] [ 91%] Built target LidarCalUtility
+[19.393s] [ 93%] [32m[1mLinking CXX executable VersionInfoUtility[0m
+[19.552s] [ 93%] Built target VersionInfoUtility
+[19.675s] [ 95%] [32m[1mLinking CXX executable PointCloudUtility[0m
+[19.816s] [ 97%] [32m[1mLinking CXX executable RectifiedFocalLengthUtility[0m
+[19.839s] [ 97%] Built target PointCloudUtility
+[19.967s] [ 97%] Built target RectifiedFocalLengthUtility
+[20.564s] [100%] [32m[1mLinking CXX executable SaveImageUtility[0m
+[20.711s] [100%] Built target SaveImageUtility
+[20.737s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6
+[20.806s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib
+[20.823s] -- Install configuration: "Release"
+[20.823s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/library_path.sh
+[20.824s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/library_path.dsv
+[20.824s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/package_run_dependencies/multisense_lib
+[20.825s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/parent_prefix_path/multisense_lib
+[20.825s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.sh
+[20.826s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.dsv
+[20.826s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/path.sh
+[20.826s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/path.dsv
+[20.827s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.bash
+[20.827s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.sh
+[20.827s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.zsh
+[20.828s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.dsv
+[20.828s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.dsv
+[20.828s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/packages/multisense_lib
+[20.829s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.829s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_libraries-extras.cmake
+[20.829s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig.cmake
+[20.830s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig-version.cmake
+[20.830s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.xml
+[20.831s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/pkgconfig/LibMultiSense.pc
+[20.832s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so.6.1.0
+[20.834s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so.6.1.0" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.834s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so
+[20.834s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh
+[20.835s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh
+[20.836s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets.cmake
+[20.836s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets-release.cmake
+[20.837s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfig.cmake
+[20.837s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfigVersion.cmake
+[20.837s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh
+[20.837s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh
+[20.838s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/AprilTagTestUtility
+[20.838s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/AprilTagTestUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.839s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeFps
+[20.839s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeFps" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.840s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeIpUtility
+[20.840s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeIpUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.841s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeResolution
+[20.841s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeResolution" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.841s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeTransmitDelay
+[20.842s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeTransmitDelay" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.842s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ColorImageUtility
+[20.843s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ColorImageUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.843s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DeviceInfoUtility
+[20.844s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DeviceInfoUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.844s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DepthImageUtility
+[20.845s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DepthImageUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.845s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ExternalCalUtility
+[20.846s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ExternalCalUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.846s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FeatureDetectorUtility
+[20.847s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FeatureDetectorUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.847s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/MultiSenseUpdater
+[20.847s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FlashUtility
+[20.848s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FlashUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.848s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImageCalUtility
+[20.849s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImageCalUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.849s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuConfigUtility
+[20.849s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuConfigUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.850s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuTestUtility
+[20.850s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuTestUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.851s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/LidarCalUtility
+[20.851s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/LidarCalUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.851s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/PointCloudUtility
+[20.852s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/PointCloudUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.852s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/RectifiedFocalLengthUtility
+[20.853s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/RectifiedFocalLengthUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.853s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/SaveImageUtility
+[20.854s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/SaveImageUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.855s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/VersionInfoUtility
+[20.855s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/VersionInfoUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"
+[20.861s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib

@@ -1,0 +1,24 @@
+[1.385s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj': PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sd_proj build --build-base /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build install --record /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log --single-version-externally-managed install_data
+[2.178s] running egg_info
+[2.181s] writing ../../build/sd_proj/sd_proj.egg-info/PKG-INFO
+[2.194s] writing dependency_links to ../../build/sd_proj/sd_proj.egg-info/dependency_links.txt
+[2.194s] writing entry points to ../../build/sd_proj/sd_proj.egg-info/entry_points.txt
+[2.195s] writing requirements to ../../build/sd_proj/sd_proj.egg-info/requires.txt
+[2.195s] writing top-level names to ../../build/sd_proj/sd_proj.egg-info/top_level.txt
+[2.198s] reading manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'
+[2.200s] writing manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'
+[2.204s] running build
+[2.204s] running build_py
+[2.206s] copying sd_proj/Camera_Node.py -> /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build/lib/sd_proj
+[2.207s] running install
+[2.207s] running install_lib
+[2.209s] copying /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build/lib/sd_proj/Camera_Node.py -> /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj
+[2.211s] byte-compiling /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/Camera_Node.py to Camera_Node.cpython-310.pyc
+[2.222s] byte-compiling /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/__init__.py to __init__.cpython-310.pyc
+[2.228s] running install_data
+[2.228s] running install_egg_info
+[2.244s] removing '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info' (and everything under it)
+[2.244s] Copying ../../build/sd_proj/sd_proj.egg-info to /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info
+[2.247s] running install_scripts
+[2.348s] writing list of installed files to '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log'
+[2.575s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj' returned '0': PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sd_proj build --build-base /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build install --record /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log --single-version-externally-managed install_data

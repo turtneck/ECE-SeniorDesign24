@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multisense_msgs/msg/PtpStatus.msg
+// generated code does not contain a copyright notice
+
+
+module multisense_msgs {
+  module msg {
+    typedef uint8 uint8__8[8];
+    struct PtpStatus {
+      boolean gm_present;
+
+      uint8__8 gm_id;
+
+      int64 gm_offset;
+
+      int64 path_delay;
+
+      int16 steps_removed;
+    };
+  };
+};

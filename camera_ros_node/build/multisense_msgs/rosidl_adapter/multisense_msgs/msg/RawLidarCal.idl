@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multisense_msgs/msg/RawLidarCal.msg
+// generated code does not contain a copyright notice
+
+
+module multisense_msgs {
+  module msg {
+    typedef float float__16[16];
+    struct RawLidarCal {
+      float__16 laser_to_spindle;
+
+      float__16 camera_to_spindle_fixed;
+    };
+  };
+};

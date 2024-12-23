@@ -1,0 +1,364 @@
+[0.342s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.343s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8e3e4730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e524af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e524af0>>, mixin_verb=('build',))[0m
+[0.870s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.870s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.870s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.870s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.870s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.871s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.871s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/jetson/Senior_Design_Project/camera_ros_node'
+[0.871s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.871s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.871s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.871s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.872s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.872s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.872s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.872s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'ignore'
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'ignore_ament_install'
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extensions ['colcon_pkg']
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'colcon_pkg'
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extensions ['colcon_meta']
+[0.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'colcon_meta'
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extensions ['ros']
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'ros'
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extensions ['cmake', 'python']
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'cmake'
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'python'
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extensions ['python_setup_py']
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2) by extension 'python_setup_py'
+[0.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extension 'ignore'
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extension 'ignore_ament_install'
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extensions ['colcon_pkg']
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extension 'colcon_pkg'
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extensions ['colcon_meta']
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extension 'colcon_meta'
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extensions ['ros']
+[0.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_lib) by extension 'ros'
+[0.907s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/multisense_ros2/multisense_lib' with type 'ros.ament_cmake' and name 'multisense_lib'[0m
+[0.907s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extension 'ignore'
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extension 'ignore_ament_install'
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extensions ['colcon_pkg']
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extension 'colcon_pkg'
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extensions ['colcon_meta']
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extension 'colcon_meta'
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extensions ['ros']
+[0.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_msgs) by extension 'ros'
+[0.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/multisense_ros2/multisense_msgs' with type 'ros.ament_cmake' and name 'multisense_msgs'[0m
+[0.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extension 'ignore'
+[0.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extension 'ignore_ament_install'
+[0.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extensions ['colcon_pkg']
+[0.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extension 'colcon_pkg'
+[0.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extensions ['colcon_meta']
+[0.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extension 'colcon_meta'
+[0.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extensions ['ros']
+[0.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/multisense_ros2/multisense_ros) by extension 'ros'
+[0.913s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/multisense_ros2/multisense_ros' with type 'ros.ament_cmake' and name 'multisense_ros'[0m
+[0.913s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extension 'ignore'
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extension 'ignore_ament_install'
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extensions ['colcon_pkg']
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extension 'colcon_pkg'
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extensions ['colcon_meta']
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extension 'colcon_meta'
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extensions ['ros']
+[0.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sd_proj) by extension 'ros'
+[0.916s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/sd_proj' with type 'ros.ament_python' and name 'sd_proj'[0m
+[0.916s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.916s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.916s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.917s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.917s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.990s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.990s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.997s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 271 installed packages in /opt/ros/humble[0m
+[0.999s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'cmake_args' from command line to 'None'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'cmake_target' from command line to 'None'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'cmake_clean_first' from command line to 'False'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'cmake_force_configure' from command line to 'False'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'ament_cmake_args' from command line to 'None'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.074s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'multisense_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib', 'merge_install': False, 'path': '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib', 'symlink_install': False, 'test_result_base': None}[0m
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'cmake_args' from command line to 'None'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'cmake_target' from command line to 'None'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.075s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'multisense_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs', 'merge_install': False, 'path': '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'cmake_args' from command line to 'None'
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'cmake_target' from command line to 'None'
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'cmake_clean_cache' from command line to 'False'
+[1.076s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'cmake_clean_first' from command line to 'False'
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'cmake_force_configure' from command line to 'False'
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'ament_cmake_args' from command line to 'None'
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'catkin_cmake_args' from command line to 'None'
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sd_proj' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'sd_proj' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj', 'merge_install': False, 'path': '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj', 'symlink_install': False, 'test_result_base': None}[0m
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'cmake_args' from command line to 'None'
+[1.077s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'cmake_target' from command line to 'None'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'multisense_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.078s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'multisense_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros', 'merge_install': False, 'path': '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_ros', 'symlink_install': False, 'test_result_base': None}[0m
+[1.078s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.081s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.082s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib' with build type 'ament_cmake'
+[1.082s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib'
+[1.092s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.092s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.092s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.098s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs' with build type 'ament_cmake'
+[1.099s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs'
+[1.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.100s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.106s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj' with build type 'ament_python'
+[1.106s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sd_proj', 'ament_prefix_path')
+[1.107s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/hook/ament_prefix_path.ps1'
+[1.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/hook/ament_prefix_path.dsv'
+[1.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/hook/ament_prefix_path.sh'
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.129s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6[0m
+[1.141s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs -- -j6 -l6[0m
+[1.738s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj'
+[1.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.739s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.748s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6[0m
+[1.828s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib[0m
+[1.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(multisense_lib)
+[1.903s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib[0m
+[1.916s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib' for CMake module files
+[1.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib' for CMake config files
+[1.919s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'cmake_prefix_path')
+[1.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.ps1'
+[1.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.dsv'
+[1.922s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.sh'
+[1.924s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib'
+[1.924s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'ld_library_path_lib')
+[1.925s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.ps1'
+[1.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.dsv'
+[1.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.sh'
+[1.928s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin'
+[1.928s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'path')
+[1.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/path.ps1'
+[1.930s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/path.dsv'
+[1.931s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/path.sh'
+[1.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/pkgconfig/multisense_lib.pc'
+[1.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/python3.10/site-packages'
+[1.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin'
+[1.933s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'pythonscriptspath')
+[1.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.ps1'
+[1.935s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.dsv'
+[1.936s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.sh'
+[1.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.ps1'
+[1.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.dsv'
+[1.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.sh'
+[1.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.bash'
+[1.949s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.zsh'
+[1.952s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/colcon-core/packages/multisense_lib)
+[2.029s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(multisense_lib)
+[2.029s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib' for CMake module files
+[2.031s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib' for CMake config files
+[2.031s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'cmake_prefix_path')
+[2.032s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.ps1'
+[2.033s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.dsv'
+[2.035s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.sh'
+[2.036s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib'
+[2.036s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'ld_library_path_lib')
+[2.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.ps1'
+[2.038s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.dsv'
+[2.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.sh'
+[2.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin'
+[2.040s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'path')
+[2.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/path.ps1'
+[2.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/path.dsv'
+[2.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/path.sh'
+[2.044s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/pkgconfig/multisense_lib.pc'
+[2.044s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/python3.10/site-packages'
+[2.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin'
+[2.045s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_lib', 'pythonscriptspath')
+[2.046s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.ps1'
+[2.047s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.dsv'
+[2.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.sh'
+[2.050s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.ps1'
+[2.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.dsv'
+[2.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.sh'
+[2.054s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.bash'
+[2.055s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.zsh'
+[2.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/colcon-core/packages/multisense_lib)
+[2.113s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs -- -j6 -l6[0m
+[2.464s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs[0m
+[2.553s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj': PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sd_proj build --build-base /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build install --record /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log --single-version-externally-managed install_data[0m
+[2.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(multisense_msgs)
+[2.614s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs' for CMake module files
+[2.616s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs[0m
+[2.618s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs' for CMake config files
+[2.621s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_msgs', 'cmake_prefix_path')
+[2.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.ps1'
+[2.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.dsv'
+[2.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.sh'
+[2.627s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib'
+[2.627s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_msgs', 'ld_library_path_lib')
+[2.628s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.ps1'
+[2.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.dsv'
+[2.631s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.sh'
+[2.632s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/bin'
+[2.633s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/pkgconfig/multisense_msgs.pc'
+[2.633s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/python3.10/site-packages'
+[2.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/bin'
+[2.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.ps1'
+[2.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.dsv'
+[2.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.sh'
+[2.641s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.bash'
+[2.642s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.zsh'
+[2.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/colcon-core/packages/multisense_msgs)
+[3.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(multisense_msgs)
+[3.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs' for CMake module files
+[3.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs' for CMake config files
+[3.048s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_msgs', 'cmake_prefix_path')
+[3.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.ps1'
+[3.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.dsv'
+[3.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.sh'
+[3.055s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib'
+[3.055s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_msgs', 'ld_library_path_lib')
+[3.056s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.ps1'
+[3.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.dsv'
+[3.059s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.sh'
+[3.060s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/bin'
+[3.060s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/pkgconfig/multisense_msgs.pc'
+[3.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/python3.10/site-packages'
+[3.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/bin'
+[3.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.ps1'
+[3.066s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.dsv'
+[3.068s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.sh'
+[3.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.bash'
+[3.074s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.zsh'
+[3.075s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/colcon-core/packages/multisense_msgs)
+[3.077s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_ros' with build type 'ament_cmake'
+[3.078s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_ros'
+[3.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.079s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.114s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros -- -j6 -l6[0m
+[3.201s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj' for CMake module files
+[3.203s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj' returned '0': PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sd_proj build --build-base /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build install --record /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log --single-version-externally-managed install_data[0m
+[3.204s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj' for CMake config files
+[3.206s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib'
+[3.206s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/bin'
+[3.207s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/pkgconfig/sd_proj.pc'
+[3.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages'
+[3.208s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sd_proj', 'pythonpath')
+[3.209s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/hook/pythonpath.ps1'
+[3.211s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/hook/pythonpath.dsv'
+[3.212s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/hook/pythonpath.sh'
+[3.214s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/bin'
+[3.214s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sd_proj)
+[3.215s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/package.ps1'
+[3.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/package.dsv'
+[3.219s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/package.sh'
+[3.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/package.bash'
+[3.224s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/sd_proj/package.zsh'
+[3.225s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/share/colcon-core/packages/sd_proj)
+[55.518s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros -- -j6 -l6[0m
+[55.602s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros[0m
+[55.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(multisense_ros)
+[55.635s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros' for CMake module files
+[55.640s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros' for CMake config files
+[55.647s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros[0m
+[55.648s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_ros', 'cmake_prefix_path')
+[55.649s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.ps1'
+[55.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.dsv'
+[55.651s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.sh'
+[55.653s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib'
+[55.654s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/bin'
+[55.654s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/pkgconfig/multisense_ros.pc'
+[55.655s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/python3.10/site-packages'
+[55.656s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/bin'
+[55.657s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.ps1'
+[55.659s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.dsv'
+[55.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.sh'
+[55.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.bash'
+[55.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.zsh'
+[55.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/colcon-core/packages/multisense_ros)
+[55.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(multisense_ros)
+[55.750s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros' for CMake module files
+[55.752s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros' for CMake config files
+[55.753s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('multisense_ros', 'cmake_prefix_path')
+[55.754s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.ps1'
+[55.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.dsv'
+[55.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.sh'
+[55.759s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib'
+[55.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/bin'
+[55.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/pkgconfig/multisense_ros.pc'
+[55.761s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/python3.10/site-packages'
+[55.762s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/bin'
+[55.763s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.ps1'
+[55.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.dsv'
+[55.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.sh'
+[55.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.bash'
+[55.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.zsh'
+[55.772s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/colcon-core/packages/multisense_ros)
+[55.773s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[55.774s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[55.774s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[55.775s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[55.796s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[55.797s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[55.797s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[55.849s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[55.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/Senior_Design_Project/camera_ros_node/install/local_setup.ps1'
+[55.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jetson/Senior_Design_Project/camera_ros_node/install/_local_setup_util_ps1.py'
+[55.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/Senior_Design_Project/camera_ros_node/install/setup.ps1'
+[55.863s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/Senior_Design_Project/camera_ros_node/install/local_setup.sh'
+[55.865s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jetson/Senior_Design_Project/camera_ros_node/install/_local_setup_util_sh.py'
+[55.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/Senior_Design_Project/camera_ros_node/install/setup.sh'
+[55.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/Senior_Design_Project/camera_ros_node/install/local_setup.bash'
+[55.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/Senior_Design_Project/camera_ros_node/install/setup.bash'
+[55.877s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/Senior_Design_Project/camera_ros_node/install/local_setup.zsh'
+[55.879s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/Senior_Design_Project/camera_ros_node/install/setup.zsh'

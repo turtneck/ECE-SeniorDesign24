@@ -1,0 +1,36 @@
+[0.032s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.585s] -- Detecting CXX compile features
+[0.586s] -- Detecting CXX compile features - done
+[0.589s] -- Selecting default build type: Release
+[0.593s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.934s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.115s] [31mCMake Error at CMakeLists.txt:26 (add_subdirectory):
+[1.115s]   The source directory
+[1.116s] 
+[1.116s]     /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib/LibMultiSense
+[1.116s] 
+[1.116s]   does not contain a CMakeLists.txt file.
+[1.116s] 
+[1.116s] [0m
+[1.116s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+[1.117s]   ament_export_include_directories() package 'multisense_lib' exports the
+[1.117s]   include directory
+[1.117s]   '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib/LibMultiSense/source/LibMultiSense/include'
+[1.117s]   which doesn't exist
+[1.117s] Call Stack (most recent call first):
+[1.117s]   CMakeLists.txt:28 (ament_export_include_directories)
+[1.117s] 
+[1.117s] [0m
+[1.266s] -- Configuring incomplete, errors occurred!
+[1.266s] See also "/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib/CMakeFiles/CMakeOutput.log".
+[1.278s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib

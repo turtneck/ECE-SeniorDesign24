@@ -1,0 +1,56 @@
+
+
+==========
+2024-11-24_10_47_50
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-11-24_10_48_47
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_15_26_22
+
+Error starting 'TeleCAM', switch to Fake?:	y?
+
+==========
+2024-12-01_15_27_52
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_15_28_51
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_15_42_5
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_15_44_7
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_16_25_4
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_16_25_56
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_16_28_18
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?
+
+==========
+2024-12-01_16_52_34
+
+Error starting 'Stereo_Camera', switch to Fake?:	y?

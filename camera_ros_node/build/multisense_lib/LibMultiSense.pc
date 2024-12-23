@@ -1,0 +1,11 @@
+prefix="/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib"
+    exec_prefix="${prefix}"
+    libdir="${prefix}/lib"
+    includedir="${prefix}/include"
+    Name: LibMultiSense
+    Description: 
+    URL: 
+    Version: 6.1.0
+    Cflags: -I"${includedir}"
+    Libs: -L"${libdir}" -lMultiSense
+    

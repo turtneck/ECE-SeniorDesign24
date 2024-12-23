@@ -1,0 +1,26 @@
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_multisense_msgs
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+ImportError: cannot import name 'generate_c' from 'rosidl_generator_c' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+ModuleNotFoundError: No module named 'rosidl_generator_cpp'
+gmake[2]: *** [CMakeFiles/multisense_msgs__rosidl_generator_c.dir/build.make:99: rosidl_generator_c/multisense_msgs/msg/device_info.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/multisense_msgs__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/multisense_msgs__cpp.dir/build.make:143: rosidl_generator_cpp/multisense_msgs/msg/device_info.hpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/multisense_msgs__cpp.dir/all] Error 2
+running egg_info
+creating multisense_msgs.egg-info
+writing multisense_msgs.egg-info/PKG-INFO
+writing dependency_links to multisense_msgs.egg-info/dependency_links.txt
+writing top-level names to multisense_msgs.egg-info/top_level.txt
+writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_multisense_msgs_egg
+gmake: *** [Makefile:146: all] Error 2

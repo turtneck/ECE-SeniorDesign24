@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multisense_msgs/msg/RawCamConfig.msg
+// generated code does not contain a copyright notice
+
+
+module multisense_msgs {
+  module msg {
+    struct RawCamConfig {
+      uint16 width;
+
+      uint16 height;
+
+      float frames_per_second;
+
+      float gain;
+
+      uint32 exposure_time;
+
+      float fx;
+
+      float fy;
+
+      float cx;
+
+      float cy;
+
+      float tx;
+
+      float ty;
+
+      float tz;
+
+      float roll;
+
+      float pitch;
+
+      float yaw;
+    };
+  };
+};

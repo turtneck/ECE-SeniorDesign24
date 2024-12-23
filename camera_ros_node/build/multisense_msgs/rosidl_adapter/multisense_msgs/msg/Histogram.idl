@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multisense_msgs/msg/Histogram.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module multisense_msgs {
+  module msg {
+    struct Histogram {
+      int64 frame_count;
+
+      builtin_interfaces::msg::Time time_stamp;
+
+      uint32 width;
+
+      uint32 height;
+
+      float gain;
+
+      float fps;
+
+      uint32 exposure_time;
+
+      uint32 channels;
+
+      uint32 bins;
+
+      sequence<uint32> data;
+    };
+  };
+};

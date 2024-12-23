@@ -1,0 +1,34 @@
+[0.027s] Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_msgs': /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/install/multisense_msgs
+[0.597s] -- The C compiler identification is GNU 11.4.0
+[1.007s] -- The CXX compiler identification is GNU 11.4.0
+[1.028s] -- Detecting C compiler ABI info
+[1.157s] -- Detecting C compiler ABI info - done
+[1.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.184s] -- Detecting C compile features
+[1.186s] -- Detecting C compile features - done
+[1.199s] -- Detecting CXX compiler ABI info
+[1.351s] -- Detecting CXX compiler ABI info - done
+[1.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.367s] -- Detecting CXX compile features
+[1.368s] -- Detecting CXX compile features - done
+[1.369s] -- Selecting default build type: Release
+[1.387s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.388s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.388s]   has asked CMake to find a package configuration file provided by
+[1.389s]   "ament_cmake", but CMake did not find one.
+[1.389s] 
+[1.389s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.389s]   any of the following names:
+[1.390s] 
+[1.390s]     ament_cmakeConfig.cmake
+[1.390s]     ament_cmake-config.cmake
+[1.390s] 
+[1.390s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.391s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.391s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.392s]   has been installed.
+[1.392s] 
+[1.404s] [0m
+[1.406s] -- Configuring incomplete, errors occurred!
+[1.406s] See also "/home/jetson/Senior_Design_Project/build/multisense_msgs/CMakeFiles/CMakeOutput.log".
+[1.408s] Invoked command in '/home/jetson/Senior_Design_Project/build/multisense_msgs' returned '1': /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/install/multisense_msgs

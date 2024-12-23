@@ -1,0 +1,28 @@
+[0.035s] Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_msgs': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/build/multisense_msgs -- -j6 -l6
+[0.130s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.144s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.161s] [  1%] Built target ament_cmake_python_copy_multisense_msgs
+[0.307s] Traceback (most recent call last):
+[0.308s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[0.308s]     from rosidl_generator_c import generate_c
+[0.308s] ImportError: cannot import name 'generate_c' from 'rosidl_generator_c' (unknown location)
+[0.319s] Traceback (most recent call last):
+[0.320s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[0.320s]     from rosidl_generator_cpp import generate_cpp
+[0.320s] ModuleNotFoundError: No module named 'rosidl_generator_cpp'
+[0.332s] gmake[2]: *** [CMakeFiles/multisense_msgs__rosidl_generator_c.dir/build.make:99: rosidl_generator_c/multisense_msgs/msg/device_info.h] Error 1
+[0.332s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/multisense_msgs__rosidl_generator_c.dir/all] Error 2
+[0.332s] gmake[1]: *** Waiting for unfinished jobs....
+[0.356s] gmake[2]: *** [CMakeFiles/multisense_msgs__cpp.dir/build.make:143: rosidl_generator_cpp/multisense_msgs/msg/device_info.hpp] Error 1
+[0.356s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/multisense_msgs__cpp.dir/all] Error 2
+[0.647s] running egg_info
+[0.648s] creating multisense_msgs.egg-info
+[0.648s] writing multisense_msgs.egg-info/PKG-INFO
+[0.649s] writing dependency_links to multisense_msgs.egg-info/dependency_links.txt
+[0.649s] writing top-level names to multisense_msgs.egg-info/top_level.txt
+[0.649s] writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.653s] reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.654s] writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.722s] [  1%] Built target ament_cmake_python_build_multisense_msgs_egg
+[0.724s] gmake: *** [Makefile:146: all] Error 2
+[0.729s] Invoked command in '/home/jetson/Senior_Design_Project/build/multisense_msgs' returned '2': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/build/multisense_msgs -- -j6 -l6

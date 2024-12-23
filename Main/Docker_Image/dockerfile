@@ -1,0 +1,46 @@
+FROM dustynv/ros:humble-ros-base-l4t-r32.7.1
+
+ENV WORKSPACE=/home/workspace
+ENV ROS_VERSION=humble
+ENV ROS_ROOT=/opt/ros/${ROS_DISTRO}
+
+WORKDIR /
+
+RUN mkdir -p ${WORKSPACE}/src
+
+
+RUN  source /opt/ros/humble/install/setup.bash \
+&& git clone https://github.com/ros/angles.git \
+&& cd angles/angles \
+&& mkdir build && cd build/ && cmake ../ && make \
+&& make \
+&& sudo make install 
+
+RUN apt-get update
+RUN apt-get install -y build-essential apt-utils
+
+# Install minimal prerequisites (Ubuntu 18.04 as reference)
+RUN sudo apt update && sudo apt install -y cmake g++ wget unzip \ 
+&& wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip\
+&& wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.x.zip \
+&& unzip opencv.zip \
+&& unzip opencv_contrib.zip \
+&& mkdir -p build && cd build \ 
+&& cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x \ 
+&& cmake --build .
+
+
+
+RUN  source /opt/ros/humble/install/setup.bash \
+&& mkdir ros2_ws && cd ros2_ws \
+&& ros2 pkg create --build-type ament_cmake disparity_sub \ 
+&& git clone --recurse-submodules https://github.com/carnegierobotics/multisense_ros2 src \
+&& git clone -b dashing-devel https://github.com/ros/xacro.git 
+
+COPY Disparity/src/Camera_Ros.py ros2_ws/src/disparity_sub/src
+COPY Disparity/CMakeLists.txt ros2_ws/src/disparity_sub/
+COPY Disparity/package.xml ros2_ws/src/disparity_sub/
+
+RUN source /opt/ros/humble/install/setup.bash \
+&& cd ros2_ws \
+&& colcon build 

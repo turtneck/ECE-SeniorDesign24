@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.001446] (multisense_lib) JobQueued: {'identifier': 'multisense_lib', 'dependencies': OrderedDict()}
+[0.001625] (multisense_msgs) JobQueued: {'identifier': 'multisense_msgs', 'dependencies': OrderedDict()}
+[0.001745] (sd_proj) JobQueued: {'identifier': 'sd_proj', 'dependencies': OrderedDict()}
+[0.001877] (multisense_ros) JobQueued: {'identifier': 'multisense_ros', 'dependencies': OrderedDict([('multisense_lib', '/home/jetson/Senior_Design_Project/install/multisense_lib'), ('multisense_msgs', '/home/jetson/Senior_Design_Project/install/multisense_msgs')])}
+[0.001995] (disparity_retrieve) JobQueued: {'identifier': 'disparity_retrieve', 'dependencies': OrderedDict([('multisense_lib', '/home/jetson/Senior_Design_Project/install/multisense_lib'), ('multisense_msgs', '/home/jetson/Senior_Design_Project/install/multisense_msgs'), ('multisense_ros', '/home/jetson/Senior_Design_Project/install/multisense_ros')])}
+[0.002109] (multisense_lib) JobStarted: {'identifier': 'multisense_lib'}
+[0.009823] (multisense_msgs) JobStarted: {'identifier': 'multisense_msgs'}
+[0.013881] (sd_proj) JobStarted: {'identifier': 'sd_proj'}
+[0.024797] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'cmake'}
+[0.026113] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'build'}
+[0.027362] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Senior_Design_Project/build/multisense_lib', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Senior_Design_Project/build/multisense_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2344'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e0c05a034e027981639fceaf6734d089'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2344,unix/jetson:/tmp/.ICE-unix/2344'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fa07141_ee3e_42fe_ae93_805a49ba531b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e0c05a034e027981639fceaf6734d089'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.032672] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'cmake'}
+[0.033912] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'build'}
+[0.034418] (multisense_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Senior_Design_Project/build/multisense_msgs', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Senior_Design_Project/build/multisense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2344'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e0c05a034e027981639fceaf6734d089'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2344,unix/jetson:/tmp/.ICE-unix/2344'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fa07141_ee3e_42fe_ae93_805a49ba531b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/build/multisense_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e0c05a034e027981639fceaf6734d089'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.098715] (-) TimerEvent: {}
+[0.118540] (multisense_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.121710] (multisense_lib) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o\x1b[0m\n'}
+[0.129638] (multisense_lib) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Constants.cc.o\x1b[0m\n'}
+[0.130256] (multisense_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.133048] (multisense_lib) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/dispatch.cc.o\x1b[0m\n'}
+[0.137172] (multisense_lib) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/constants.cc.o\x1b[0m\n'}
+[0.138584] (multisense_lib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o\x1b[0m\n'}
+[0.148364] (multisense_lib) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/flash.cc.o\x1b[0m\n'}
+[0.198928] (-) TimerEvent: {}
+[0.248883] (multisense_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_multisense_msgs\n'}
+[0.250267] (multisense_lib) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/TimeStamp.cc.o\x1b[0m\n'}
+[0.300215] (-) TimerEvent: {}
+[0.354530] (multisense_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.355007] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>\n'}
+[0.355173] (multisense_msgs) StderrLine: {'line': b'    from rosidl_generator_cpp import generate_cpp\n'}
+[0.355310] (multisense_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'rosidl_generator_cpp'\n"}
+[0.400395] (-) TimerEvent: {}
+[0.411842] (multisense_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/multisense_msgs__cpp.dir/build.make:143: rosidl_generator_cpp/multisense_msgs/msg/device_info.hpp] Error 1\n'}
+[0.412416] (multisense_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/multisense_msgs__cpp.dir/all] Error 2\n'}
+[0.412596] (multisense_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.500546] (-) TimerEvent: {}
+[0.544031] (multisense_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.544529] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>\n'}
+[0.544704] (multisense_msgs) StderrLine: {'line': b'    from rosidl_generator_c import generate_c\n'}
+[0.544887] (multisense_msgs) StderrLine: {'line': b"ImportError: cannot import name 'generate_c' from 'rosidl_generator_c' (unknown location)\n"}
+[0.600726] (-) TimerEvent: {}
+[0.669213] (multisense_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/multisense_msgs__rosidl_generator_c.dir/build.make:99: rosidl_generator_c/multisense_msgs/msg/device_info.h] Error 1\n'}
+[0.669829] (multisense_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/multisense_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[0.700910] (-) TimerEvent: {}
+[0.801723] (-) TimerEvent: {}
+[0.902497] (-) TimerEvent: {}
+[1.003296] (-) TimerEvent: {}
+[1.104414] (-) TimerEvent: {}
+[1.117338] (multisense_lib) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Exception.cc.o\x1b[0m\n'}
+[1.117818] (multisense_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.118017] (multisense_msgs) StdoutLine: {'line': b'writing multisense_msgs.egg-info/PKG-INFO\n'}
+[1.118173] (multisense_msgs) StdoutLine: {'line': b'writing dependency_links to multisense_msgs.egg-info/dependency_links.txt\n'}
+[1.118311] (multisense_msgs) StdoutLine: {'line': b'writing top-level names to multisense_msgs.egg-info/top_level.txt\n'}
+[1.118583] (multisense_msgs) StdoutLine: {'line': b"reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[1.120285] (multisense_msgs) StdoutLine: {'line': b"writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[1.204636] (-) TimerEvent: {}
+[1.232523] (multisense_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_multisense_msgs_egg\n'}
+[1.236054] (multisense_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.256798] (multisense_msgs) CommandEnded: {'returncode': 2}
+[1.304801] (-) TimerEvent: {}
+[1.405530] (-) TimerEvent: {}
+[1.506272] (-) TimerEvent: {}
+[1.607054] (-) TimerEvent: {}
+[1.707820] (-) TimerEvent: {}
+[1.808538] (-) TimerEvent: {}
+[1.909359] (-) TimerEvent: {}
+[2.010158] (-) TimerEvent: {}
+[2.111177] (-) TimerEvent: {}
+[2.114674] (multisense_msgs) JobEnded: {'identifier': 'multisense_msgs', 'rc': 2}
+[2.166176] (sd_proj) JobEnded: {'identifier': 'sd_proj', 'rc': 'SIGINT'}
+[2.211400] (-) TimerEvent: {}
+[2.312154] (-) TimerEvent: {}
+[2.412855] (-) TimerEvent: {}
+[2.513571] (-) TimerEvent: {}
+[2.614543] (-) TimerEvent: {}
+[2.715343] (-) TimerEvent: {}
+[2.816131] (-) TimerEvent: {}
+[2.916894] (-) TimerEvent: {}
+[3.017661] (-) TimerEvent: {}
+[3.118422] (-) TimerEvent: {}
+[3.219179] (-) TimerEvent: {}
+[3.319929] (-) TimerEvent: {}
+[3.420632] (-) TimerEvent: {}
+[3.521365] (-) TimerEvent: {}
+[3.622124] (-) TimerEvent: {}
+[3.722873] (-) TimerEvent: {}
+[3.823614] (-) TimerEvent: {}
+[3.924385] (-) TimerEvent: {}
+[4.025140] (-) TimerEvent: {}
+[4.125838] (-) TimerEvent: {}
+[4.226544] (-) TimerEvent: {}
+[4.327246] (-) TimerEvent: {}
+[4.427955] (-) TimerEvent: {}
+[4.528709] (-) TimerEvent: {}
+[4.629429] (-) TimerEvent: {}
+[4.730149] (-) TimerEvent: {}
+[4.830857] (-) TimerEvent: {}
+[4.931551] (-) TimerEvent: {}
+[5.032290] (-) TimerEvent: {}
+[5.132995] (-) TimerEvent: {}
+[5.233699] (-) TimerEvent: {}
+[5.334398] (-) TimerEvent: {}
+[5.435107] (-) TimerEvent: {}
+[5.535817] (-) TimerEvent: {}
+[5.636541] (-) TimerEvent: {}
+[5.737255] (-) TimerEvent: {}
+[5.837937] (-) TimerEvent: {}
+[5.938612] (-) TimerEvent: {}
+[6.039292] (-) TimerEvent: {}
+[6.139959] (-) TimerEvent: {}
+[6.240651] (-) TimerEvent: {}
+[6.341334] (-) TimerEvent: {}
+[6.442002] (-) TimerEvent: {}
+[6.542671] (-) TimerEvent: {}
+[6.643357] (-) TimerEvent: {}
+[6.744056] (-) TimerEvent: {}
+[6.844722] (-) TimerEvent: {}
+[6.945379] (-) TimerEvent: {}
+[7.046039] (-) TimerEvent: {}
+[7.146727] (-) TimerEvent: {}
+[7.247408] (-) TimerEvent: {}
+[7.348102] (-) TimerEvent: {}
+[7.448761] (-) TimerEvent: {}
+[7.549423] (-) TimerEvent: {}
+[7.650111] (-) TimerEvent: {}
+[7.750790] (-) TimerEvent: {}
+[7.851490] (-) TimerEvent: {}
+[7.952176] (-) TimerEvent: {}
+[8.052870] (-) TimerEvent: {}
+[8.153535] (-) TimerEvent: {}
+[8.254210] (-) TimerEvent: {}
+[8.354880] (-) TimerEvent: {}
+[8.455564] (-) TimerEvent: {}
+[8.556266] (-) TimerEvent: {}
+[8.656939] (-) TimerEvent: {}
+[8.757608] (-) TimerEvent: {}
+[8.858271] (-) TimerEvent: {}
+[8.958896] (-) TimerEvent: {}
+[9.059563] (-) TimerEvent: {}
+[9.160285] (-) TimerEvent: {}
+[9.261004] (-) TimerEvent: {}
+[9.361732] (-) TimerEvent: {}
+[9.462439] (-) TimerEvent: {}
+[9.563173] (-) TimerEvent: {}
+[9.663890] (-) TimerEvent: {}
+[9.764613] (-) TimerEvent: {}
+[9.865328] (-) TimerEvent: {}
+[9.966068] (-) TimerEvent: {}
+[10.066872] (-) TimerEvent: {}
+[10.167620] (-) TimerEvent: {}
+[10.268400] (-) TimerEvent: {}
+[10.369038] (-) TimerEvent: {}
+[10.469627] (-) TimerEvent: {}
+[10.570219] (-) TimerEvent: {}
+[10.670871] (-) TimerEvent: {}
+[10.771531] (-) TimerEvent: {}
+[10.872147] (-) TimerEvent: {}
+[10.972750] (-) TimerEvent: {}
+[11.073339] (-) TimerEvent: {}
+[11.173958] (-) TimerEvent: {}
+[11.274576] (-) TimerEvent: {}
+[11.375219] (-) TimerEvent: {}
+[11.475862] (-) TimerEvent: {}
+[11.576545] (-) TimerEvent: {}
+[11.677200] (-) TimerEvent: {}
+[11.777861] (-) TimerEvent: {}
+[11.878567] (-) TimerEvent: {}
+[11.979347] (-) TimerEvent: {}
+[12.080138] (-) TimerEvent: {}
+[12.180916] (-) TimerEvent: {}
+[12.187956] (multisense_lib) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX shared library libMultiSense.so\x1b[0m\n'}
+[12.281102] (-) TimerEvent: {}
+[12.381887] (-) TimerEvent: {}
+[12.384226] (multisense_lib) StdoutLine: {'line': b'[ 19%] Built target MultiSense\n'}
+[12.420102] (multisense_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ColorImageUtility/CMakeFiles/ColorImageUtility.dir/ColorImage.cc.o\x1b[0m\n'}
+[12.420689] (multisense_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeIpUtility/CMakeFiles/ChangeIpUtility.dir/ChangeIpUtility.cc.o\x1b[0m\n'}
+[12.420894] (multisense_lib) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/AprilTagTestUtility/CMakeFiles/AprilTagTestUtility.dir/AprilTagTestUtility.cc.o\x1b[0m\n'}
+[12.421148] (multisense_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeTransmitDelay/CMakeFiles/ChangeTransmitDelay.dir/ChangeTransmitDelay.cc.o\x1b[0m\n'}
+[12.425553] (multisense_lib) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeFps/CMakeFiles/ChangeFps.dir/ChangeFps.cc.o\x1b[0m\n'}
+[12.427956] (multisense_lib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeResolution/CMakeFiles/ChangeResolution.dir/ChangeResolution.cc.o\x1b[0m\n'}
+[12.482083] (-) TimerEvent: {}
+[12.582850] (-) TimerEvent: {}
+[12.683619] (-) TimerEvent: {}
+[12.784347] (-) TimerEvent: {}
+[12.885104] (-) TimerEvent: {}
+[12.985860] (-) TimerEvent: {}
+[13.086644] (-) TimerEvent: {}
+[13.187397] (-) TimerEvent: {}
+[13.288193] (-) TimerEvent: {}
+[13.388940] (-) TimerEvent: {}
+[13.489702] (-) TimerEvent: {}
+[13.586754] (multisense_lib) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable ChangeFps\x1b[0m\n'}
+[13.589886] (-) TimerEvent: {}
+[13.612873] (multisense_lib) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX executable ChangeResolution\x1b[0m\n'}
+[13.655275] (multisense_lib) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable ChangeTransmitDelay\x1b[0m\n'}
+[13.690127] (-) TimerEvent: {}
+[13.757254] (multisense_lib) StdoutLine: {'line': b'[ 38%] Built target ChangeFps\n'}
+[13.790372] (-) TimerEvent: {}
+[13.794032] (multisense_lib) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/DeviceInfoUtility/CMakeFiles/DeviceInfoUtility.dir/DeviceInfoUtility.cc.o\x1b[0m\n'}
+[13.795457] (multisense_lib) StdoutLine: {'line': b'[ 40%] Built target ChangeResolution\n'}
+[13.837886] (multisense_lib) StdoutLine: {'line': b'[ 40%] Built target ChangeTransmitDelay\n'}
+[13.840236] (multisense_lib) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/DepthImageUtility/CMakeFiles/DepthImageUtility.dir/DepthImageUtility.cc.o\x1b[0m\n'}
+[13.853675] (multisense_lib) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable AprilTagTestUtility\x1b[0m\n'}
+[13.866674] (multisense_lib) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable ChangeIpUtility\x1b[0m\n'}
+[13.875126] (multisense_lib) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ExternalCalUtility/CMakeFiles/ExternalCalUtility.dir/ExternalCalUtility.cc.o\x1b[0m\n'}
+[13.890577] (-) TimerEvent: {}
+[13.991297] (-) TimerEvent: {}
+[14.025853] (multisense_lib) StdoutLine: {'line': b'[ 48%] Built target AprilTagTestUtility\n'}
+[14.042261] (multisense_lib) StdoutLine: {'line': b'[ 48%] Built target ChangeIpUtility\n'}
+[14.072422] (multisense_lib) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/FeatureDetectorUtility/CMakeFiles/FeatureDetectorUtility.dir/FeatureDetectorUtility.cc.o\x1b[0m\n'}
+[14.077426] (multisense_lib) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/FlashUtility/CMakeFiles/FlashUtility.dir/FlashUtility.cc.o\x1b[0m\n'}
+[14.091542] (-) TimerEvent: {}
+[14.192308] (-) TimerEvent: {}
+[14.293025] (-) TimerEvent: {}
+[14.393794] (-) TimerEvent: {}
+[14.481260] (multisense_lib) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable ColorImageUtility\x1b[0m\n'}
+[14.493986] (-) TimerEvent: {}
+[14.594835] (-) TimerEvent: {}
+[14.647851] (multisense_lib) StdoutLine: {'line': b'[ 55%] Built target ColorImageUtility\n'}
+[14.681762] (multisense_lib) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ImageCalUtility/CMakeFiles/ImageCalUtility.dir/ImageCalUtility.cc.o\x1b[0m\n'}
+[14.695075] (-) TimerEvent: {}
+[14.795854] (-) TimerEvent: {}
+[14.896627] (-) TimerEvent: {}
+[14.997389] (-) TimerEvent: {}
+[15.098180] (-) TimerEvent: {}
+[15.198981] (-) TimerEvent: {}
+[15.288155] (multisense_lib) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable DeviceInfoUtility\x1b[0m\n'}
+[15.298789] (multisense_lib) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable FlashUtility\x1b[0m\n'}
+[15.299256] (-) TimerEvent: {}
+[15.399791] (-) TimerEvent: {}
+[15.470068] (multisense_lib) StdoutLine: {'line': b'[ 61%] Built target FlashUtility\n'}
+[15.485524] (multisense_lib) StdoutLine: {'line': b'[ 61%] Built target DeviceInfoUtility\n'}
+[15.500311] (-) TimerEvent: {}
+[15.503753] (multisense_lib) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ImuConfigUtility/CMakeFiles/ImuConfigUtility.dir/ImuConfigUtility.cc.o\x1b[0m\n'}
+[15.523744] (multisense_lib) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ImuTestUtility/CMakeFiles/ImuTestUtility.dir/ImuTestUtility.cc.o\x1b[0m\n'}
+[15.600533] (-) TimerEvent: {}
+[15.701288] (-) TimerEvent: {}
+[15.802093] (-) TimerEvent: {}
+[15.865376] (multisense_lib) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable ExternalCalUtility\x1b[0m\n'}
+[15.902323] (-) TimerEvent: {}
+[16.003083] (-) TimerEvent: {}
+[16.036725] (multisense_lib) StdoutLine: {'line': b'[ 68%] Built target ExternalCalUtility\n'}
+[16.089563] (multisense_lib) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/LidarCalUtility/CMakeFiles/LidarCalUtility.dir/LidarCalUtility.cc.o\x1b[0m\n'}
+[16.103303] (-) TimerEvent: {}
+[16.204212] (-) TimerEvent: {}
+[16.242392] (multisense_lib) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable DepthImageUtility\x1b[0m\n'}
+[16.304387] (-) TimerEvent: {}
+[16.405246] (-) TimerEvent: {}
+[16.411158] (multisense_lib) StdoutLine: {'line': b'[ 72%] Built target DepthImageUtility\n'}
+[16.447334] (multisense_lib) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/PointCloudUtility/CMakeFiles/PointCloudUtility.dir/PointCloudUtility.cc.o\x1b[0m\n'}
+[16.505453] (-) TimerEvent: {}
+[16.606281] (-) TimerEvent: {}
+[16.707074] (-) TimerEvent: {}
+[16.804493] (multisense_lib) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable ImuTestUtility\x1b[0m\n'}
+[16.807434] (-) TimerEvent: {}
+[16.876651] (multisense_lib) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable FeatureDetectorUtility\x1b[0m\n'}
+[16.907681] (-) TimerEvent: {}
+[16.996191] (multisense_lib) StdoutLine: {'line': b'[ 78%] Built target ImuTestUtility\n'}
+[17.007896] (-) TimerEvent: {}
+[17.035906] (multisense_lib) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/RectifiedFocalLengthUtility/CMakeFiles/RectifiedFocalLengthUtility.dir/RectifiedFocalLengthUtility.cc.o\x1b[0m\n'}
+[17.084358] (multisense_lib) StdoutLine: {'line': b'[ 80%] Built target FeatureDetectorUtility\n'}
+[17.108323] (-) TimerEvent: {}
+[17.125795] (multisense_lib) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/SaveImageUtility/CMakeFiles/SaveImageUtility.dir/SaveImageUtility.cc.o\x1b[0m\n'}
+[17.208618] (-) TimerEvent: {}
+[17.218583] (multisense_lib) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ImageCalUtility\x1b[0m\n'}
+[17.308804] (-) TimerEvent: {}
+[17.381580] (multisense_lib) StdoutLine: {'line': b'[ 85%] Built target ImageCalUtility\n'}
+[17.409018] (-) TimerEvent: {}
+[17.417340] (multisense_lib) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/VersionInfoUtility/CMakeFiles/VersionInfoUtility.dir/VersionInfoUtility.cc.o\x1b[0m\n'}
+[17.509232] (-) TimerEvent: {}
+[17.610434] (-) TimerEvent: {}
+[17.700753] (multisense_lib) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable ImuConfigUtility\x1b[0m\n'}
+[17.710666] (-) TimerEvent: {}
+[17.811434] (-) TimerEvent: {}
+[17.884811] (multisense_lib) StdoutLine: {'line': b'[ 89%] Built target ImuConfigUtility\n'}
+[17.911646] (-) TimerEvent: {}
+[18.012826] (-) TimerEvent: {}
+[18.113624] (-) TimerEvent: {}
+[18.199094] (multisense_lib) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable LidarCalUtility\x1b[0m\n'}
+[18.213844] (-) TimerEvent: {}
+[18.275964] (multisense_lib) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable VersionInfoUtility\x1b[0m\n'}
+[18.314054] (-) TimerEvent: {}
+[18.381141] (multisense_lib) StdoutLine: {'line': b'[ 93%] Built target LidarCalUtility\n'}
+[18.414241] (-) TimerEvent: {}
+[18.439448] (multisense_lib) StdoutLine: {'line': b'[ 93%] Built target VersionInfoUtility\n'}
+[18.514432] (-) TimerEvent: {}
+[18.549728] (multisense_lib) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable PointCloudUtility\x1b[0m\n'}
+[18.614629] (-) TimerEvent: {}
+[18.665591] (multisense_lib) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable RectifiedFocalLengthUtility\x1b[0m\n'}
+[18.714814] (-) TimerEvent: {}
+[18.721157] (multisense_lib) StdoutLine: {'line': b'[ 97%] Built target PointCloudUtility\n'}
+[18.811923] (multisense_lib) StdoutLine: {'line': b'[ 97%] Built target RectifiedFocalLengthUtility\n'}
+[18.814882] (-) TimerEvent: {}
+[18.915402] (-) TimerEvent: {}
+[19.016132] (-) TimerEvent: {}
+[19.116935] (-) TimerEvent: {}
+[19.217747] (-) TimerEvent: {}
+[19.318549] (-) TimerEvent: {}
+[19.403924] (multisense_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable SaveImageUtility\x1b[0m\n'}
+[19.418701] (-) TimerEvent: {}
+[19.519422] (-) TimerEvent: {}
+[19.548289] (multisense_lib) StdoutLine: {'line': b'[100%] Built target SaveImageUtility\n'}
+[19.576569] (multisense_lib) JobEnded: {'identifier': 'multisense_lib', 'rc': 'SIGINT'}
+[19.588739] (multisense_ros) JobSkipped: {'identifier': 'multisense_ros'}
+[19.589137] (disparity_retrieve) JobSkipped: {'identifier': 'disparity_retrieve'}
+[19.589347] (-) EventReactorShutdown: {}

@@ -1,0 +1,50 @@
+{
+  "package_name": "multisense_msgs",
+  "output_dir": "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_generator_c/multisense_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/DeviceInfo.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamConfig.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawImuData.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawLidarData.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamCal.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawCamData.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/RawLidarCal.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/Histogram.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/DeviceStatus.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/PtpStatus.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs:msg/StampedPps.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/DeviceInfo.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawCamConfig.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawImuData.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawLidarData.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawCamCal.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawCamData.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/RawLidarCal.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/Histogram.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/DeviceStatus.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/PtpStatus.idl",
+    "/home/jetson/Senior_Design_Project/build/multisense_msgs/rosidl_adapter/multisense_msgs/msg/StampedPps.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

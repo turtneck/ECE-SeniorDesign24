@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmultisense_ros.a CMakeFiles/multisense_ros.dir/src/camera.cpp.o CMakeFiles/multisense_ros.dir/src/camera_utilities.cpp.o CMakeFiles/multisense_ros.dir/src/config.cpp.o CMakeFiles/multisense_ros.dir/src/imu.cpp.o CMakeFiles/multisense_ros.dir/src/laser.cpp.o CMakeFiles/multisense_ros.dir/src/parameter_utilities.cpp.o CMakeFiles/multisense_ros.dir/src/point_cloud_utilities.cpp.o CMakeFiles/multisense_ros.dir/src/pps.cpp.o CMakeFiles/multisense_ros.dir/src/status.cpp.o
+/usr/bin/ranlib libmultisense_ros.a

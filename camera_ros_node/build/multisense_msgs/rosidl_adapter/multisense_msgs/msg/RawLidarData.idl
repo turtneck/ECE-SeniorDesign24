@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multisense_msgs/msg/RawLidarData.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module multisense_msgs {
+  module msg {
+    struct RawLidarData {
+      uint32 scan_count;
+
+      builtin_interfaces::msg::Time time_start;
+
+      builtin_interfaces::msg::Time time_end;
+
+      int32 angle_start;
+
+      int32 angle_end;
+
+      sequence<uint32> distance;
+
+      sequence<uint32> intensity;
+    };
+  };
+};

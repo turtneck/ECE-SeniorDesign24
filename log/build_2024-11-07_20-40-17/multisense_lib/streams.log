@@ -1,0 +1,34 @@
+[0.035s] Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_lib': /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/install/multisense_lib
+[0.610s] -- The C compiler identification is GNU 11.4.0
+[1.022s] -- The CXX compiler identification is GNU 11.4.0
+[1.041s] -- Detecting C compiler ABI info
+[1.170s] -- Detecting C compiler ABI info - done
+[1.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.197s] -- Detecting C compile features
+[1.199s] -- Detecting C compile features - done
+[1.212s] -- Detecting CXX compiler ABI info
+[1.364s] -- Detecting CXX compiler ABI info - done
+[1.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.381s] -- Detecting CXX compile features
+[1.382s] -- Detecting CXX compile features - done
+[1.383s] -- Selecting default build type: Release
+[1.406s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[1.406s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.406s]   has asked CMake to find a package configuration file provided by
+[1.406s]   "ament_cmake", but CMake did not find one.
+[1.407s] 
+[1.407s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.408s]   any of the following names:
+[1.409s] 
+[1.409s]     ament_cmakeConfig.cmake
+[1.410s]     ament_cmake-config.cmake
+[1.411s] 
+[1.411s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.412s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.413s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.414s]   has been installed.
+[1.415s] 
+[1.416s] [0m
+[1.416s] -- Configuring incomplete, errors occurred!
+[1.417s] See also "/home/jetson/Senior_Design_Project/build/multisense_lib/CMakeFiles/CMakeOutput.log".
+[1.421s] Invoked command in '/home/jetson/Senior_Design_Project/build/multisense_lib' returned '1': /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/install/multisense_lib

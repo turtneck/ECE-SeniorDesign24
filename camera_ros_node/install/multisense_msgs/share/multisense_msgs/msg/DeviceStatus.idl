@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multisense_msgs/msg/DeviceStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module multisense_msgs {
+  module msg {
+    struct DeviceStatus {
+      builtin_interfaces::msg::Time time_stamp;
+
+      builtin_interfaces::msg::Time uptime;
+
+      boolean system_ok;
+
+      boolean laser_ok;
+
+      boolean laser_motor_ok;
+
+      boolean cameras_ok;
+
+      boolean imu_ok;
+
+      boolean external_leds_ok;
+
+      boolean processing_pipeline_ok;
+
+      float power_supply_temp;
+
+      float fpga_temp;
+
+      float left_imager_temp;
+
+      float right_imager_temp;
+
+      float input_voltage;
+
+      float input_current;
+
+      float fpga_power;
+
+      float logic_power;
+
+      float imager_power;
+    };
+  };
+};

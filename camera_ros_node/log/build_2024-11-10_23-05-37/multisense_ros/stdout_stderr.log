@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target multisense_ros[0m
+[  8%] [32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/camera.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/config.cpp.o[0m
+[ 25%] [32m[1mLinking CXX static library libmultisense_ros.a[0m
+[ 83%] Built target multisense_ros
+[35m[1mConsolidate compiler generated dependencies of target ros_driver[0m
+[ 91%] [32m[1mLinking CXX executable ros_driver[0m
+[100%] Built target ros_driver
+-- Install configuration: "Release"
+-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/multisense_ros/ros_driver
+-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/multisense_ros/ros_driver" to ""
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/launch
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/launch/multisense_launch.py
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials/textures
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials/textures/head_diffuse.jpg
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s21.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/head.dae
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/base_link.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s30.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s7s.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/hokuyo_link.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/head_camera.dae
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s7.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s27.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_ks21.STL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27/multisenseS27.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7/multisenseS7.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21/multisenseS21.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21/multisenseKS21.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30/multisenseS30.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S/multisenseS7S.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL/multisenseSL.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL/standalone.urdf.xacro
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/package_run_dependencies/multisense_ros
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/parent_prefix_path/multisense_ros
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/path.sh
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/path.dsv
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.bash
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.sh
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.zsh
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.dsv
+-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.dsv
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/packages/multisense_ros
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/cmake/multisense_rosConfig.cmake
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/cmake/multisense_rosConfig-version.cmake
+-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.xml

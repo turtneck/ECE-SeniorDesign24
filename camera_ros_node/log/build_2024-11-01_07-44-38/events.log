@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000392] (disparity_retrieve) JobQueued: {'identifier': 'disparity_retrieve', 'dependencies': OrderedDict()}
+[0.000659] (sd_proj) JobQueued: {'identifier': 'sd_proj', 'dependencies': OrderedDict()}
+[0.001450] (disparity_retrieve) JobStarted: {'identifier': 'disparity_retrieve'}
+[0.013880] (sd_proj) JobStarted: {'identifier': 'sd_proj'}
+[0.025316] (disparity_retrieve) JobProgress: {'identifier': 'disparity_retrieve', 'progress': 'cmake'}
+[0.025740] (disparity_retrieve) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity', '-DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve'], 'cwd': '/home/jetson/camera_ros_node/build/disparity_retrieve', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2375'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=76c1ab3849c175ef9207b6b26724beca'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2375,unix/jetson:/tmp/.ICE-unix/2375'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a90576d8_c24f_4775_b89a_3fb4d7c4ae4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/camera_ros_node/build/disparity_retrieve'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=76c1ab3849c175ef9207b6b26724beca'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099505] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.300680] (-) TimerEvent: {}
+[0.401268] (-) TimerEvent: {}
+[0.501891] (-) TimerEvent: {}
+[0.603006] (-) TimerEvent: {}
+[0.608415] (disparity_retrieve) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703174] (-) TimerEvent: {}
+[0.803766] (-) TimerEvent: {}
+[0.904356] (-) TimerEvent: {}
+[0.996311] (disparity_retrieve) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.004478] (-) TimerEvent: {}
+[1.026717] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104640] (-) TimerEvent: {}
+[1.155636] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.167927] (disparity_retrieve) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.168932] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.170692] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.177833] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.204762] (-) TimerEvent: {}
+[1.305387] (-) TimerEvent: {}
+[1.316521] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.329934] (disparity_retrieve) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.330418] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.331202] (disparity_retrieve) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.344579] (sd_proj) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sd_proj', 'build', '--build-base', '/home/jetson/camera_ros_node/build/sd_proj/build', 'install', '--record', '/home/jetson/camera_ros_node/build/sd_proj/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/camera_ros_node/src/sd_proj', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/camera_ros_node/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2375', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=76c1ab3849c175ef9207b6b26724beca', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jetson:@/tmp/.ICE-unix/2375,unix/jetson:/tmp/.ICE-unix/2375', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a90576d8_c24f_4775_b89a_3fb4d7c4ae4a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/camera_ros_node/build/sd_proj', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=76c1ab3849c175ef9207b6b26724beca', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/camera_ros_node/build/sd_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/camera_ros_node/install/sd_proj/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.353321] (disparity_retrieve) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[1.353736] (disparity_retrieve) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.353979] (disparity_retrieve) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.354162] (disparity_retrieve) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.354334] (disparity_retrieve) StderrLine: {'line': b'\n'}
+[1.354496] (disparity_retrieve) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.354659] (disparity_retrieve) StderrLine: {'line': b'  any of the following names:\n'}
+[1.354818] (disparity_retrieve) StderrLine: {'line': b'\n'}
+[1.354971] (disparity_retrieve) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.355123] (disparity_retrieve) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.355277] (disparity_retrieve) StderrLine: {'line': b'\n'}
+[1.355429] (disparity_retrieve) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.355583] (disparity_retrieve) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.355735] (disparity_retrieve) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.355889] (disparity_retrieve) StderrLine: {'line': b'  has been installed.\n'}
+[1.356042] (disparity_retrieve) StderrLine: {'line': b'\n'}
+[1.356186] (disparity_retrieve) StderrLine: {'line': b'\x1b[0m\n'}
+[1.356309] (disparity_retrieve) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.356450] (disparity_retrieve) StdoutLine: {'line': b'See also "/home/jetson/camera_ros_node/build/disparity_retrieve/CMakeFiles/CMakeOutput.log".\n'}
+[1.360779] (disparity_retrieve) CommandEnded: {'returncode': 1}
+[1.362077] (disparity_retrieve) JobEnded: {'identifier': 'disparity_retrieve', 'rc': 1}
+[1.405521] (-) TimerEvent: {}
+[1.506082] (-) TimerEvent: {}
+[1.606548] (-) TimerEvent: {}
+[1.707017] (-) TimerEvent: {}
+[1.776758] (sd_proj) StdoutLine: {'line': b'running egg_info\n'}
+[1.778306] (sd_proj) StdoutLine: {'line': b'creating ../../build/sd_proj/sd_proj.egg-info\n'}
+[1.778603] (sd_proj) StdoutLine: {'line': b'writing ../../build/sd_proj/sd_proj.egg-info/PKG-INFO\n'}
+[1.779094] (sd_proj) StdoutLine: {'line': b'writing dependency_links to ../../build/sd_proj/sd_proj.egg-info/dependency_links.txt\n'}
+[1.779331] (sd_proj) StdoutLine: {'line': b'writing entry points to ../../build/sd_proj/sd_proj.egg-info/entry_points.txt\n'}
+[1.779547] (sd_proj) StdoutLine: {'line': b'writing requirements to ../../build/sd_proj/sd_proj.egg-info/requires.txt\n'}
+[1.779763] (sd_proj) StdoutLine: {'line': b'writing top-level names to ../../build/sd_proj/sd_proj.egg-info/top_level.txt\n'}
+[1.780098] (sd_proj) StdoutLine: {'line': b"writing manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'\n"}
+[1.783144] (sd_proj) StdoutLine: {'line': b"reading manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'\n"}
+[1.784414] (sd_proj) StdoutLine: {'line': b"writing manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'\n"}
+[1.784715] (sd_proj) StdoutLine: {'line': b'running build\n'}
+[1.784877] (sd_proj) StdoutLine: {'line': b'running build_py\n'}
+[1.785035] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/build/sd_proj/build\n'}
+[1.785195] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/build/sd_proj/build/lib\n'}
+[1.785350] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/build/sd_proj/build/lib/sd_proj\n'}
+[1.785501] (sd_proj) StdoutLine: {'line': b'copying sd_proj/__init__.py -> /home/jetson/camera_ros_node/build/sd_proj/build/lib/sd_proj\n'}
+[1.785802] (sd_proj) StdoutLine: {'line': b'running install\n'}
+[1.786422] (sd_proj) StdoutLine: {'line': b'running install_lib\n'}
+[1.787694] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj\n'}
+[1.787878] (sd_proj) StdoutLine: {'line': b'copying /home/jetson/camera_ros_node/build/sd_proj/build/lib/sd_proj/__init__.py -> /home/jetson/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj\n'}
+[1.788931] (sd_proj) StdoutLine: {'line': b'byte-compiling /home/jetson/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/__init__.py to __init__.cpython-310.pyc\n'}
+[1.789403] (sd_proj) StdoutLine: {'line': b'running install_data\n'}
+[1.789592] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/install/sd_proj/share/ament_index\n'}
+[1.789765] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/install/sd_proj/share/ament_index/resource_index\n'}
+[1.789953] (sd_proj) StdoutLine: {'line': b'creating /home/jetson/camera_ros_node/install/sd_proj/share/ament_index/resource_index/packages\n'}
+[1.790078] (sd_proj) StdoutLine: {'line': b'copying resource/sd_proj -> /home/jetson/camera_ros_node/install/sd_proj/share/ament_index/resource_index/packages\n'}
+[1.790233] (sd_proj) StdoutLine: {'line': b'copying package.xml -> /home/jetson/camera_ros_node/install/sd_proj/share/sd_proj\n'}
+[1.790386] (sd_proj) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.793781] (sd_proj) StdoutLine: {'line': b'Copying ../../build/sd_proj/sd_proj.egg-info to /home/jetson/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info\n'}
+[1.795625] (sd_proj) StdoutLine: {'line': b'running install_scripts\n'}
+[1.807080] (-) TimerEvent: {}
+[1.835907] (sd_proj) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/camera_ros_node/build/sd_proj/install.log'\n"}
+[1.897002] (sd_proj) JobEnded: {'identifier': 'sd_proj', 'rc': 'SIGINT'}
+[1.907408] (-) TimerEvent: {}
+[1.910444] (-) EventReactorShutdown: {}

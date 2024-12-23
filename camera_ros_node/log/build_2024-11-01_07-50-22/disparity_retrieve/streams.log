@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/jetson/camera_ros_node/build/disparity_retrieve': /usr/bin/cmake /home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity -DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.342s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.343s]   By not providing "Findopencv-python.cmake" in CMAKE_MODULE_PATH this
+[0.343s]   project has asked CMake to find a package configuration file provided by
+[0.343s]   "opencv-python", but CMake did not find one.
+[0.343s] 
+[0.343s]   Could not find a package configuration file provided by "opencv-python"
+[0.343s]   with any of the following names:
+[0.344s] 
+[0.344s]     opencv-pythonConfig.cmake
+[0.344s]     opencv-python-config.cmake
+[0.344s] 
+[0.344s]   Add the installation prefix of "opencv-python" to CMAKE_PREFIX_PATH or set
+[0.344s]   "opencv-python_DIR" to a directory containing one of the above files.  If
+[0.344s]   "opencv-python" provides a separate development package or SDK, be sure it
+[0.344s]   has been installed.
+[0.344s] 
+[0.345s] [0m
+[0.345s] -- Configuring incomplete, errors occurred!
+[0.345s] See also "/home/jetson/camera_ros_node/build/disparity_retrieve/CMakeFiles/CMakeOutput.log".
+[0.515s] Invoked command in '/home/jetson/camera_ros_node/build/disparity_retrieve' returned '1': /usr/bin/cmake /home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity -DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve

@@ -1,0 +1,11 @@
+[0.032s] Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_lib': /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/install/multisense_lib
+[0.064s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.391s] -- Performing Test HAVE_CONSTEXPR
+[0.533s] -- Performing Test HAVE_CONSTEXPR - Success
+[0.538s] -- Looking for vasprintf
+[0.929s] -- Looking for vasprintf - found
+[0.936s] -- Looking for getopt
+[1.060s] -- Looking for getopt - found
+[1.255s] -- Configuring done
+[1.356s] -- Generating done
+[1.364s] -- Build files have been written to: /home/jetson/Senior_Design_Project/build/multisense_lib

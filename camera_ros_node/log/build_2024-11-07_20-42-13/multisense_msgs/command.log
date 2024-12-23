@@ -1,0 +1,1 @@
+Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs

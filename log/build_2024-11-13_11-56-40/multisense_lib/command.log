@@ -1,0 +1,1 @@
+Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_lib': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/build/multisense_lib -- -j6 -l6

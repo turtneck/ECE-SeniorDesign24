@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/ChangeResolution.dir/ChangeResolution.cc.o -o ChangeResolution  -Wl,-rpath,/home/jetson/Senior_Design_Project/build/multisense_lib/LibMultiSense/source/LibMultiSense: ../../LibMultiSense/libMultiSense.so.6.1.0 -lpthread -lrt 

@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_msgs': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/build/multisense_msgs -- -j6 -l6
+Invoked command in '/home/jetson/Senior_Design_Project/build/multisense_msgs' returned '2': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/build/multisense_msgs -- -j6 -l6

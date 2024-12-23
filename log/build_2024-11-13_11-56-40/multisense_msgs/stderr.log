@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+ModuleNotFoundError: No module named 'rosidl_generator_cpp'
+gmake[2]: *** [CMakeFiles/multisense_msgs__cpp.dir/build.make:143: rosidl_generator_cpp/multisense_msgs/msg/device_info.hpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/multisense_msgs__cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+ImportError: cannot import name 'generate_c' from 'rosidl_generator_c' (unknown location)
+gmake[2]: *** [CMakeFiles/multisense_msgs__rosidl_generator_c.dir/build.make:99: rosidl_generator_c/multisense_msgs/msg/device_info.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/multisense_msgs__rosidl_generator_c.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

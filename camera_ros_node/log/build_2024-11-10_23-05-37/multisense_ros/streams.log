@@ -1,0 +1,68 @@
+[0.033s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros -- -j6 -l6
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target multisense_ros[0m
+[0.271s] [  8%] [32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/camera.cpp.o[0m
+[0.272s] [ 16%] [32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/config.cpp.o[0m
+[51.268s] [ 25%] [32m[1mLinking CXX static library libmultisense_ros.a[0m
+[51.545s] [ 83%] Built target multisense_ros
+[51.643s] [35m[1mConsolidate compiler generated dependencies of target ros_driver[0m
+[51.690s] [ 91%] [32m[1mLinking CXX executable ros_driver[0m
+[52.411s] [100%] Built target ros_driver
+[52.437s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros -- -j6 -l6
+[52.520s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros
+[52.538s] -- Install configuration: "Release"
+[52.540s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/multisense_ros/ros_driver
+[52.545s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/multisense_ros/ros_driver" to ""
+[52.545s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/launch
+[52.546s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/launch/multisense_launch.py
+[52.546s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials
+[52.547s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials/textures
+[52.547s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials/textures/head_diffuse.jpg
+[52.548s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes
+[52.548s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s21.STL
+[52.548s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/head.dae
+[52.549s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/base_link.STL
+[52.549s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s30.STL
+[52.549s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s7s.STL
+[52.550s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/hokuyo_link.STL
+[52.550s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/head_camera.dae
+[52.550s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s7.STL
+[52.550s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s27.STL
+[52.550s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_ks21.STL
+[52.551s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf
+[52.551s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27
+[52.551s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27/multisenseS27.urdf.xacro
+[52.551s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27/standalone.urdf.xacro
+[52.551s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7
+[52.552s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7/multisenseS7.urdf.xacro
+[52.552s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7/standalone.urdf.xacro
+[52.553s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21
+[52.554s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21/multisenseS21.urdf.xacro
+[52.556s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21/standalone.urdf.xacro
+[52.557s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21
+[52.557s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21/standalone.urdf.xacro
+[52.557s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21/multisenseKS21.urdf.xacro
+[52.558s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30
+[52.558s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30/standalone.urdf.xacro
+[52.559s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30/multisenseS30.urdf.xacro
+[52.559s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S
+[52.560s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S/multisenseS7S.urdf.xacro
+[52.560s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S/standalone.urdf.xacro
+[52.561s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL
+[52.561s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL/multisenseSL.urdf.xacro
+[52.561s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL/standalone.urdf.xacro
+[52.562s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/package_run_dependencies/multisense_ros
+[52.562s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/parent_prefix_path/multisense_ros
+[52.562s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/ament_prefix_path.sh
+[52.563s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/ament_prefix_path.dsv
+[52.563s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/path.sh
+[52.563s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/path.dsv
+[52.564s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.bash
+[52.564s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.sh
+[52.564s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.zsh
+[52.565s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.dsv
+[52.565s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.dsv
+[52.565s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/packages/multisense_ros
+[52.566s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/cmake/multisense_rosConfig.cmake
+[52.566s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/cmake/multisense_rosConfig-version.cmake
+[52.566s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.xml
+[52.567s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:${LD_LIBRARY_PATH} PATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:${PATH} PYTHONPATH=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros

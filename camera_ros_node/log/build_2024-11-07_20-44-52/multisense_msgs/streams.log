@@ -1,0 +1,367 @@
+[0.033s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs -- -j6 -l6
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_generator_c[0m
+[0.135s] [  0%] Built target multisense_msgs__cpp
+[0.137s] [ 12%] Built target multisense_msgs__rosidl_generator_c
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_introspection_c[0m
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_cpp[0m
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.174s] [ 12%] Built target ament_cmake_python_copy_multisense_msgs
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_c[0m
+[0.213s] [ 29%] Built target multisense_msgs__rosidl_typesupport_fastrtps_cpp
+[0.214s] [ 35%] Built target multisense_msgs__rosidl_typesupport_cpp
+[0.221s] [ 47%] Built target multisense_msgs__rosidl_typesupport_introspection_c
+[0.233s] [ 70%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c
+[0.233s] [ 71%] Built target multisense_msgs__rosidl_typesupport_introspection_cpp
+[0.235s] [ 83%] Built target multisense_msgs__rosidl_typesupport_c
+[0.275s] [ 83%] Built target multisense_msgs
+[0.315s] [ 84%] Built target multisense_msgs__py
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_generator_py[0m
+[0.384s] [ 95%] Built target multisense_msgs__rosidl_generator_py
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_c__pyext[0m
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.428s] [ 99%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.428s] [ 99%] Built target multisense_msgs__rosidl_typesupport_introspection_c__pyext
+[0.434s] [100%] Built target multisense_msgs__rosidl_typesupport_c__pyext
+[0.740s] running egg_info
+[0.742s] writing multisense_msgs.egg-info/PKG-INFO
+[0.742s] writing dependency_links to multisense_msgs.egg-info/dependency_links.txt
+[0.743s] writing top-level names to multisense_msgs.egg-info/top_level.txt
+[0.748s] reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.749s] writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.818s] [100%] Built target ament_cmake_python_build_multisense_msgs_egg
+[0.847s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs -- -j6 -l6
+[2.091s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs
+[2.123s] -- Install configuration: "Release"
+[2.124s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/rosidl_interfaces/multisense_msgs
+[2.124s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs
+[2.125s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg
+[2.125s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/stamped_pps.h
+[2.125s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_cal.h
+[2.126s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_status.h
+[2.126s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.126s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_cal.h
+[2.126s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_data.h
+[2.126s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_config.h
+[2.127s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/histogram.h
+[2.127s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_data.h
+[2.127s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail
+[2.127s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__functions.h
+[2.128s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__type_support.h
+[2.128s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__functions.h
+[2.132s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__type_support.h
+[2.132s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__struct.h
+[2.132s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__type_support.h
+[2.133s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__struct.h
+[2.133s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__functions.h
+[2.133s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__functions.h
+[2.133s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__struct.h
+[2.134s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__struct.h
+[2.134s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__functions.h
+[2.134s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__type_support.h
+[2.134s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__functions.c
+[2.134s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__functions.h
+[2.134s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__functions.h
+[2.143s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__functions.c
+[2.143s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__type_support.h
+[2.144s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__type_support.h
+[2.144s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__type_support.h
+[2.144s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__struct.h
+[2.144s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__functions.c
+[2.145s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__functions.c
+[2.145s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__functions.h
+[2.145s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__functions.h
+[2.145s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__type_support.h
+[2.145s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__functions.c
+[2.146s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__functions.c
+[2.146s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__struct.h
+[2.146s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__struct.h
+[2.146s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__struct.h
+[2.147s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__type_support.h
+[2.147s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__functions.c
+[2.147s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__functions.c
+[2.147s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__functions.c
+[2.148s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__functions.c
+[2.148s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__struct.h
+[2.148s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__functions.h
+[2.148s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__struct.h
+[2.148s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__struct.h
+[2.149s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__functions.c
+[2.149s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__type_support.h
+[2.149s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__type_support.h
+[2.149s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__functions.h
+[2.149s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/ptp_status.h
+[2.150s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_imu_data.h
+[2.150s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_info.h
+[2.150s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/library_path.sh
+[2.159s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/library_path.dsv
+[2.160s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_c.so
+[2.160s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_c.so" to ""
+[2.161s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs
+[2.161s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg
+[2.161s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail
+[2.161s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_fastrtps_c.h
+[2.162s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[2.162s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_fastrtps_c.h
+[2.162s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_fastrtps_c.h
+[2.162s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_fastrtps_c.h
+[2.163s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_fastrtps_c.h
+[2.163s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_c.h
+[2.163s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_fastrtps_c.h
+[2.163s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_fastrtps_c.h
+[2.163s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_fastrtps_c.h
+[2.164s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_fastrtps_c.h
+[2.164s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.164s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_c.so
+[2.164s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.164s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs
+[2.165s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg
+[2.165s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_cal.hpp
+[2.165s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/histogram.hpp
+[2.165s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/stamped_pps.hpp
+[2.166s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/ptp_status.hpp
+[2.166s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_config.hpp
+[2.166s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_info.hpp
+[2.166s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_imu_data.hpp
+[2.166s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail
+[2.167s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__builder.hpp
+[2.174s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__struct.hpp
+[2.174s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__traits.hpp
+[2.175s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__traits.hpp
+[2.175s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__struct.hpp
+[2.175s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__traits.hpp
+[2.175s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__traits.hpp
+[2.175s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__struct.hpp
+[2.175s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__struct.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__builder.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__struct.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__builder.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__traits.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__struct.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__builder.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__traits.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__struct.hpp
+[2.176s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__builder.hpp
+[2.177s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__traits.hpp
+[2.183s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__builder.hpp
+[2.183s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__traits.hpp
+[2.184s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__builder.hpp
+[2.184s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__struct.hpp
+[2.184s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__traits.hpp
+[2.184s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__struct.hpp
+[2.185s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__builder.hpp
+[2.185s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__traits.hpp
+[2.186s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__traits.hpp
+[2.186s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__struct.hpp
+[2.186s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__struct.hpp
+[2.186s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__builder.hpp
+[2.187s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__builder.hpp
+[2.187s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__builder.hpp
+[2.187s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_status.hpp
+[2.188s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_data.hpp
+[2.188s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_data.hpp
+[2.188s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_cal.hpp
+[2.188s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs
+[2.188s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg
+[2.189s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail
+[2.189s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_fastrtps_cpp.hpp
+[2.189s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.189s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.189s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.190s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/dds_fastrtps
+[2.190s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.190s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_fastrtps_cpp.hpp
+[2.190s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.190s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.191s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.191s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.191s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_fastrtps_cpp.hpp
+[2.198s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.199s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.199s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.200s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs
+[2.200s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg
+[2.200s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail
+[2.200s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_introspection_c.h
+[2.200s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__type_support.c
+[2.200s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__type_support.c
+[2.201s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__type_support.c
+[2.201s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_introspection_c.h
+[2.201s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__type_support.c
+[2.201s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_introspection_c.h
+[2.201s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__type_support.c
+[2.201s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__type_support.c
+[2.206s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__type_support.c
+[2.207s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_introspection_c.h
+[2.208s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__type_support.c
+[2.208s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_introspection_c.h
+[2.208s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_introspection_c.h
+[2.208s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_introspection_c.h
+[2.209s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[2.209s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__type_support.c
+[2.209s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_introspection_c.h
+[2.209s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_introspection_c.h
+[2.210s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_introspection_c.h
+[2.210s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__type_support.c
+[2.210s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__type_support.c
+[2.210s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.210s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_c.so
+[2.211s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.211s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_c.so
+[2.212s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_c.so" to ""
+[2.212s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs
+[2.212s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg
+[2.213s] -- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail
+[2.213s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__type_support.cpp
+[2.213s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_introspection_cpp.hpp
+[2.213s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__type_support.cpp
+[2.214s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__type_support.cpp
+[2.214s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__type_support.cpp
+[2.214s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_introspection_cpp.hpp
+[2.216s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__type_support.cpp
+[2.217s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_introspection_cpp.hpp
+[2.217s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_introspection_cpp.hpp
+[2.226s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_introspection_cpp.hpp
+[2.226s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__type_support.cpp
+[2.227s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_introspection_cpp.hpp
+[2.229s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__type_support.cpp
+[2.229s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__type_support.cpp
+[2.230s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__type_support.cpp
+[2.230s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__type_support.cpp
+[2.230s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_introspection_cpp.hpp
+[2.230s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_introspection_cpp.hpp
+[2.232s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_introspection_cpp.hpp
+[2.233s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__type_support.cpp
+[2.233s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_introspection_cpp.hpp
+[2.233s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[2.233s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_cpp.so
+[2.233s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.234s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_cpp.so
+[2.234s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_cpp.so" to ""
+[2.234s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/pythonpath.sh
+[2.234s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/pythonpath.dsv
+[2.234s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info
+[2.234s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.235s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[2.235s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.247s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[2.248s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs
+[2.248s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.248s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.249s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.249s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg
+[2.249s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_ptp_status_s.c
+[2.249s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_info.py
+[2.250s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_cal_s.c
+[2.250s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_data_s.c
+[2.250s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_config.py
+[2.251s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_ptp_status.py
+[2.251s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_config_s.c
+[2.251s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_status_s.c
+[2.252s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_histogram.py
+[2.252s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_status.py
+[2.252s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_stamped_pps_s.c
+[2.252s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_data.py
+[2.253s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_data.py
+[2.253s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_imu_data.py
+[2.253s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/__init__.py
+[2.254s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_histogram_s.c
+[2.254s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_imu_data_s.c
+[2.254s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_data_s.c
+[2.255s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_cal.py
+[2.255s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_cal.py
+[2.255s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_cal_s.c
+[2.255s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_stamped_pps.py
+[2.262s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_info_s.c
+[2.263s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/__init__.py
+[2.263s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.263s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/libmultisense_msgs__rosidl_generator_py.so
+[2.263s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_c.c
+[2.263s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.435s] Listing '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs'...
+[2.436s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/__init__.py'...
+[2.436s] Listing '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg'...
+[2.436s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/__init__.py'...
+[2.436s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_info.py'...
+[2.436s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_status.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_histogram.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_ptp_status.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_cal.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_config.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_data.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_imu_data.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_cal.py'...
+[2.437s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_data.py'...
+[2.438s] Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_stamped_pps.py'...
+[2.449s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.449s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.449s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.450s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.451s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.451s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.451s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_py.so
+[2.452s] -- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_py.so" to ""
+[2.452s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceInfo.idl
+[2.453s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamConfig.idl
+[2.453s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawImuData.idl
+[2.453s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarData.idl
+[2.453s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamCal.idl
+[2.454s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamData.idl
+[2.454s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarCal.idl
+[2.454s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/Histogram.idl
+[2.455s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceStatus.idl
+[2.455s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/PtpStatus.idl
+[2.455s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/StampedPps.idl
+[2.456s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceInfo.msg
+[2.456s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamConfig.msg
+[2.456s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawImuData.msg
+[2.456s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarData.msg
+[2.457s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamCal.msg
+[2.457s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamData.msg
+[2.457s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarCal.msg
+[2.458s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/Histogram.msg
+[2.458s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceStatus.msg
+[2.458s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/PtpStatus.msg
+[2.458s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/StampedPps.msg
+[2.459s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/package_run_dependencies/multisense_msgs
+[2.459s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/parent_prefix_path/multisense_msgs
+[2.460s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/ament_prefix_path.sh
+[2.460s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/ament_prefix_path.dsv
+[2.460s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/path.sh
+[2.460s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/path.dsv
+[2.461s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.bash
+[2.461s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.sh
+[2.461s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.zsh
+[2.462s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.dsv
+[2.470s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.dsv
+[2.471s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/packages/multisense_msgs
+[2.471s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_cExport.cmake
+[2.471s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_cExport-release.cmake
+[2.471s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.472s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.472s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_cppExport.cmake
+[2.472s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.472s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.472s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.473s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[2.473s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cExport.cmake
+[2.473s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cExport-release.cmake
+[2.473s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.473s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.473s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cppExport.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cppExport-release.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_pyExport.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_pyExport-release.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/rosidl_cmake-extras.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.474s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.475s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.475s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.475s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.475s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgsConfig.cmake
+[2.475s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgsConfig-version.cmake
+[2.475s] -- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.xml
+[2.482s] Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs

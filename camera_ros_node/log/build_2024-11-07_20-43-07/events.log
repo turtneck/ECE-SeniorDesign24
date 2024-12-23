@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (multisense_lib) JobQueued: {'identifier': 'multisense_lib', 'dependencies': OrderedDict()}
+[0.000707] (multisense_msgs) JobQueued: {'identifier': 'multisense_msgs', 'dependencies': OrderedDict()}
+[0.001226] (sd_proj) JobQueued: {'identifier': 'sd_proj', 'dependencies': OrderedDict()}
+[0.001485] (multisense_ros) JobQueued: {'identifier': 'multisense_ros', 'dependencies': OrderedDict([('multisense_lib', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib'), ('multisense_msgs', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs')])}
+[0.001724] (multisense_lib) JobStarted: {'identifier': 'multisense_lib'}
+[0.013109] (multisense_msgs) JobStarted: {'identifier': 'multisense_msgs'}
+[0.019404] (sd_proj) JobStarted: {'identifier': 'sd_proj'}
+[0.033426] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'cmake'}
+[0.034668] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039646] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'cmake'}
+[0.042722] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'build'}
+[0.044629] (multisense_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061448] (multisense_lib) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099410] (-) TimerEvent: {}
+[0.122563] (multisense_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.154237] (multisense_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.166618] (multisense_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_multisense_msgs\n'}
+[0.199569] (-) TimerEvent: {}
+[0.300174] (-) TimerEvent: {}
+[0.335483] (multisense_lib) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_subdirectory):\n'}
+[0.335944] (multisense_lib) StderrLine: {'line': b'  The source directory\n'}
+[0.336100] (multisense_lib) StderrLine: {'line': b'\n'}
+[0.336231] (multisense_lib) StderrLine: {'line': b'    /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib/LibMultiSense\n'}
+[0.336361] (multisense_lib) StderrLine: {'line': b'\n'}
+[0.336482] (multisense_lib) StderrLine: {'line': b'  does not contain a CMakeLists.txt file.\n'}
+[0.336599] (multisense_lib) StderrLine: {'line': b'\n'}
+[0.336924] (multisense_lib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.337920] (multisense_lib) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):\n'}
+[0.338187] (multisense_lib) StderrLine: {'line': b"  ament_export_include_directories() package 'multisense_lib' exports the\n"}
+[0.338325] (multisense_lib) StderrLine: {'line': b'  include directory\n'}
+[0.338450] (multisense_lib) StderrLine: {'line': b"  '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib/LibMultiSense/source/LibMultiSense/include'\n"}
+[0.338569] (multisense_lib) StderrLine: {'line': b"  which doesn't exist\n"}
+[0.338683] (multisense_lib) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.338797] (multisense_lib) StderrLine: {'line': b'  CMakeLists.txt:28 (ament_export_include_directories)\n'}
+[0.338910] (multisense_lib) StderrLine: {'line': b'\n'}
+[0.339051] (multisense_lib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400320] (-) TimerEvent: {}
+[0.481281] (multisense_lib) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.481692] (multisense_lib) StdoutLine: {'line': b'See also "/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib/CMakeFiles/CMakeOutput.log".\n'}
+[0.500468] (-) TimerEvent: {}
+[0.601468] (-) TimerEvent: {}
+[0.612841] (multisense_lib) CommandEnded: {'returncode': 1}
+[0.665878] (multisense_lib) JobEnded: {'identifier': 'multisense_lib', 'rc': 1}
+[0.693070] (multisense_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.694474] (multisense_msgs) StdoutLine: {'line': b'creating multisense_msgs.egg-info\n'}
+[0.694917] (multisense_msgs) StdoutLine: {'line': b'writing multisense_msgs.egg-info/PKG-INFO\n'}
+[0.695271] (multisense_msgs) StdoutLine: {'line': b'writing dependency_links to multisense_msgs.egg-info/dependency_links.txt\n'}
+[0.695631] (multisense_msgs) StdoutLine: {'line': b'writing top-level names to multisense_msgs.egg-info/top_level.txt\n'}
+[0.696081] (multisense_msgs) StdoutLine: {'line': b"writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[0.700525] (multisense_msgs) StdoutLine: {'line': b"reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[0.701527] (multisense_msgs) StdoutLine: {'line': b"writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[0.701720] (-) TimerEvent: {}
+[0.770128] (multisense_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_multisense_msgs_egg\n'}
+[0.801886] (-) TimerEvent: {}
+[0.902534] (-) TimerEvent: {}
+[1.003168] (-) TimerEvent: {}
+[1.103750] (-) TimerEvent: {}
+[1.204339] (-) TimerEvent: {}
+[1.304946] (-) TimerEvent: {}
+[1.318303] (sd_proj) JobEnded: {'identifier': 'sd_proj', 'rc': 'SIGINT'}
+[1.405086] (-) TimerEvent: {}
+[1.505614] (-) TimerEvent: {}
+[1.606202] (-) TimerEvent: {}
+[1.706739] (-) TimerEvent: {}
+[1.807334] (-) TimerEvent: {}
+[1.908061] (-) TimerEvent: {}
+[2.008855] (-) TimerEvent: {}
+[2.047939] (multisense_msgs) StdoutLine: {'line': b'[  1%] Built target multisense_msgs__cpp\n'}
+[2.071036] (multisense_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.071528] (multisense_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.108991] (-) TimerEvent: {}
+[2.128362] (multisense_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.181159] (multisense_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/device_info__functions.c.o\x1b[0m\n'}
+[2.181643] (multisense_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_config__functions.c.o\x1b[0m\n'}
+[2.181988] (multisense_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_imu_data__functions.c.o\x1b[0m\n'}
+[2.209177] (-) TimerEvent: {}
+[2.309866] (-) TimerEvent: {}
+[2.410537] (-) TimerEvent: {}
+[2.461708] (multisense_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_lidar_data__functions.c.o\x1b[0m\n'}
+[2.479601] (multisense_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_cal__functions.c.o\x1b[0m\n'}
+[2.480174] (multisense_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_data__functions.c.o\x1b[0m\n'}
+[2.510709] (-) TimerEvent: {}
+[2.611364] (-) TimerEvent: {}
+[2.672804] (multisense_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_lidar_cal__functions.c.o\x1b[0m\n'}
+[2.711522] (-) TimerEvent: {}
+[2.719505] (multisense_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/histogram__functions.c.o\x1b[0m\n'}
+[2.732201] (multisense_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/device_status__functions.c.o\x1b[0m\n'}
+[2.811681] (-) TimerEvent: {}
+[2.878819] (multisense_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/ptp_status__functions.c.o\x1b[0m\n'}
+[2.911851] (-) TimerEvent: {}
+[2.929016] (multisense_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/stamped_pps__functions.c.o\x1b[0m\n'}
+[3.012015] (-) TimerEvent: {}
+[3.112613] (-) TimerEvent: {}
+[3.134439] (multisense_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmultisense_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.212452] (multisense_msgs) StdoutLine: {'line': b'[ 14%] Built target multisense_msgs__rosidl_generator_c\n'}
+[3.212922] (-) TimerEvent: {}
+[3.233464] (multisense_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.233990] (multisense_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.234330] (multisense_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.313096] (-) TimerEvent: {}
+[3.414064] (-) TimerEvent: {}
+[3.465369] (multisense_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[3.514218] (-) TimerEvent: {}
+[3.615030] (-) TimerEvent: {}
+[3.715958] (-) TimerEvent: {}
+[3.795207] (multisense_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[3.816138] (-) TimerEvent: {}
+[3.917102] (-) TimerEvent: {}
+[4.018064] (-) TimerEvent: {}
+[4.027466] (multisense_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[4.118217] (-) TimerEvent: {}
+[4.199169] (multisense_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_cam_config__type_support.cpp.o\x1b[0m\n'}
+[4.218378] (-) TimerEvent: {}
+[4.319285] (-) TimerEvent: {}
+[4.420203] (-) TimerEvent: {}
+[4.516500] (multisense_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[4.520379] (-) TimerEvent: {}
+[4.584885] (multisense_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_cam_config__type_support.cpp.o\x1b[0m\n'}
+[4.620562] (-) TimerEvent: {}
+[4.652128] (multisense_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_imu_data__type_support.cpp.o\x1b[0m\n'}
+[4.719681] (multisense_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_lidar_data__type_support.cpp.o\x1b[0m\n'}
+[4.720663] (-) TimerEvent: {}
+[4.786728] (multisense_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_cam_cal__type_support.cpp.o\x1b[0m\n'}
+[4.814375] (multisense_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_imu_data__type_support.cpp.o\x1b[0m\n'}
+[4.820895] (-) TimerEvent: {}
+[4.851226] (multisense_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_cam_data__type_support.cpp.o\x1b[0m\n'}
+[4.921126] (-) TimerEvent: {}
+[4.931752] (multisense_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_lidar_cal__type_support.cpp.o\x1b[0m\n'}
+[4.994551] (multisense_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/histogram__type_support.cpp.o\x1b[0m\n'}
+[5.021322] (-) TimerEvent: {}
+[5.060729] (multisense_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/device_status__type_support.cpp.o\x1b[0m\n'}
+[5.112694] (multisense_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/device_info__type_support.c.o\x1b[0m\n'}
+[5.121563] (-) TimerEvent: {}
+[5.129077] (multisense_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/ptp_status__type_support.cpp.o\x1b[0m\n'}
+[5.208773] (multisense_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/stamped_pps__type_support.cpp.o\x1b[0m\n'}
+[5.221778] (-) TimerEvent: {}
+[5.227417] (multisense_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_cam_config__type_support.cpp.o\x1b[0m\n'}
+[5.234222] (multisense_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[5.270906] (multisense_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_cam_config__type_support.c.o\x1b[0m\n'}
+[5.277780] (multisense_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.322030] (-) TimerEvent: {}
+[5.354615] (multisense_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_imu_data__type_support.c.o\x1b[0m\n'}
+[5.357996] (multisense_msgs) StdoutLine: {'line': b'[ 37%] Built target multisense_msgs__rosidl_typesupport_c\n'}
+[5.375573] (multisense_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_lidar_data__type_support.c.o\x1b[0m\n'}
+[5.422212] (-) TimerEvent: {}
+[5.445664] (multisense_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_lidar_data__type_support.cpp.o\x1b[0m\n'}
+[5.462525] (multisense_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_imu_data__type_support.cpp.o\x1b[0m\n'}
+[5.490484] (multisense_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_cam_cal__type_support.c.o\x1b[0m\n'}
+[5.522389] (-) TimerEvent: {}
+[5.623443] (-) TimerEvent: {}
+[5.659273] (multisense_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_cam_data__type_support.c.o\x1b[0m\n'}
+[5.723669] (-) TimerEvent: {}
+[5.776414] (multisense_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_lidar_cal__type_support.c.o\x1b[0m\n'}
+[5.823895] (-) TimerEvent: {}
+[5.833083] (multisense_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_cam_config__type_support.cpp.o\x1b[0m\n'}
+[5.879241] (multisense_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/histogram__type_support.c.o\x1b[0m\n'}
+[5.924120] (-) TimerEvent: {}
+[5.979743] (multisense_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/device_status__type_support.c.o\x1b[0m\n'}
+[6.024341] (-) TimerEvent: {}
+[6.059674] (multisense_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/ptp_status__type_support.c.o\x1b[0m\n'}
+[6.081694] (multisense_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_cam_cal__type_support.cpp.o\x1b[0m\n'}
+[6.124556] (-) TimerEvent: {}
+[6.147935] (multisense_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/stamped_pps__type_support.c.o\x1b[0m\n'}
+[6.201589] (multisense_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_lidar_data__type_support.cpp.o\x1b[0m\n'}
+[6.224785] (-) TimerEvent: {}
+[6.227378] (multisense_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libmultisense_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.290860] (multisense_msgs) StdoutLine: {'line': b'[ 50%] Built target multisense_msgs__rosidl_typesupport_introspection_c\n'}
+[6.307863] (multisense_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_cam_data__type_support.cpp.o\x1b[0m\n'}
+[6.324991] (-) TimerEvent: {}
+[6.425726] (-) TimerEvent: {}
+[6.453352] (multisense_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_cam_cal__type_support.cpp.o\x1b[0m\n'}
+[6.525910] (-) TimerEvent: {}
+[6.626644] (-) TimerEvent: {}
+[6.698267] (multisense_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_lidar_cal__type_support.cpp.o\x1b[0m\n'}
+[6.726842] (-) TimerEvent: {}
+[6.764400] (multisense_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_cam_config__type_support_c.cpp.o\x1b[0m\n'}
+[6.827037] (-) TimerEvent: {}
+[6.843741] (multisense_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_imu_data__type_support.cpp.o\x1b[0m\n'}
+[6.924103] (multisense_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/histogram__type_support.cpp.o\x1b[0m\n'}
+[6.927185] (-) TimerEvent: {}
+[7.027933] (-) TimerEvent: {}
+[7.128764] (-) TimerEvent: {}
+[7.229616] (-) TimerEvent: {}
+[7.294299] (multisense_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_cam_data__type_support.cpp.o\x1b[0m\n'}
+[7.314068] (multisense_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/device_status__type_support.cpp.o\x1b[0m\n'}
+[7.329928] (-) TimerEvent: {}
+[7.430811] (-) TimerEvent: {}
+[7.531578] (-) TimerEvent: {}
+[7.537781] (multisense_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_imu_data__type_support_c.cpp.o\x1b[0m\n'}
+[7.547637] (multisense_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_lidar_cal__type_support.cpp.o\x1b[0m\n'}
+[7.631800] (-) TimerEvent: {}
+[7.701312] (multisense_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_lidar_data__type_support_c.cpp.o\x1b[0m\n'}
+[7.732030] (-) TimerEvent: {}
+[7.827825] (multisense_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_lidar_data__type_support.cpp.o\x1b[0m\n'}
+[7.832205] (-) TimerEvent: {}
+[7.932939] (-) TimerEvent: {}
+[7.965873] (multisense_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/ptp_status__type_support.cpp.o\x1b[0m\n'}
+[8.033195] (-) TimerEvent: {}
+[8.134060] (-) TimerEvent: {}
+[8.234883] (-) TimerEvent: {}
+[8.335851] (-) TimerEvent: {}
+[8.342659] (multisense_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_cam_cal__type_support_c.cpp.o\x1b[0m\n'}
+[8.343198] (multisense_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/stamped_pps__type_support.cpp.o\x1b[0m\n'}
+[8.436059] (-) TimerEvent: {}
+[8.536847] (-) TimerEvent: {}
+[8.540857] (multisense_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/histogram__type_support.cpp.o\x1b[0m\n'}
+[8.618245] (multisense_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_cam_data__type_support_c.cpp.o\x1b[0m\n'}
+[8.637063] (-) TimerEvent: {}
+[8.654802] (multisense_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_lidar_cal__type_support_c.cpp.o\x1b[0m\n'}
+[8.737281] (-) TimerEvent: {}
+[8.838305] (-) TimerEvent: {}
+[8.939329] (-) TimerEvent: {}
+[8.958368] (multisense_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.006022] (multisense_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_cam_cal__type_support.cpp.o\x1b[0m\n'}
+[9.039525] (-) TimerEvent: {}
+[9.047695] (multisense_msgs) StdoutLine: {'line': b'[ 68%] Built target multisense_msgs__rosidl_typesupport_cpp\n'}
+[9.065213] (multisense_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/histogram__type_support_c.cpp.o\x1b[0m\n'}
+[9.139747] (-) TimerEvent: {}
+[9.140901] (multisense_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/device_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.239959] (-) TimerEvent: {}
+[9.340706] (-) TimerEvent: {}
+[9.441469] (-) TimerEvent: {}
+[9.516188] (multisense_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/ptp_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.524927] (multisense_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/stamped_pps__type_support_c.cpp.o\x1b[0m\n'}
+[9.541691] (-) TimerEvent: {}
+[9.622304] (multisense_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/device_status__type_support.cpp.o\x1b[0m\n'}
+[9.641918] (-) TimerEvent: {}
+[9.742662] (-) TimerEvent: {}
+[9.843437] (-) TimerEvent: {}
+[9.913819] (multisense_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/ptp_status__type_support.cpp.o\x1b[0m\n'}
+[9.943650] (-) TimerEvent: {}
+[9.978217] (multisense_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/stamped_pps__type_support.cpp.o\x1b[0m\n'}
+[10.041549] (multisense_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_cam_data__type_support.cpp.o\x1b[0m\n'}
+[10.043793] (-) TimerEvent: {}
+[10.144488] (-) TimerEvent: {}
+[10.245275] (-) TimerEvent: {}
+[10.346097] (-) TimerEvent: {}
+[10.381416] (multisense_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_lidar_cal__type_support.cpp.o\x1b[0m\n'}
+[10.446282] (-) TimerEvent: {}
+[10.451320] (multisense_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.546471] (-) TimerEvent: {}
+[10.627611] (multisense_msgs) StdoutLine: {'line': b'[ 78%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c\n'}
+[10.646766] (multisense_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/histogram__type_support.cpp.o\x1b[0m\n'}
+[10.647300] (-) TimerEvent: {}
+[10.696286] (multisense_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/device_status__type_support.cpp.o\x1b[0m\n'}
+[10.747551] (-) TimerEvent: {}
+[10.807001] (multisense_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/ptp_status__type_support.cpp.o\x1b[0m\n'}
+[10.842260] (multisense_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.847721] (-) TimerEvent: {}
+[10.948394] (-) TimerEvent: {}
+[11.014451] (multisense_msgs) StdoutLine: {'line': b'[ 81%] Built target multisense_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.031904] (multisense_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/stamped_pps__type_support.cpp.o\x1b[0m\n'}
+[11.048600] (-) TimerEvent: {}
+[11.149338] (-) TimerEvent: {}
+[11.250076] (-) TimerEvent: {}
+[11.350789] (-) TimerEvent: {}
+[11.451529] (-) TimerEvent: {}
+[11.552242] (-) TimerEvent: {}
+[11.652971] (-) TimerEvent: {}
+[11.753669] (-) TimerEvent: {}
+[11.854323] (-) TimerEvent: {}
+[11.935449] (multisense_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.954440] (-) TimerEvent: {}
+[12.055007] (-) TimerEvent: {}
+[12.085160] (multisense_msgs) StdoutLine: {'line': b'[ 83%] Built target multisense_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[12.127549] (multisense_msgs) StdoutLine: {'line': b'[ 83%] Built target multisense_msgs\n'}
+[12.155104] (-) TimerEvent: {}
+[12.169481] (multisense_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.255271] (-) TimerEvent: {}
+[12.355760] (-) TimerEvent: {}
+[12.456315] (-) TimerEvent: {}
+[12.556819] (-) TimerEvent: {}
+[12.657296] (-) TimerEvent: {}
+[12.757780] (-) TimerEvent: {}
+[12.858285] (-) TimerEvent: {}
+[12.958775] (-) TimerEvent: {}
+[13.059257] (-) TimerEvent: {}
+[13.159733] (-) TimerEvent: {}
+[13.260205] (-) TimerEvent: {}
+[13.360708] (-) TimerEvent: {}
+[13.461275] (-) TimerEvent: {}
+[13.561773] (-) TimerEvent: {}
+[13.662277] (-) TimerEvent: {}
+[13.762772] (-) TimerEvent: {}
+[13.863265] (-) TimerEvent: {}
+[13.963742] (-) TimerEvent: {}
+[14.064217] (-) TimerEvent: {}
+[14.164690] (-) TimerEvent: {}
+[14.265161] (-) TimerEvent: {}
+[14.365668] (-) TimerEvent: {}
+[14.466241] (-) TimerEvent: {}
+[14.566718] (-) TimerEvent: {}
+[14.667250] (-) TimerEvent: {}
+[14.767744] (-) TimerEvent: {}
+[14.868181] (-) TimerEvent: {}
+[14.968536] (-) TimerEvent: {}
+[15.068929] (-) TimerEvent: {}
+[15.169520] (-) TimerEvent: {}
+[15.188122] (multisense_msgs) StdoutLine: {'line': b'[ 84%] Built target multisense_msgs__py\n'}
+[15.231192] (multisense_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_cam_config_s.c.o\x1b[0m\n'}
+[15.231674] (multisense_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_device_info_s.c.o\x1b[0m\n'}
+[15.231847] (multisense_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_lidar_data_s.c.o\x1b[0m\n'}
+[15.232108] (multisense_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_imu_data_s.c.o\x1b[0m\n'}
+[15.232894] (multisense_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_cam_cal_s.c.o\x1b[0m\n'}
+[15.238428] (multisense_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_cam_data_s.c.o\x1b[0m\n'}
+[15.269728] (-) TimerEvent: {}
+[15.370707] (-) TimerEvent: {}
+[15.471439] (-) TimerEvent: {}
+[15.565296] (multisense_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_lidar_cal_s.c.o\x1b[0m\n'}
+[15.571646] (-) TimerEvent: {}
+[15.609464] (multisense_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_histogram_s.c.o\x1b[0m\n'}
+[15.671889] (-) TimerEvent: {}
+[15.695758] (multisense_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_device_status_s.c.o\x1b[0m\n'}
+[15.704482] (multisense_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_stamped_pps_s.c.o\x1b[0m\n'}
+[15.704988] (multisense_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_ptp_status_s.c.o\x1b[0m\n'}
+[15.772107] (-) TimerEvent: {}
+[15.872824] (-) TimerEvent: {}
+[15.973837] (-) TimerEvent: {}
+[16.037449] (multisense_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multisense_msgs/libmultisense_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[16.073913] (-) TimerEvent: {}
+[16.125898] (multisense_msgs) StdoutLine: {'line': b'[ 95%] Built target multisense_msgs__rosidl_generator_py\n'}
+[16.165904] (multisense_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.166821] (multisense_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.167141] (multisense_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.174238] (-) TimerEvent: {}
+[16.274840] (-) TimerEvent: {}
+[16.375718] (-) TimerEvent: {}
+[16.476630] (-) TimerEvent: {}
+[16.577367] (-) TimerEvent: {}
+[16.663448] (multisense_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.664306] (multisense_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.666802] (multisense_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.677558] (-) TimerEvent: {}
+[16.737307] (multisense_msgs) StdoutLine: {'line': b'[100%] Built target multisense_msgs__rosidl_typesupport_c__pyext\n'}
+[16.741868] (multisense_msgs) StdoutLine: {'line': b'[100%] Built target multisense_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[16.742360] (multisense_msgs) StdoutLine: {'line': b'[100%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.770847] (multisense_msgs) JobEnded: {'identifier': 'multisense_msgs', 'rc': 'SIGINT'}
+[16.777654] (-) TimerEvent: {}
+[16.782157] (multisense_ros) JobSkipped: {'identifier': 'multisense_ros'}
+[16.782337] (-) EventReactorShutdown: {}

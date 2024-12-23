@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/sd_proj/sd_proj.egg-info/PKG-INFO
+writing dependency_links to ../../build/sd_proj/sd_proj.egg-info/dependency_links.txt
+writing entry points to ../../build/sd_proj/sd_proj.egg-info/entry_points.txt
+writing requirements to ../../build/sd_proj/sd_proj.egg-info/requires.txt
+writing top-level names to ../../build/sd_proj/sd_proj.egg-info/top_level.txt
+reading manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'
+writing manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sd_proj/Camera_Node.py -> /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build/lib/sd_proj
+running install
+running install_lib
+copying /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build/lib/sd_proj/Camera_Node.py -> /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj
+byte-compiling /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/Camera_Node.py to Camera_Node.cpython-310.pyc
+byte-compiling /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sd_proj/sd_proj.egg-info to /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log'

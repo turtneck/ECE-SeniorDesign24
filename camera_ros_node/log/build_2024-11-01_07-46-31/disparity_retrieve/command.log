@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/camera_ros_node/build/disparity_retrieve': /usr/bin/cmake /home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity -DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve
+Invoked command in '/home/jetson/camera_ros_node/build/disparity_retrieve' returned '1': /usr/bin/cmake /home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity -DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve

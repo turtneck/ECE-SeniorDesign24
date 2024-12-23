@@ -1,0 +1,20 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:26 (add_subdirectory):
+  The source directory
+
+    /home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib/LibMultiSense
+
+  does not contain a CMakeLists.txt file.
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'multisense_lib' exports the
+  include directory
+  '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib/LibMultiSense/source/LibMultiSense/include'
+  which doesn't exist
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (ament_export_include_directories)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib/CMakeFiles/CMakeOutput.log".

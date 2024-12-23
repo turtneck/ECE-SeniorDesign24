@@ -1,0 +1,1624 @@
+[0.000000] (-) TimerEvent: {}
+[0.000619] (multisense_lib) JobQueued: {'identifier': 'multisense_lib', 'dependencies': OrderedDict()}
+[0.001149] (multisense_msgs) JobQueued: {'identifier': 'multisense_msgs', 'dependencies': OrderedDict()}
+[0.001412] (sd_proj) JobQueued: {'identifier': 'sd_proj', 'dependencies': OrderedDict()}
+[0.001628] (multisense_ros) JobQueued: {'identifier': 'multisense_ros', 'dependencies': OrderedDict([('multisense_lib', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib'), ('multisense_msgs', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs')])}
+[0.001726] (multisense_lib) JobStarted: {'identifier': 'multisense_lib'}
+[0.012116] (multisense_msgs) JobStarted: {'identifier': 'multisense_msgs'}
+[0.019008] (sd_proj) JobStarted: {'identifier': 'sd_proj'}
+[0.031863] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'cmake'}
+[0.032901] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_lib', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037595] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'cmake'}
+[0.038857] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'build'}
+[0.040428] (multisense_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058674] (multisense_lib) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099435] (-) TimerEvent: {}
+[0.122835] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.147138] (multisense_msgs) StdoutLine: {'line': b'[  0%] Built target multisense_msgs__cpp\n'}
+[0.149473] (multisense_msgs) StdoutLine: {'line': b'[ 12%] Built target multisense_msgs__rosidl_generator_c\n'}
+[0.173964] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.174833] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.177121] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.185690] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.186409] (multisense_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_multisense_msgs\n'}
+[0.187961] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.199589] (-) TimerEvent: {}
+[0.211350] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.225432] (multisense_msgs) StdoutLine: {'line': b'[ 29%] Built target multisense_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.225975] (multisense_msgs) StdoutLine: {'line': b'[ 35%] Built target multisense_msgs__rosidl_typesupport_cpp\n'}
+[0.232787] (multisense_msgs) StdoutLine: {'line': b'[ 47%] Built target multisense_msgs__rosidl_typesupport_introspection_c\n'}
+[0.245101] (multisense_msgs) StdoutLine: {'line': b'[ 70%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.245597] (multisense_msgs) StdoutLine: {'line': b'[ 71%] Built target multisense_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.247259] (multisense_msgs) StdoutLine: {'line': b'[ 83%] Built target multisense_msgs__rosidl_typesupport_c\n'}
+[0.286793] (multisense_msgs) StdoutLine: {'line': b'[ 83%] Built target multisense_msgs\n'}
+[0.299753] (-) TimerEvent: {}
+[0.326732] (multisense_msgs) StdoutLine: {'line': b'[ 84%] Built target multisense_msgs__py\n'}
+[0.350487] (multisense_lib) StdoutLine: {'line': b'-- Performing Test HAVE_CONSTEXPR\n'}
+[0.354350] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.395607] (multisense_msgs) StdoutLine: {'line': b'[ 95%] Built target multisense_msgs__rosidl_generator_py\n'}
+[0.399906] (-) TimerEvent: {}
+[0.414569] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.415121] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.415333] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multisense_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.439941] (multisense_msgs) StdoutLine: {'line': b'[ 99%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.440571] (multisense_msgs) StdoutLine: {'line': b'[ 99%] Built target multisense_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.445972] (multisense_msgs) StdoutLine: {'line': b'[100%] Built target multisense_msgs__rosidl_typesupport_c__pyext\n'}
+[0.500267] (-) TimerEvent: {}
+[0.501481] (multisense_lib) StdoutLine: {'line': b'-- Performing Test HAVE_CONSTEXPR - Success\n'}
+[0.506862] (multisense_lib) StdoutLine: {'line': b'-- Looking for vasprintf\n'}
+[0.600440] (-) TimerEvent: {}
+[0.657320] (multisense_lib) StdoutLine: {'line': b'-- Looking for vasprintf - found\n'}
+[0.664322] (multisense_lib) StdoutLine: {'line': b'-- Looking for getopt\n'}
+[0.700578] (-) TimerEvent: {}
+[0.752308] (multisense_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.753805] (multisense_msgs) StdoutLine: {'line': b'writing multisense_msgs.egg-info/PKG-INFO\n'}
+[0.754434] (multisense_msgs) StdoutLine: {'line': b'writing dependency_links to multisense_msgs.egg-info/dependency_links.txt\n'}
+[0.754825] (multisense_msgs) StdoutLine: {'line': b'writing top-level names to multisense_msgs.egg-info/top_level.txt\n'}
+[0.760234] (multisense_msgs) StdoutLine: {'line': b"reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[0.761474] (multisense_msgs) StdoutLine: {'line': b"writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'\n"}
+[0.793522] (multisense_lib) StdoutLine: {'line': b'-- Looking for getopt - found\n'}
+[0.800688] (-) TimerEvent: {}
+[0.830401] (multisense_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_multisense_msgs_egg\n'}
+[0.859258] (multisense_msgs) CommandEnded: {'returncode': 0}
+[0.900844] (-) TimerEvent: {}
+[0.962819] (multisense_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000960] (-) TimerEvent: {}
+[1.048050] (multisense_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[1.056723] (multisense_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib\n'}
+[1.066683] (multisense_lib) CommandEnded: {'returncode': 0}
+[1.067961] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'build'}
+[1.068440] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.101103] (-) TimerEvent: {}
+[1.163149] (multisense_lib) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o\x1b[0m\n'}
+[1.163815] (multisense_lib) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/constants.cc.o\x1b[0m\n'}
+[1.164758] (multisense_lib) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/dispatch.cc.o\x1b[0m\n'}
+[1.168182] (multisense_lib) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o\x1b[0m\n'}
+[1.171567] (multisense_lib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Constants.cc.o\x1b[0m\n'}
+[1.176942] (multisense_lib) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/flash.cc.o\x1b[0m\n'}
+[1.201265] (-) TimerEvent: {}
+[1.288096] (multisense_lib) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/TimeStamp.cc.o\x1b[0m\n'}
+[1.301518] (-) TimerEvent: {}
+[1.403513] (sd_proj) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sd_proj', 'build', '--build-base', '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build', 'install', '--record', '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/src/sd_proj', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/Senior_Design_Project/camera_ros_node/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2269', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/Senior_Design_Project/camera_ros_node/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.151', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.405242] (-) TimerEvent: {}
+[1.506225] (-) TimerEvent: {}
+[1.607210] (-) TimerEvent: {}
+[1.708424] (-) TimerEvent: {}
+[1.809397] (-) TimerEvent: {}
+[1.863894] (multisense_lib) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Exception.cc.o\x1b[0m\n'}
+[1.909610] (-) TimerEvent: {}
+[2.010453] (-) TimerEvent: {}
+[2.058808] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'install'}
+[2.102561] (multisense_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.110626] (-) TimerEvent: {}
+[2.134575] (multisense_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.136028] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/rosidl_interfaces/multisense_msgs\n'}
+[2.136558] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs\n'}
+[2.136982] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg\n'}
+[2.137286] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/stamped_pps.h\n'}
+[2.137644] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_cal.h\n'}
+[2.137931] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_status.h\n'}
+[2.138328] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.138503] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_cal.h\n'}
+[2.138646] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_data.h\n'}
+[2.138778] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_config.h\n'}
+[2.138907] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/histogram.h\n'}
+[2.139080] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_data.h\n'}
+[2.139206] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail\n'}
+[2.139330] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__functions.h\n'}
+[2.139998] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__type_support.h\n'}
+[2.140237] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__functions.h\n'}
+[2.143548] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__type_support.h\n'}
+[2.144182] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__struct.h\n'}
+[2.144593] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__type_support.h\n'}
+[2.144827] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__struct.h\n'}
+[2.145015] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__functions.h\n'}
+[2.145181] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__functions.h\n'}
+[2.145453] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__struct.h\n'}
+[2.145839] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__struct.h\n'}
+[2.146146] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__functions.h\n'}
+[2.146349] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__type_support.h\n'}
+[2.146487] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__functions.c\n'}
+[2.146616] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__functions.h\n'}
+[2.146764] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__functions.h\n'}
+[2.154732] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__functions.c\n'}
+[2.155414] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__type_support.h\n'}
+[2.155858] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__type_support.h\n'}
+[2.156084] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__type_support.h\n'}
+[2.156267] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__struct.h\n'}
+[2.156545] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__functions.c\n'}
+[2.156915] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__functions.c\n'}
+[2.157204] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__functions.h\n'}
+[2.157380] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__functions.h\n'}
+[2.157536] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__type_support.h\n'}
+[2.157685] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__functions.c\n'}
+[2.157931] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__functions.c\n'}
+[2.158256] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__struct.h\n'}
+[2.158505] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__struct.h\n'}
+[2.158757] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__struct.h\n'}
+[2.158923] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__type_support.h\n'}
+[2.159074] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__functions.c\n'}
+[2.159220] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__functions.c\n'}
+[2.159463] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__functions.c\n'}
+[2.159803] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__functions.c\n'}
+[2.160042] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__struct.h\n'}
+[2.160209] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__functions.h\n'}
+[2.160462] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__struct.h\n'}
+[2.160761] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__struct.h\n'}
+[2.160937] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__functions.c\n'}
+[2.161090] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__type_support.h\n'}
+[2.161237] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__type_support.h\n'}
+[2.161382] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__functions.h\n'}
+[2.161628] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/ptp_status.h\n'}
+[2.161892] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_imu_data.h\n'}
+[2.162080] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_info.h\n'}
+[2.162369] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/library_path.sh\n'}
+[2.171167] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/library_path.dsv\n'}
+[2.171920] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_c.so\n'}
+[2.172426] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_c.so" to ""\n'}
+[2.172919] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs\n'}
+[2.173251] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg\n'}
+[2.173452] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail\n'}
+[2.173626] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.173796] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[2.174137] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_fastrtps_c.h\n'}
+[2.174477] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.174660] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_fastrtps_c.h\n'}
+[2.175016] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_fastrtps_c.h\n'}
+[2.175207] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.175370] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_fastrtps_c.h\n'}
+[2.175619] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.175783] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_fastrtps_c.h\n'}
+[2.175916] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.176040] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.176165] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.176568] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.176722] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs\n'}
+[2.176879] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg\n'}
+[2.177028] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_cal.hpp\n'}
+[2.177319] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/histogram.hpp\n'}
+[2.177498] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/stamped_pps.hpp\n'}
+[2.177783] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/ptp_status.hpp\n'}
+[2.178137] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_config.hpp\n'}
+[2.178410] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_info.hpp\n'}
+[2.178584] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_imu_data.hpp\n'}
+[2.178740] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail\n'}
+[2.178890] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__builder.hpp\n'}
+[2.179040] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__struct.hpp\n'}
+[2.186715] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__traits.hpp\n'}
+[2.186931] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__traits.hpp\n'}
+[2.187098] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__struct.hpp\n'}
+[2.187246] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__traits.hpp\n'}
+[2.187386] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__traits.hpp\n'}
+[2.187516] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__struct.hpp\n'}
+[2.187696] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__struct.hpp\n'}
+[2.187825] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__builder.hpp\n'}
+[2.187949] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__struct.hpp\n'}
+[2.188069] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__builder.hpp\n'}
+[2.188190] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__traits.hpp\n'}
+[2.188309] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__struct.hpp\n'}
+[2.188425] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__builder.hpp\n'}
+[2.188539] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__traits.hpp\n'}
+[2.188657] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__struct.hpp\n'}
+[2.188776] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__builder.hpp\n'}
+[2.188896] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__traits.hpp\n'}
+[2.194801] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__builder.hpp\n'}
+[2.195467] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__traits.hpp\n'}
+[2.195776] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__builder.hpp\n'}
+[2.195967] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__struct.hpp\n'}
+[2.196255] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__traits.hpp\n'}
+[2.196523] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__struct.hpp\n'}
+[2.196959] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__builder.hpp\n'}
+[2.197137] (sd_proj) StdoutLine: {'line': b'running egg_info\n'}
+[2.197526] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__traits.hpp\n'}
+[2.197800] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__traits.hpp\n'}
+[2.198098] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__struct.hpp\n'}
+[2.198366] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__struct.hpp\n'}
+[2.198537] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__builder.hpp\n'}
+[2.198692] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__builder.hpp\n'}
+[2.199077] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__builder.hpp\n'}
+[2.199435] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/device_status.hpp\n'}
+[2.199697] (sd_proj) StdoutLine: {'line': b'writing ../../build/sd_proj/sd_proj.egg-info/PKG-INFO\n'}
+[2.200042] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_data.hpp\n'}
+[2.200221] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_lidar_data.hpp\n'}
+[2.200376] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/raw_cam_cal.hpp\n'}
+[2.200523] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs\n'}
+[2.200666] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg\n'}
+[2.200809] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail\n'}
+[2.200949] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.201094] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.201237] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.201494] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.201872] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/dds_fastrtps\n'}
+[2.202202] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.202374] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.202527] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.202676] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.202820] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.202963] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.203103] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.210269] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.210910] (-) TimerEvent: {}
+[2.211238] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.211536] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.211830] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs\n'}
+[2.212100] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg\n'}
+[2.212265] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail\n'}
+[2.212404] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_introspection_c.h\n'}
+[2.212539] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__type_support.c\n'}
+[2.212665] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__type_support.c\n'}
+[2.212787] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__type_support.c\n'}
+[2.212935] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_introspection_c.h\n'}
+[2.213060] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__type_support.c\n'}
+[2.213180] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_introspection_c.h\n'}
+[2.213299] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__type_support.c\n'}
+[2.213416] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__type_support.c\n'}
+[2.213532] (sd_proj) StdoutLine: {'line': b'writing dependency_links to ../../build/sd_proj/sd_proj.egg-info/dependency_links.txt\n'}
+[2.213671] (sd_proj) StdoutLine: {'line': b'writing entry points to ../../build/sd_proj/sd_proj.egg-info/entry_points.txt\n'}
+[2.213791] (sd_proj) StdoutLine: {'line': b'writing requirements to ../../build/sd_proj/sd_proj.egg-info/requires.txt\n'}
+[2.213908] (sd_proj) StdoutLine: {'line': b'writing top-level names to ../../build/sd_proj/sd_proj.egg-info/top_level.txt\n'}
+[2.217138] (sd_proj) StdoutLine: {'line': b"reading manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'\n"}
+[2.218491] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__type_support.c\n'}
+[2.219082] (sd_proj) StdoutLine: {'line': b"writing manifest file '../../build/sd_proj/sd_proj.egg-info/SOURCES.txt'\n"}
+[2.219540] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_introspection_c.h\n'}
+[2.219860] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__type_support.c\n'}
+[2.220057] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_introspection_c.h\n'}
+[2.220228] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_introspection_c.h\n'}
+[2.220497] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_introspection_c.h\n'}
+[2.220868] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[2.221052] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__type_support.c\n'}
+[2.221215] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_introspection_c.h\n'}
+[2.221565] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_introspection_c.h\n'}
+[2.221823] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_introspection_c.h\n'}
+[2.221999] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__type_support.c\n'}
+[2.222271] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__type_support.c\n'}
+[2.222433] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.222570] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.222943] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.223355] (sd_proj) StdoutLine: {'line': b'running build\n'}
+[2.223527] (sd_proj) StdoutLine: {'line': b'running build_py\n'}
+[2.223702] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_c.so\n'}
+[2.223979] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_c.so" to ""\n'}
+[2.224454] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs\n'}
+[2.224632] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg\n'}
+[2.224792] (multisense_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail\n'}
+[2.224947] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__type_support.cpp\n'}
+[2.225097] (sd_proj) StdoutLine: {'line': b'copying sd_proj/Camera_Node.py -> /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build/lib/sd_proj\n'}
+[2.225248] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.225511] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_imu_data__type_support.cpp\n'}
+[2.225945] (sd_proj) StdoutLine: {'line': b'running install\n'}
+[2.226222] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__type_support.cpp\n'}
+[2.226457] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__type_support.cpp\n'}
+[2.226610] (sd_proj) StdoutLine: {'line': b'running install_lib\n'}
+[2.226747] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.228043] (sd_proj) StdoutLine: {'line': b'copying /home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/build/lib/sd_proj/Camera_Node.py -> /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj\n'}
+[2.228639] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__type_support.cpp\n'}
+[2.229035] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.229461] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.229757] (sd_proj) StdoutLine: {'line': b'byte-compiling /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/Camera_Node.py to Camera_Node.cpython-310.pyc\n'}
+[2.229952] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.238573] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__type_support.cpp\n'}
+[2.238951] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/histogram__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.239973] (sd_proj) StdoutLine: {'line': b'byte-compiling /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj/__init__.py to __init__.cpython-310.pyc\n'}
+[2.241473] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_lidar_cal__type_support.cpp\n'}
+[2.241692] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__type_support.cpp\n'}
+[2.241853] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__type_support.cpp\n'}
+[2.242007] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__type_support.cpp\n'}
+[2.242392] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_cal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.242554] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.242693] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/raw_cam_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.244825] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/ptp_status__type_support.cpp\n'}
+[2.245045] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/stamped_pps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.245372] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/include/multisense_msgs/multisense_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.245538] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.245697] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.245848] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_cpp.so\n'}
+[2.245996] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[2.246292] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/pythonpath.sh\n'}
+[2.246504] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/pythonpath.dsv\n'}
+[2.246642] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info\n'}
+[2.246772] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.246900] (sd_proj) StdoutLine: {'line': b'running install_data\n'}
+[2.247045] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.247172] (sd_proj) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.247297] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.259065] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.259828] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs\n'}
+[2.260234] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.260465] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.260763] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.261042] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg\n'}
+[2.261319] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_ptp_status_s.c\n'}
+[2.261574] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_info.py\n'}
+[2.261837] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_cal_s.c\n'}
+[2.262143] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_data_s.c\n'}
+[2.262529] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_config.py\n'}
+[2.262794] (sd_proj) StdoutLine: {'line': b"removing '/home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.263145] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_ptp_status.py\n'}
+[2.263331] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_config_s.c\n'}
+[2.263494] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_status_s.c\n'}
+[2.263645] (sd_proj) StdoutLine: {'line': b'Copying ../../build/sd_proj/sd_proj.egg-info to /home/jetson/Senior_Design_Project/camera_ros_node/install/sd_proj/lib/python3.10/site-packages/sd_proj-0.0.0-py3.10.egg-info\n'}
+[2.263916] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_histogram.py\n'}
+[2.264268] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_status.py\n'}
+[2.264536] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_stamped_pps_s.c\n'}
+[2.264710] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_data.py\n'}
+[2.264867] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_data.py\n'}
+[2.265119] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_imu_data.py\n'}
+[2.265616] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/__init__.py\n'}
+[2.265804] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_histogram_s.c\n'}
+[2.265969] (sd_proj) StdoutLine: {'line': b'running install_scripts\n'}
+[2.266305] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_imu_data_s.c\n'}
+[2.266484] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_data_s.c\n'}
+[2.266767] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_cal.py\n'}
+[2.266971] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_cal.py\n'}
+[2.267129] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_cal_s.c\n'}
+[2.267277] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_stamped_pps.py\n'}
+[2.274224] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_info_s.c\n'}
+[2.274769] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/__init__.py\n'}
+[2.274965] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.275129] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/libmultisense_msgs__rosidl_generator_py.so\n'}
+[2.275278] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.275414] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.311123] (-) TimerEvent: {}
+[2.367068] (sd_proj) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Senior_Design_Project/camera_ros_node/build/sd_proj/install.log'\n"}
+[2.411373] (-) TimerEvent: {}
+[2.447518] (multisense_msgs) StdoutLine: {'line': b"Listing '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs'...\n"}
+[2.448022] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/__init__.py'...\n"}
+[2.448214] (multisense_msgs) StdoutLine: {'line': b"Listing '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg'...\n"}
+[2.448361] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/__init__.py'...\n"}
+[2.448539] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_info.py'...\n"}
+[2.448673] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_device_status.py'...\n"}
+[2.448804] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_histogram.py'...\n"}
+[2.448928] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_ptp_status.py'...\n"}
+[2.449049] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_cal.py'...\n"}
+[2.449168] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_config.py'...\n"}
+[2.449332] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_cam_data.py'...\n"}
+[2.449463] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_imu_data.py'...\n"}
+[2.449584] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_cal.py'...\n"}
+[2.449703] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_raw_lidar_data.py'...\n"}
+[2.449822] (multisense_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/msg/_stamped_pps.py'...\n"}
+[2.460740] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.461320] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[2.461705] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.462403] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[2.462753] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.463417] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[2.463740] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_py.so\n'}
+[2.464275] (multisense_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib/libmultisense_msgs__rosidl_generator_py.so" to ""\n'}
+[2.464565] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceInfo.idl\n'}
+[2.464827] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamConfig.idl\n'}
+[2.465132] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawImuData.idl\n'}
+[2.465421] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarData.idl\n'}
+[2.465705] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamCal.idl\n'}
+[2.465988] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamData.idl\n'}
+[2.466398] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarCal.idl\n'}
+[2.466681] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/Histogram.idl\n'}
+[2.466956] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceStatus.idl\n'}
+[2.467247] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/PtpStatus.idl\n'}
+[2.467524] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/StampedPps.idl\n'}
+[2.467811] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceInfo.msg\n'}
+[2.468099] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamConfig.msg\n'}
+[2.468411] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawImuData.msg\n'}
+[2.468661] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarData.msg\n'}
+[2.468960] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamCal.msg\n'}
+[2.469250] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawCamData.msg\n'}
+[2.469525] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/RawLidarCal.msg\n'}
+[2.469803] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/Histogram.msg\n'}
+[2.470131] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/DeviceStatus.msg\n'}
+[2.470417] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/PtpStatus.msg\n'}
+[2.470697] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/msg/StampedPps.msg\n'}
+[2.471130] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/package_run_dependencies/multisense_msgs\n'}
+[2.471512] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/parent_prefix_path/multisense_msgs\n'}
+[2.471808] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/ament_prefix_path.sh\n'}
+[2.472095] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/ament_prefix_path.dsv\n'}
+[2.472392] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/path.sh\n'}
+[2.472687] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/environment/path.dsv\n'}
+[2.472973] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.bash\n'}
+[2.473265] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.sh\n'}
+[2.473564] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.zsh\n'}
+[2.473841] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/local_setup.dsv\n'}
+[2.482227] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.dsv\n'}
+[2.482819] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/ament_index/resource_index/packages/multisense_msgs\n'}
+[2.483044] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_cExport.cmake\n'}
+[2.483362] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_cExport-release.cmake\n'}
+[2.483545] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.483706] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[2.483981] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.484143] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.484407] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[2.484580] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.484823] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[2.484988] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.485120] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[2.485363] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.485501] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[2.485736] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.485891] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[2.486040] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.486216] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/export_multisense_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[2.486363] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.486503] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.486644] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.486781] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.486922] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.487061] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.487200] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.487512] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgsConfig.cmake\n'}
+[2.487651] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake/multisense_msgsConfig-version.cmake\n'}
+[2.487779] (multisense_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/package.xml\n'}
+[2.493532] (multisense_msgs) CommandEnded: {'returncode': 0}
+[2.512062] (-) TimerEvent: {}
+[2.594190] (sd_proj) CommandEnded: {'returncode': 0}
+[2.610443] (sd_proj) JobEnded: {'identifier': 'sd_proj', 'rc': 0}
+[2.618204] (-) TimerEvent: {}
+[2.719068] (-) TimerEvent: {}
+[2.819746] (-) TimerEvent: {}
+[2.920413] (-) TimerEvent: {}
+[3.021095] (-) TimerEvent: {}
+[3.056426] (multisense_msgs) JobEnded: {'identifier': 'multisense_msgs', 'rc': 0}
+[3.121291] (-) TimerEvent: {}
+[3.221989] (-) TimerEvent: {}
+[3.322733] (-) TimerEvent: {}
+[3.423463] (-) TimerEvent: {}
+[3.524152] (-) TimerEvent: {}
+[3.624854] (-) TimerEvent: {}
+[3.725536] (-) TimerEvent: {}
+[3.826210] (-) TimerEvent: {}
+[3.926881] (-) TimerEvent: {}
+[4.027550] (-) TimerEvent: {}
+[4.128225] (-) TimerEvent: {}
+[4.228897] (-) TimerEvent: {}
+[4.329567] (-) TimerEvent: {}
+[4.430255] (-) TimerEvent: {}
+[4.530959] (-) TimerEvent: {}
+[4.631716] (-) TimerEvent: {}
+[4.732413] (-) TimerEvent: {}
+[4.833119] (-) TimerEvent: {}
+[4.933807] (-) TimerEvent: {}
+[5.034522] (-) TimerEvent: {}
+[5.135210] (-) TimerEvent: {}
+[5.235891] (-) TimerEvent: {}
+[5.336577] (-) TimerEvent: {}
+[5.437270] (-) TimerEvent: {}
+[5.537961] (-) TimerEvent: {}
+[5.638678] (-) TimerEvent: {}
+[5.739362] (-) TimerEvent: {}
+[5.840051] (-) TimerEvent: {}
+[5.940736] (-) TimerEvent: {}
+[6.041439] (-) TimerEvent: {}
+[6.142178] (-) TimerEvent: {}
+[6.242885] (-) TimerEvent: {}
+[6.343587] (-) TimerEvent: {}
+[6.444285] (-) TimerEvent: {}
+[6.544957] (-) TimerEvent: {}
+[6.645640] (-) TimerEvent: {}
+[6.746346] (-) TimerEvent: {}
+[6.847027] (-) TimerEvent: {}
+[6.947709] (-) TimerEvent: {}
+[7.048361] (-) TimerEvent: {}
+[7.149022] (-) TimerEvent: {}
+[7.249686] (-) TimerEvent: {}
+[7.350400] (-) TimerEvent: {}
+[7.451055] (-) TimerEvent: {}
+[7.551731] (-) TimerEvent: {}
+[7.652394] (-) TimerEvent: {}
+[7.753055] (-) TimerEvent: {}
+[7.853715] (-) TimerEvent: {}
+[7.954400] (-) TimerEvent: {}
+[8.055075] (-) TimerEvent: {}
+[8.155744] (-) TimerEvent: {}
+[8.256412] (-) TimerEvent: {}
+[8.357068] (-) TimerEvent: {}
+[8.457731] (-) TimerEvent: {}
+[8.558442] (-) TimerEvent: {}
+[8.659112] (-) TimerEvent: {}
+[8.759760] (-) TimerEvent: {}
+[8.860435] (-) TimerEvent: {}
+[8.961099] (-) TimerEvent: {}
+[9.061760] (-) TimerEvent: {}
+[9.162465] (-) TimerEvent: {}
+[9.263135] (-) TimerEvent: {}
+[9.363792] (-) TimerEvent: {}
+[9.464464] (-) TimerEvent: {}
+[9.565138] (-) TimerEvent: {}
+[9.665799] (-) TimerEvent: {}
+[9.766494] (-) TimerEvent: {}
+[9.867171] (-) TimerEvent: {}
+[9.967865] (-) TimerEvent: {}
+[10.068563] (-) TimerEvent: {}
+[10.169245] (-) TimerEvent: {}
+[10.269931] (-) TimerEvent: {}
+[10.370658] (-) TimerEvent: {}
+[10.471332] (-) TimerEvent: {}
+[10.572004] (-) TimerEvent: {}
+[10.672674] (-) TimerEvent: {}
+[10.773362] (-) TimerEvent: {}
+[10.874046] (-) TimerEvent: {}
+[10.974739] (-) TimerEvent: {}
+[11.075397] (-) TimerEvent: {}
+[11.176086] (-) TimerEvent: {}
+[11.276771] (-) TimerEvent: {}
+[11.377457] (-) TimerEvent: {}
+[11.478146] (-) TimerEvent: {}
+[11.578784] (-) TimerEvent: {}
+[11.679422] (-) TimerEvent: {}
+[11.780104] (-) TimerEvent: {}
+[11.880784] (-) TimerEvent: {}
+[11.981457] (-) TimerEvent: {}
+[12.082168] (-) TimerEvent: {}
+[12.182858] (-) TimerEvent: {}
+[12.283548] (-) TimerEvent: {}
+[12.384226] (-) TimerEvent: {}
+[12.484911] (-) TimerEvent: {}
+[12.585597] (-) TimerEvent: {}
+[12.686343] (-) TimerEvent: {}
+[12.787004] (-) TimerEvent: {}
+[12.887689] (-) TimerEvent: {}
+[12.963963] (multisense_lib) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX shared library libMultiSense.so\x1b[0m\n'}
+[12.987856] (-) TimerEvent: {}
+[13.088525] (-) TimerEvent: {}
+[13.163732] (multisense_lib) StdoutLine: {'line': b'[ 19%] Built target MultiSense\n'}
+[13.188846] (-) TimerEvent: {}
+[13.202912] (multisense_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ColorImageUtility/CMakeFiles/ColorImageUtility.dir/ColorImage.cc.o\x1b[0m\n'}
+[13.203387] (multisense_lib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeFps/CMakeFiles/ChangeFps.dir/ChangeFps.cc.o\x1b[0m\n'}
+[13.203562] (multisense_lib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeIpUtility/CMakeFiles/ChangeIpUtility.dir/ChangeIpUtility.cc.o\x1b[0m\n'}
+[13.203710] (multisense_lib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/AprilTagTestUtility/CMakeFiles/AprilTagTestUtility.dir/AprilTagTestUtility.cc.o\x1b[0m\n'}
+[13.203956] (multisense_lib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeTransmitDelay/CMakeFiles/ChangeTransmitDelay.dir/ChangeTransmitDelay.cc.o\x1b[0m\n'}
+[13.205652] (multisense_lib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ChangeResolution/CMakeFiles/ChangeResolution.dir/ChangeResolution.cc.o\x1b[0m\n'}
+[13.289041] (-) TimerEvent: {}
+[13.389790] (-) TimerEvent: {}
+[13.490555] (-) TimerEvent: {}
+[13.591290] (-) TimerEvent: {}
+[13.692070] (-) TimerEvent: {}
+[13.792852] (-) TimerEvent: {}
+[13.893634] (-) TimerEvent: {}
+[13.994420] (-) TimerEvent: {}
+[14.095173] (-) TimerEvent: {}
+[14.195933] (-) TimerEvent: {}
+[14.296673] (-) TimerEvent: {}
+[14.317676] (multisense_lib) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable ChangeTransmitDelay\x1b[0m\n'}
+[14.323814] (multisense_lib) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX executable ChangeFps\x1b[0m\n'}
+[14.396917] (-) TimerEvent: {}
+[14.481584] (multisense_lib) StdoutLine: {'line': b'[ 36%] Built target ChangeTransmitDelay\n'}
+[14.495256] (multisense_lib) StdoutLine: {'line': b'[ 36%] Built target ChangeFps\n'}
+[14.497075] (-) TimerEvent: {}
+[14.507093] (multisense_lib) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable ChangeResolution\x1b[0m\n'}
+[14.516288] (multisense_lib) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/DeviceInfoUtility/CMakeFiles/DeviceInfoUtility.dir/DeviceInfoUtility.cc.o\x1b[0m\n'}
+[14.533021] (multisense_lib) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/DepthImageUtility/CMakeFiles/DepthImageUtility.dir/DepthImageUtility.cc.o\x1b[0m\n'}
+[14.597306] (-) TimerEvent: {}
+[14.623345] (multisense_lib) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable AprilTagTestUtility\x1b[0m\n'}
+[14.680204] (multisense_lib) StdoutLine: {'line': b'[ 44%] Built target ChangeResolution\n'}
+[14.697531] (-) TimerEvent: {}
+[14.731588] (multisense_lib) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ExternalCalUtility/CMakeFiles/ExternalCalUtility.dir/ExternalCalUtility.cc.o\x1b[0m\n'}
+[14.773172] (multisense_lib) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX executable ChangeIpUtility\x1b[0m\n'}
+[14.797738] (-) TimerEvent: {}
+[14.833637] (multisense_lib) StdoutLine: {'line': b'[ 48%] Built target AprilTagTestUtility\n'}
+[14.879864] (multisense_lib) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/FeatureDetectorUtility/CMakeFiles/FeatureDetectorUtility.dir/FeatureDetectorUtility.cc.o\x1b[0m\n'}
+[14.897987] (-) TimerEvent: {}
+[14.965689] (multisense_lib) StdoutLine: {'line': b'[ 51%] Built target ChangeIpUtility\n'}
+[14.998281] (-) TimerEvent: {}
+[15.010240] (multisense_lib) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/FlashUtility/CMakeFiles/FlashUtility.dir/FlashUtility.cc.o\x1b[0m\n'}
+[15.098474] (-) TimerEvent: {}
+[15.199547] (-) TimerEvent: {}
+[15.300305] (-) TimerEvent: {}
+[15.349678] (multisense_lib) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable ColorImageUtility\x1b[0m\n'}
+[15.400513] (-) TimerEvent: {}
+[15.501316] (-) TimerEvent: {}
+[15.563479] (multisense_lib) StdoutLine: {'line': b'[ 55%] Built target ColorImageUtility\n'}
+[15.601548] (-) TimerEvent: {}
+[15.614678] (multisense_lib) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ImageCalUtility/CMakeFiles/ImageCalUtility.dir/ImageCalUtility.cc.o\x1b[0m\n'}
+[15.701741] (-) TimerEvent: {}
+[15.802505] (-) TimerEvent: {}
+[15.899643] (multisense_lib) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable DeviceInfoUtility\x1b[0m\n'}
+[15.902659] (-) TimerEvent: {}
+[16.003380] (-) TimerEvent: {}
+[16.070841] (multisense_lib) StdoutLine: {'line': b'[ 59%] Built target DeviceInfoUtility\n'}
+[16.103586] (-) TimerEvent: {}
+[16.110765] (multisense_lib) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ImuConfigUtility/CMakeFiles/ImuConfigUtility.dir/ImuConfigUtility.cc.o\x1b[0m\n'}
+[16.203802] (-) TimerEvent: {}
+[16.304570] (-) TimerEvent: {}
+[16.354618] (multisense_lib) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable FlashUtility\x1b[0m\n'}
+[16.404800] (-) TimerEvent: {}
+[16.505920] (-) TimerEvent: {}
+[16.587120] (multisense_lib) StdoutLine: {'line': b'[ 63%] Built target FlashUtility\n'}
+[16.606179] (-) TimerEvent: {}
+[16.632452] (multisense_lib) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/ImuTestUtility/CMakeFiles/ImuTestUtility.dir/ImuTestUtility.cc.o\x1b[0m\n'}
+[16.706369] (-) TimerEvent: {}
+[16.807120] (-) TimerEvent: {}
+[16.860828] (multisense_lib) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable ExternalCalUtility\x1b[0m\n'}
+[16.907314] (-) TimerEvent: {}
+[16.935349] (multisense_lib) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable DepthImageUtility\x1b[0m\n'}
+[17.007512] (-) TimerEvent: {}
+[17.053447] (multisense_lib) StdoutLine: {'line': b'[ 70%] Built target ExternalCalUtility\n'}
+[17.095898] (multisense_lib) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/LidarCalUtility/CMakeFiles/LidarCalUtility.dir/LidarCalUtility.cc.o\x1b[0m\n'}
+[17.107712] (-) TimerEvent: {}
+[17.208572] (-) TimerEvent: {}
+[17.226398] (multisense_lib) StdoutLine: {'line': b'[ 72%] Built target DepthImageUtility\n'}
+[17.285319] (multisense_lib) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/PointCloudUtility/CMakeFiles/PointCloudUtility.dir/PointCloudUtility.cc.o\x1b[0m\n'}
+[17.308760] (-) TimerEvent: {}
+[17.409483] (-) TimerEvent: {}
+[17.510234] (-) TimerEvent: {}
+[17.610969] (-) TimerEvent: {}
+[17.712007] (-) TimerEvent: {}
+[17.812803] (-) TimerEvent: {}
+[17.913597] (-) TimerEvent: {}
+[17.957725] (multisense_lib) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable FeatureDetectorUtility\x1b[0m\n'}
+[18.013819] (-) TimerEvent: {}
+[18.114666] (-) TimerEvent: {}
+[18.155854] (multisense_lib) StdoutLine: {'line': b'[ 76%] Built target FeatureDetectorUtility\n'}
+[18.200392] (multisense_lib) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/RectifiedFocalLengthUtility/CMakeFiles/RectifiedFocalLengthUtility.dir/RectifiedFocalLengthUtility.cc.o\x1b[0m\n'}
+[18.214876] (-) TimerEvent: {}
+[18.266826] (multisense_lib) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable ImuConfigUtility\x1b[0m\n'}
+[18.278617] (multisense_lib) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable ImuTestUtility\x1b[0m\n'}
+[18.315080] (-) TimerEvent: {}
+[18.415851] (-) TimerEvent: {}
+[18.450482] (multisense_lib) StdoutLine: {'line': b'[ 82%] Built target ImuTestUtility\n'}
+[18.454567] (multisense_lib) StdoutLine: {'line': b'[ 82%] Built target ImuConfigUtility\n'}
+[18.490155] (multisense_lib) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/SaveImageUtility/CMakeFiles/SaveImageUtility.dir/SaveImageUtility.cc.o\x1b[0m\n'}
+[18.498466] (multisense_lib) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object LibMultiSense/source/Utilities/VersionInfoUtility/CMakeFiles/VersionInfoUtility.dir/VersionInfoUtility.cc.o\x1b[0m\n'}
+[18.516091] (-) TimerEvent: {}
+[18.616856] (-) TimerEvent: {}
+[18.634025] (multisense_lib) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable ImageCalUtility\x1b[0m\n'}
+[18.717041] (-) TimerEvent: {}
+[18.816042] (multisense_lib) StdoutLine: {'line': b'[ 89%] Built target ImageCalUtility\n'}
+[18.817257] (-) TimerEvent: {}
+[18.917901] (-) TimerEvent: {}
+[19.018656] (-) TimerEvent: {}
+[19.032849] (multisense_lib) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable LidarCalUtility\x1b[0m\n'}
+[19.118861] (-) TimerEvent: {}
+[19.218247] (multisense_lib) StdoutLine: {'line': b'[ 91%] Built target LidarCalUtility\n'}
+[19.218926] (-) TimerEvent: {}
+[19.319738] (-) TimerEvent: {}
+[19.394083] (multisense_lib) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable VersionInfoUtility\x1b[0m\n'}
+[19.419917] (-) TimerEvent: {}
+[19.520604] (-) TimerEvent: {}
+[19.553225] (multisense_lib) StdoutLine: {'line': b'[ 93%] Built target VersionInfoUtility\n'}
+[19.620819] (-) TimerEvent: {}
+[19.676288] (multisense_lib) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable PointCloudUtility\x1b[0m\n'}
+[19.721004] (-) TimerEvent: {}
+[19.817421] (multisense_lib) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable RectifiedFocalLengthUtility\x1b[0m\n'}
+[19.821470] (-) TimerEvent: {}
+[19.841011] (multisense_lib) StdoutLine: {'line': b'[ 97%] Built target PointCloudUtility\n'}
+[19.921660] (-) TimerEvent: {}
+[19.968646] (multisense_lib) StdoutLine: {'line': b'[ 97%] Built target RectifiedFocalLengthUtility\n'}
+[20.021882] (-) TimerEvent: {}
+[20.122813] (-) TimerEvent: {}
+[20.223658] (-) TimerEvent: {}
+[20.324498] (-) TimerEvent: {}
+[20.425445] (-) TimerEvent: {}
+[20.526162] (-) TimerEvent: {}
+[20.565076] (multisense_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable SaveImageUtility\x1b[0m\n'}
+[20.626294] (-) TimerEvent: {}
+[20.712919] (multisense_lib) StdoutLine: {'line': b'[100%] Built target SaveImageUtility\n'}
+[20.726461] (-) TimerEvent: {}
+[20.738034] (multisense_lib) CommandEnded: {'returncode': 0}
+[20.804407] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'install'}
+[20.805321] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.824490] (multisense_lib) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[20.824981] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/library_path.sh\n'}
+[20.825281] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/library_path.dsv\n'}
+[20.825807] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/package_run_dependencies/multisense_lib\n'}
+[20.826488] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/parent_prefix_path/multisense_lib\n'}
+[20.826678] (-) TimerEvent: {}
+[20.826993] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.sh\n'}
+[20.827258] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/ament_prefix_path.dsv\n'}
+[20.827488] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/path.sh\n'}
+[20.827785] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/environment/path.dsv\n'}
+[20.828421] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.bash\n'}
+[20.828728] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.sh\n'}
+[20.829051] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.zsh\n'}
+[20.829341] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/local_setup.dsv\n'}
+[20.829623] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.dsv\n'}
+[20.830041] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/ament_index/resource_index/packages/multisense_lib\n'}
+[20.830449] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.830732] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.831046] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig.cmake\n'}
+[20.831285] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake/multisense_libConfig-version.cmake\n'}
+[20.831574] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/package.xml\n'}
+[20.832322] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/pkgconfig/LibMultiSense.pc\n'}
+[20.833371] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so.6.1.0\n'}
+[20.835684] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so.6.1.0" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.835938] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/libMultiSense.so\n'}
+[20.836150] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh\n'}
+[20.836668] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh\n'}
+[20.837490] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets.cmake\n'}
+[20.837813] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseTargets-release.cmake\n'}
+[20.838303] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfig.cmake\n'}
+[20.838546] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib/cmake/MultiSense/MultiSenseConfigVersion.cmake\n'}
+[20.838782] (multisense_lib) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseChannel.hh\n'}
+[20.838927] (multisense_lib) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/include/MultiSense/MultiSenseTypes.hh\n'}
+[20.839497] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/AprilTagTestUtility\n'}
+[20.839993] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/AprilTagTestUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.840376] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeFps\n'}
+[20.840905] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeFps" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.841270] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeIpUtility\n'}
+[20.841969] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeIpUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.842354] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeResolution\n'}
+[20.842791] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeResolution" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.843120] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeTransmitDelay\n'}
+[20.843560] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ChangeTransmitDelay" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.844114] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ColorImageUtility\n'}
+[20.844650] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ColorImageUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.845001] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DeviceInfoUtility\n'}
+[20.845509] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DeviceInfoUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.845869] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DepthImageUtility\n'}
+[20.846585] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/DepthImageUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.846933] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ExternalCalUtility\n'}
+[20.847438] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ExternalCalUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.847791] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FeatureDetectorUtility\n'}
+[20.848337] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FeatureDetectorUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.848681] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/MultiSenseUpdater\n'}
+[20.848993] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FlashUtility\n'}
+[20.849459] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/FlashUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.849809] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImageCalUtility\n'}
+[20.850334] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImageCalUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.850685] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuConfigUtility\n'}
+[20.851177] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuConfigUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.851526] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuTestUtility\n'}
+[20.852021] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/ImuTestUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.852368] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/LidarCalUtility\n'}
+[20.852870] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/LidarCalUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.853223] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/PointCloudUtility\n'}
+[20.853763] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/PointCloudUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.854125] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/RectifiedFocalLengthUtility\n'}
+[20.854814] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/RectifiedFocalLengthUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.855163] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/SaveImageUtility\n'}
+[20.855764] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/SaveImageUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.856324] (multisense_lib) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/VersionInfoUtility\n'}
+[20.856678] (multisense_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin/VersionInfoUtility" to "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib"\n'}
+[20.860901] (multisense_lib) CommandEnded: {'returncode': 0}
+[20.926849] (-) TimerEvent: {}
+[21.011434] (multisense_lib) JobEnded: {'identifier': 'multisense_lib', 'rc': 0}
+[21.015646] (multisense_ros) JobStarted: {'identifier': 'multisense_ros'}
+[21.026986] (-) TimerEvent: {}
+[21.043184] (multisense_ros) JobProgress: {'identifier': 'multisense_ros', 'progress': 'cmake'}
+[21.043960] (multisense_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_ros', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble')]), 'shell': False}
+[21.127123] (-) TimerEvent: {}
+[21.159896] (multisense_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[21.227221] (-) TimerEvent: {}
+[21.279876] (multisense_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[21.300926] (multisense_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[21.327325] (-) TimerEvent: {}
+[21.427831] (-) TimerEvent: {}
+[21.452221] (multisense_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[21.475205] (multisense_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[21.475802] (multisense_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[21.476498] (multisense_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[21.485757] (multisense_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[21.527935] (-) TimerEvent: {}
+[21.628536] (-) TimerEvent: {}
+[21.653967] (multisense_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[21.676690] (multisense_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[21.677229] (multisense_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[21.678084] (multisense_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[21.680495] (multisense_ros) StdoutLine: {'line': b'-- Selecting default build type: Release\n'}
+[21.686009] (multisense_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[21.728674] (-) TimerEvent: {}
+[21.829322] (-) TimerEvent: {}
+[21.929856] (-) TimerEvent: {}
+[22.030281] (-) TimerEvent: {}
+[22.045737] (multisense_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[22.130377] (-) TimerEvent: {}
+[22.230812] (-) TimerEvent: {}
+[22.255725] (multisense_ros) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[22.265691] (multisense_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[22.283751] (multisense_ros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[22.288177] (multisense_ros) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[22.330911] (-) TimerEvent: {}
+[22.365519] (multisense_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[22.373754] (multisense_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[22.388086] (multisense_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[22.409304] (multisense_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.431091] (-) TimerEvent: {}
+[22.437962] (multisense_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.525853] (multisense_ros) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[22.531184] (-) TimerEvent: {}
+[22.582844] (multisense_ros) StdoutLine: {'line': b'-- Found multisense_lib: 0.0.0 (/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/share/multisense_lib/cmake)\n'}
+[22.585151] (multisense_ros) StdoutLine: {'line': b'-- Found multisense_msgs: 1.0.0 (/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/share/multisense_msgs/cmake)\n'}
+[22.609406] (multisense_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.8.0") \n'}
+[22.613173] (multisense_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[22.631283] (-) TimerEvent: {}
+[22.706312] (multisense_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[22.712847] (multisense_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[22.731405] (-) TimerEvent: {}
+[22.832029] (-) TimerEvent: {}
+[22.902667] (multisense_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[22.932095] (-) TimerEvent: {}
+[22.977017] (multisense_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[23.032193] (-) TimerEvent: {}
+[23.059841] (multisense_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[23.084018] (multisense_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[23.132306] (-) TimerEvent: {}
+[23.232780] (-) TimerEvent: {}
+[23.237648] (multisense_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[23.238762] (multisense_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[23.332897] (-) TimerEvent: {}
+[23.398103] (multisense_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[23.401859] (multisense_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[23.433012] (-) TimerEvent: {}
+[23.533501] (-) TimerEvent: {}
+[23.539016] (multisense_ros) StdoutLine: {'line': b'-- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)\n'}
+[23.543099] (multisense_ros) StdoutLine: {'line': b'-- Found stereo_msgs: 4.2.4 (/opt/ros/humble/share/stereo_msgs/cmake)\n'}
+[23.588905] (multisense_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[23.613794] (multisense_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[23.633589] (-) TimerEvent: {}
+[23.733990] (-) TimerEvent: {}
+[23.825649] (multisense_ros) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[23.834103] (-) TimerEvent: {}
+[23.843928] (multisense_ros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[23.934256] (-) TimerEvent: {}
+[23.988186] (multisense_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.034349] (-) TimerEvent: {}
+[24.035631] (multisense_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[24.040665] (multisense_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros\n'}
+[24.069043] (multisense_ros) CommandEnded: {'returncode': 0}
+[24.071038] (multisense_ros) JobProgress: {'identifier': 'multisense_ros', 'progress': 'build'}
+[24.072004] (multisense_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble')]), 'shell': False}
+[24.134484] (-) TimerEvent: {}
+[24.177315] (multisense_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/camera_utilities.cpp.o\x1b[0m\n'}
+[24.178547] (multisense_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/config.cpp.o\x1b[0m\n'}
+[24.178781] (multisense_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/imu.cpp.o\x1b[0m\n'}
+[24.179061] (multisense_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/laser.cpp.o\x1b[0m\n'}
+[24.179779] (multisense_ros) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/parameter_utilities.cpp.o\x1b[0m\n'}
+[24.181031] (multisense_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/camera.cpp.o\x1b[0m\n'}
+[24.234684] (-) TimerEvent: {}
+[24.335610] (-) TimerEvent: {}
+[24.436614] (-) TimerEvent: {}
+[24.537656] (-) TimerEvent: {}
+[24.638709] (-) TimerEvent: {}
+[24.739475] (-) TimerEvent: {}
+[24.840557] (-) TimerEvent: {}
+[24.941571] (-) TimerEvent: {}
+[25.042658] (-) TimerEvent: {}
+[25.143689] (-) TimerEvent: {}
+[25.244800] (-) TimerEvent: {}
+[25.345904] (-) TimerEvent: {}
+[25.447002] (-) TimerEvent: {}
+[25.548052] (-) TimerEvent: {}
+[25.649212] (-) TimerEvent: {}
+[25.750408] (-) TimerEvent: {}
+[25.851550] (-) TimerEvent: {}
+[25.952691] (-) TimerEvent: {}
+[26.053764] (-) TimerEvent: {}
+[26.154809] (-) TimerEvent: {}
+[26.255606] (-) TimerEvent: {}
+[26.356488] (-) TimerEvent: {}
+[26.457268] (-) TimerEvent: {}
+[26.558047] (-) TimerEvent: {}
+[26.658811] (-) TimerEvent: {}
+[26.759801] (-) TimerEvent: {}
+[26.860660] (-) TimerEvent: {}
+[26.961435] (-) TimerEvent: {}
+[27.062214] (-) TimerEvent: {}
+[27.162980] (-) TimerEvent: {}
+[27.263753] (-) TimerEvent: {}
+[27.364511] (-) TimerEvent: {}
+[27.465275] (-) TimerEvent: {}
+[27.566055] (-) TimerEvent: {}
+[27.666873] (-) TimerEvent: {}
+[27.767631] (-) TimerEvent: {}
+[27.868411] (-) TimerEvent: {}
+[27.969163] (-) TimerEvent: {}
+[28.069992] (-) TimerEvent: {}
+[28.170801] (-) TimerEvent: {}
+[28.271560] (-) TimerEvent: {}
+[28.372322] (-) TimerEvent: {}
+[28.480104] (-) TimerEvent: {}
+[28.580910] (-) TimerEvent: {}
+[28.683777] (-) TimerEvent: {}
+[28.784577] (-) TimerEvent: {}
+[28.885358] (-) TimerEvent: {}
+[28.986186] (-) TimerEvent: {}
+[29.086957] (-) TimerEvent: {}
+[29.187715] (-) TimerEvent: {}
+[29.288529] (-) TimerEvent: {}
+[29.398997] (-) TimerEvent: {}
+[29.499782] (-) TimerEvent: {}
+[29.600605] (-) TimerEvent: {}
+[29.712788] (-) TimerEvent: {}
+[29.813609] (-) TimerEvent: {}
+[29.914401] (-) TimerEvent: {}
+[30.015194] (-) TimerEvent: {}
+[30.116002] (-) TimerEvent: {}
+[30.216792] (-) TimerEvent: {}
+[30.317587] (-) TimerEvent: {}
+[30.418372] (-) TimerEvent: {}
+[30.519165] (-) TimerEvent: {}
+[30.619947] (-) TimerEvent: {}
+[30.720773] (-) TimerEvent: {}
+[30.821571] (-) TimerEvent: {}
+[30.922350] (-) TimerEvent: {}
+[31.023380] (-) TimerEvent: {}
+[31.124429] (-) TimerEvent: {}
+[31.225260] (-) TimerEvent: {}
+[31.326081] (-) TimerEvent: {}
+[31.426830] (-) TimerEvent: {}
+[31.527582] (-) TimerEvent: {}
+[31.628344] (-) TimerEvent: {}
+[31.695293] (multisense_ros) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/point_cloud_utilities.cpp.o\x1b[0m\n'}
+[31.728542] (-) TimerEvent: {}
+[31.829549] (-) TimerEvent: {}
+[31.930592] (-) TimerEvent: {}
+[32.031628] (-) TimerEvent: {}
+[32.132704] (-) TimerEvent: {}
+[32.233754] (-) TimerEvent: {}
+[32.334812] (-) TimerEvent: {}
+[32.435866] (-) TimerEvent: {}
+[32.536975] (-) TimerEvent: {}
+[32.638045] (-) TimerEvent: {}
+[32.739107] (-) TimerEvent: {}
+[32.840133] (-) TimerEvent: {}
+[32.941169] (-) TimerEvent: {}
+[33.042226] (-) TimerEvent: {}
+[33.143287] (-) TimerEvent: {}
+[33.244063] (-) TimerEvent: {}
+[33.344824] (-) TimerEvent: {}
+[33.371043] (multisense_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/pps.cpp.o\x1b[0m\n'}
+[33.445041] (-) TimerEvent: {}
+[33.546094] (-) TimerEvent: {}
+[33.647097] (-) TimerEvent: {}
+[33.748435] (-) TimerEvent: {}
+[33.849197] (-) TimerEvent: {}
+[33.949936] (-) TimerEvent: {}
+[34.050681] (-) TimerEvent: {}
+[34.151423] (-) TimerEvent: {}
+[34.252262] (-) TimerEvent: {}
+[34.353106] (-) TimerEvent: {}
+[34.453881] (-) TimerEvent: {}
+[34.553446] (multisense_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/multisense_ros.dir/src/status.cpp.o\x1b[0m\n'}
+[34.553941] (-) TimerEvent: {}
+[34.654514] (-) TimerEvent: {}
+[34.765254] (-) TimerEvent: {}
+[34.866265] (-) TimerEvent: {}
+[34.967251] (-) TimerEvent: {}
+[35.070251] (-) TimerEvent: {}
+[35.171044] (-) TimerEvent: {}
+[35.271842] (-) TimerEvent: {}
+[35.372649] (-) TimerEvent: {}
+[35.473462] (-) TimerEvent: {}
+[35.574268] (-) TimerEvent: {}
+[35.675016] (-) TimerEvent: {}
+[35.775800] (-) TimerEvent: {}
+[35.876603] (-) TimerEvent: {}
+[35.977402] (-) TimerEvent: {}
+[36.078243] (-) TimerEvent: {}
+[36.179010] (-) TimerEvent: {}
+[36.279808] (-) TimerEvent: {}
+[36.380633] (-) TimerEvent: {}
+[36.481371] (-) TimerEvent: {}
+[36.582195] (-) TimerEvent: {}
+[36.683041] (-) TimerEvent: {}
+[36.783859] (-) TimerEvent: {}
+[36.884789] (-) TimerEvent: {}
+[36.985965] (-) TimerEvent: {}
+[37.087056] (-) TimerEvent: {}
+[37.188103] (-) TimerEvent: {}
+[37.289156] (-) TimerEvent: {}
+[37.390253] (-) TimerEvent: {}
+[37.491317] (-) TimerEvent: {}
+[37.592121] (-) TimerEvent: {}
+[37.692892] (-) TimerEvent: {}
+[37.793671] (-) TimerEvent: {}
+[37.894501] (-) TimerEvent: {}
+[37.995278] (-) TimerEvent: {}
+[38.096542] (-) TimerEvent: {}
+[38.197624] (-) TimerEvent: {}
+[38.298901] (-) TimerEvent: {}
+[38.399974] (-) TimerEvent: {}
+[38.501035] (-) TimerEvent: {}
+[38.602133] (-) TimerEvent: {}
+[38.703160] (-) TimerEvent: {}
+[38.804194] (-) TimerEvent: {}
+[38.905206] (-) TimerEvent: {}
+[39.006247] (-) TimerEvent: {}
+[39.107298] (-) TimerEvent: {}
+[39.208443] (-) TimerEvent: {}
+[39.309523] (-) TimerEvent: {}
+[39.410617] (-) TimerEvent: {}
+[39.511375] (-) TimerEvent: {}
+[39.612236] (-) TimerEvent: {}
+[39.713007] (-) TimerEvent: {}
+[39.814090] (-) TimerEvent: {}
+[39.915101] (-) TimerEvent: {}
+[40.016154] (-) TimerEvent: {}
+[40.117239] (-) TimerEvent: {}
+[40.223844] (-) TimerEvent: {}
+[40.325044] (-) TimerEvent: {}
+[40.426140] (-) TimerEvent: {}
+[40.527084] (-) TimerEvent: {}
+[40.628081] (-) TimerEvent: {}
+[40.729125] (-) TimerEvent: {}
+[40.830187] (-) TimerEvent: {}
+[40.931296] (-) TimerEvent: {}
+[41.032321] (-) TimerEvent: {}
+[41.133365] (-) TimerEvent: {}
+[41.234666] (-) TimerEvent: {}
+[41.335547] (-) TimerEvent: {}
+[41.436689] (-) TimerEvent: {}
+[41.537714] (-) TimerEvent: {}
+[41.638650] (-) TimerEvent: {}
+[41.739567] (-) TimerEvent: {}
+[41.840609] (-) TimerEvent: {}
+[41.941624] (-) TimerEvent: {}
+[42.043153] (-) TimerEvent: {}
+[42.144165] (-) TimerEvent: {}
+[42.245173] (-) TimerEvent: {}
+[42.346340] (-) TimerEvent: {}
+[42.447356] (-) TimerEvent: {}
+[42.548401] (-) TimerEvent: {}
+[42.649412] (-) TimerEvent: {}
+[42.750542] (-) TimerEvent: {}
+[42.851577] (-) TimerEvent: {}
+[42.952750] (-) TimerEvent: {}
+[43.053885] (-) TimerEvent: {}
+[43.155026] (-) TimerEvent: {}
+[43.255975] (-) TimerEvent: {}
+[43.357012] (-) TimerEvent: {}
+[43.458045] (-) TimerEvent: {}
+[43.559088] (-) TimerEvent: {}
+[43.660142] (-) TimerEvent: {}
+[43.761609] (-) TimerEvent: {}
+[43.863013] (-) TimerEvent: {}
+[43.963990] (-) TimerEvent: {}
+[44.064968] (-) TimerEvent: {}
+[44.166569] (-) TimerEvent: {}
+[44.268212] (-) TimerEvent: {}
+[44.369205] (-) TimerEvent: {}
+[44.470258] (-) TimerEvent: {}
+[44.571270] (-) TimerEvent: {}
+[44.672254] (-) TimerEvent: {}
+[44.773304] (-) TimerEvent: {}
+[44.874360] (-) TimerEvent: {}
+[44.977253] (-) TimerEvent: {}
+[45.079894] (-) TimerEvent: {}
+[45.180855] (-) TimerEvent: {}
+[45.281818] (-) TimerEvent: {}
+[45.382881] (-) TimerEvent: {}
+[45.483894] (-) TimerEvent: {}
+[45.584948] (-) TimerEvent: {}
+[45.685986] (-) TimerEvent: {}
+[45.786930] (-) TimerEvent: {}
+[45.887873] (-) TimerEvent: {}
+[45.988820] (-) TimerEvent: {}
+[46.089862] (-) TimerEvent: {}
+[46.190591] (-) TimerEvent: {}
+[46.291578] (-) TimerEvent: {}
+[46.392641] (-) TimerEvent: {}
+[46.493354] (-) TimerEvent: {}
+[46.594042] (-) TimerEvent: {}
+[46.694803] (-) TimerEvent: {}
+[46.795514] (-) TimerEvent: {}
+[46.896204] (-) TimerEvent: {}
+[46.996886] (-) TimerEvent: {}
+[47.097557] (-) TimerEvent: {}
+[47.198239] (-) TimerEvent: {}
+[47.298880] (-) TimerEvent: {}
+[47.399528] (-) TimerEvent: {}
+[47.500409] (-) TimerEvent: {}
+[47.601493] (-) TimerEvent: {}
+[47.702485] (-) TimerEvent: {}
+[47.803418] (-) TimerEvent: {}
+[47.904339] (-) TimerEvent: {}
+[48.005263] (-) TimerEvent: {}
+[48.105969] (-) TimerEvent: {}
+[48.207413] (-) TimerEvent: {}
+[48.308137] (-) TimerEvent: {}
+[48.408789] (-) TimerEvent: {}
+[48.509519] (-) TimerEvent: {}
+[48.610198] (-) TimerEvent: {}
+[48.711054] (-) TimerEvent: {}
+[48.812205] (-) TimerEvent: {}
+[48.912844] (-) TimerEvent: {}
+[49.013534] (-) TimerEvent: {}
+[49.114231] (-) TimerEvent: {}
+[49.214903] (-) TimerEvent: {}
+[49.315565] (-) TimerEvent: {}
+[49.416222] (-) TimerEvent: {}
+[49.516858] (-) TimerEvent: {}
+[49.617529] (-) TimerEvent: {}
+[49.718186] (-) TimerEvent: {}
+[49.818807] (-) TimerEvent: {}
+[49.919462] (-) TimerEvent: {}
+[50.020112] (-) TimerEvent: {}
+[50.120802] (-) TimerEvent: {}
+[50.221526] (-) TimerEvent: {}
+[50.322784] (-) TimerEvent: {}
+[50.423435] (-) TimerEvent: {}
+[50.524082] (-) TimerEvent: {}
+[50.624638] (-) TimerEvent: {}
+[50.725091] (-) TimerEvent: {}
+[50.825473] (-) TimerEvent: {}
+[50.925878] (-) TimerEvent: {}
+[51.026671] (-) TimerEvent: {}
+[51.127471] (-) TimerEvent: {}
+[51.228052] (-) TimerEvent: {}
+[51.328658] (-) TimerEvent: {}
+[51.429147] (-) TimerEvent: {}
+[51.529701] (-) TimerEvent: {}
+[51.630384] (-) TimerEvent: {}
+[51.730978] (-) TimerEvent: {}
+[51.831722] (-) TimerEvent: {}
+[51.932412] (-) TimerEvent: {}
+[52.033038] (-) TimerEvent: {}
+[52.133607] (-) TimerEvent: {}
+[52.234322] (-) TimerEvent: {}
+[52.335118] (-) TimerEvent: {}
+[52.435852] (-) TimerEvent: {}
+[52.536599] (-) TimerEvent: {}
+[52.637280] (-) TimerEvent: {}
+[52.737838] (-) TimerEvent: {}
+[52.838407] (-) TimerEvent: {}
+[52.939008] (-) TimerEvent: {}
+[53.039660] (-) TimerEvent: {}
+[53.140433] (-) TimerEvent: {}
+[53.241191] (-) TimerEvent: {}
+[53.341854] (-) TimerEvent: {}
+[53.442380] (-) TimerEvent: {}
+[53.542869] (-) TimerEvent: {}
+[53.643436] (-) TimerEvent: {}
+[53.744010] (-) TimerEvent: {}
+[53.844559] (-) TimerEvent: {}
+[53.945130] (-) TimerEvent: {}
+[54.045692] (-) TimerEvent: {}
+[54.146261] (-) TimerEvent: {}
+[54.246794] (-) TimerEvent: {}
+[54.347367] (-) TimerEvent: {}
+[54.448178] (-) TimerEvent: {}
+[54.549563] (-) TimerEvent: {}
+[54.650725] (-) TimerEvent: {}
+[54.752719] (-) TimerEvent: {}
+[54.853484] (-) TimerEvent: {}
+[54.954214] (-) TimerEvent: {}
+[55.054897] (-) TimerEvent: {}
+[55.155689] (-) TimerEvent: {}
+[55.256478] (-) TimerEvent: {}
+[55.357248] (-) TimerEvent: {}
+[55.458021] (-) TimerEvent: {}
+[55.558775] (-) TimerEvent: {}
+[55.659520] (-) TimerEvent: {}
+[55.760205] (-) TimerEvent: {}
+[55.860904] (-) TimerEvent: {}
+[55.961591] (-) TimerEvent: {}
+[56.062327] (-) TimerEvent: {}
+[56.163345] (-) TimerEvent: {}
+[56.264142] (-) TimerEvent: {}
+[56.364940] (-) TimerEvent: {}
+[56.465744] (-) TimerEvent: {}
+[56.566566] (-) TimerEvent: {}
+[56.667368] (-) TimerEvent: {}
+[56.768142] (-) TimerEvent: {}
+[56.868931] (-) TimerEvent: {}
+[56.969725] (-) TimerEvent: {}
+[57.070558] (-) TimerEvent: {}
+[57.171345] (-) TimerEvent: {}
+[57.272159] (-) TimerEvent: {}
+[57.372930] (-) TimerEvent: {}
+[57.473698] (-) TimerEvent: {}
+[57.574521] (-) TimerEvent: {}
+[57.675313] (-) TimerEvent: {}
+[57.776102] (-) TimerEvent: {}
+[57.876879] (-) TimerEvent: {}
+[57.977547] (-) TimerEvent: {}
+[58.078351] (-) TimerEvent: {}
+[58.179118] (-) TimerEvent: {}
+[58.279902] (-) TimerEvent: {}
+[58.380697] (-) TimerEvent: {}
+[58.481489] (-) TimerEvent: {}
+[58.582352] (-) TimerEvent: {}
+[58.683133] (-) TimerEvent: {}
+[58.783897] (-) TimerEvent: {}
+[58.884703] (-) TimerEvent: {}
+[58.985504] (-) TimerEvent: {}
+[59.086285] (-) TimerEvent: {}
+[59.187101] (-) TimerEvent: {}
+[59.287899] (-) TimerEvent: {}
+[59.388646] (-) TimerEvent: {}
+[59.489431] (-) TimerEvent: {}
+[59.590269] (-) TimerEvent: {}
+[59.691056] (-) TimerEvent: {}
+[59.791839] (-) TimerEvent: {}
+[59.892618] (-) TimerEvent: {}
+[59.993346] (-) TimerEvent: {}
+[60.094156] (-) TimerEvent: {}
+[60.194947] (-) TimerEvent: {}
+[60.295735] (-) TimerEvent: {}
+[60.396524] (-) TimerEvent: {}
+[60.497421] (-) TimerEvent: {}
+[60.598272] (-) TimerEvent: {}
+[60.699083] (-) TimerEvent: {}
+[60.799895] (-) TimerEvent: {}
+[60.900671] (-) TimerEvent: {}
+[61.001441] (-) TimerEvent: {}
+[61.102244] (-) TimerEvent: {}
+[61.203029] (-) TimerEvent: {}
+[61.303822] (-) TimerEvent: {}
+[61.404889] (-) TimerEvent: {}
+[61.505837] (-) TimerEvent: {}
+[61.606568] (-) TimerEvent: {}
+[61.707336] (-) TimerEvent: {}
+[61.808167] (-) TimerEvent: {}
+[61.908938] (-) TimerEvent: {}
+[62.009660] (-) TimerEvent: {}
+[62.110497] (-) TimerEvent: {}
+[62.211234] (-) TimerEvent: {}
+[62.312311] (-) TimerEvent: {}
+[62.413853] (-) TimerEvent: {}
+[62.514580] (-) TimerEvent: {}
+[62.615246] (-) TimerEvent: {}
+[62.715892] (-) TimerEvent: {}
+[62.816700] (-) TimerEvent: {}
+[62.917654] (-) TimerEvent: {}
+[63.018648] (-) TimerEvent: {}
+[63.119624] (-) TimerEvent: {}
+[63.220341] (-) TimerEvent: {}
+[63.320974] (-) TimerEvent: {}
+[63.421526] (-) TimerEvent: {}
+[63.522222] (-) TimerEvent: {}
+[63.622898] (-) TimerEvent: {}
+[63.723804] (-) TimerEvent: {}
+[63.824458] (-) TimerEvent: {}
+[63.925115] (-) TimerEvent: {}
+[64.025778] (-) TimerEvent: {}
+[64.126474] (-) TimerEvent: {}
+[64.227186] (-) TimerEvent: {}
+[64.327829] (-) TimerEvent: {}
+[64.428509] (-) TimerEvent: {}
+[64.529183] (-) TimerEvent: {}
+[64.629861] (-) TimerEvent: {}
+[64.730535] (-) TimerEvent: {}
+[64.831425] (-) TimerEvent: {}
+[64.932350] (-) TimerEvent: {}
+[65.033278] (-) TimerEvent: {}
+[65.133951] (-) TimerEvent: {}
+[65.234875] (-) TimerEvent: {}
+[65.335764] (-) TimerEvent: {}
+[65.436417] (-) TimerEvent: {}
+[65.537115] (-) TimerEvent: {}
+[65.637797] (-) TimerEvent: {}
+[65.738517] (-) TimerEvent: {}
+[65.839212] (-) TimerEvent: {}
+[65.940147] (-) TimerEvent: {}
+[66.040812] (-) TimerEvent: {}
+[66.141439] (-) TimerEvent: {}
+[66.242222] (-) TimerEvent: {}
+[66.342900] (-) TimerEvent: {}
+[66.443557] (-) TimerEvent: {}
+[66.544228] (-) TimerEvent: {}
+[66.644889] (-) TimerEvent: {}
+[66.745558] (-) TimerEvent: {}
+[66.846479] (-) TimerEvent: {}
+[66.947402] (-) TimerEvent: {}
+[67.048101] (-) TimerEvent: {}
+[67.149025] (-) TimerEvent: {}
+[67.249951] (-) TimerEvent: {}
+[67.350652] (-) TimerEvent: {}
+[67.451314] (-) TimerEvent: {}
+[67.551980] (-) TimerEvent: {}
+[67.652908] (-) TimerEvent: {}
+[67.753594] (-) TimerEvent: {}
+[67.854237] (-) TimerEvent: {}
+[67.954867] (-) TimerEvent: {}
+[68.055710] (-) TimerEvent: {}
+[68.156636] (-) TimerEvent: {}
+[68.257578] (-) TimerEvent: {}
+[68.358498] (-) TimerEvent: {}
+[68.459415] (-) TimerEvent: {}
+[68.560353] (-) TimerEvent: {}
+[68.661291] (-) TimerEvent: {}
+[68.761971] (-) TimerEvent: {}
+[68.862900] (-) TimerEvent: {}
+[68.963830] (-) TimerEvent: {}
+[69.064742] (-) TimerEvent: {}
+[69.165678] (-) TimerEvent: {}
+[69.266646] (-) TimerEvent: {}
+[69.367561] (-) TimerEvent: {}
+[69.468206] (-) TimerEvent: {}
+[69.569131] (-) TimerEvent: {}
+[69.670042] (-) TimerEvent: {}
+[69.770736] (-) TimerEvent: {}
+[69.871409] (-) TimerEvent: {}
+[69.972341] (-) TimerEvent: {}
+[70.073265] (-) TimerEvent: {}
+[70.174195] (-) TimerEvent: {}
+[70.275132] (-) TimerEvent: {}
+[70.376057] (-) TimerEvent: {}
+[70.476739] (-) TimerEvent: {}
+[70.577680] (-) TimerEvent: {}
+[70.678658] (-) TimerEvent: {}
+[70.779597] (-) TimerEvent: {}
+[70.880529] (-) TimerEvent: {}
+[70.981470] (-) TimerEvent: {}
+[71.082399] (-) TimerEvent: {}
+[71.183316] (-) TimerEvent: {}
+[71.284223] (-) TimerEvent: {}
+[71.385132] (-) TimerEvent: {}
+[71.485814] (-) TimerEvent: {}
+[71.586769] (-) TimerEvent: {}
+[71.687700] (-) TimerEvent: {}
+[71.788616] (-) TimerEvent: {}
+[71.889541] (-) TimerEvent: {}
+[71.990465] (-) TimerEvent: {}
+[72.091396] (-) TimerEvent: {}
+[72.192319] (-) TimerEvent: {}
+[72.293245] (-) TimerEvent: {}
+[72.394184] (-) TimerEvent: {}
+[72.495089] (-) TimerEvent: {}
+[72.596013] (-) TimerEvent: {}
+[72.696927] (-) TimerEvent: {}
+[72.797595] (-) TimerEvent: {}
+[72.898249] (-) TimerEvent: {}
+[72.999174] (-) TimerEvent: {}
+[73.100108] (-) TimerEvent: {}
+[73.200799] (-) TimerEvent: {}
+[73.301707] (-) TimerEvent: {}
+[73.402655] (-) TimerEvent: {}
+[73.503580] (-) TimerEvent: {}
+[73.604529] (-) TimerEvent: {}
+[73.705446] (-) TimerEvent: {}
+[73.806200] (-) TimerEvent: {}
+[73.906932] (-) TimerEvent: {}
+[74.007655] (-) TimerEvent: {}
+[74.108330] (-) TimerEvent: {}
+[74.208903] (-) TimerEvent: {}
+[74.309479] (-) TimerEvent: {}
+[74.410360] (-) TimerEvent: {}
+[74.511296] (-) TimerEvent: {}
+[74.612245] (-) TimerEvent: {}
+[74.713178] (-) TimerEvent: {}
+[74.814154] (-) TimerEvent: {}
+[74.915151] (-) TimerEvent: {}
+[75.016081] (-) TimerEvent: {}
+[75.116776] (-) TimerEvent: {}
+[75.217725] (-) TimerEvent: {}
+[75.318472] (-) TimerEvent: {}
+[75.419149] (-) TimerEvent: {}
+[75.519822] (-) TimerEvent: {}
+[75.620491] (-) TimerEvent: {}
+[75.721160] (-) TimerEvent: {}
+[75.821834] (-) TimerEvent: {}
+[75.922528] (-) TimerEvent: {}
+[76.023227] (-) TimerEvent: {}
+[76.123915] (-) TimerEvent: {}
+[76.224605] (-) TimerEvent: {}
+[76.325290] (-) TimerEvent: {}
+[76.425993] (-) TimerEvent: {}
+[76.526710] (-) TimerEvent: {}
+[76.627391] (-) TimerEvent: {}
+[76.728317] (-) TimerEvent: {}
+[76.829249] (-) TimerEvent: {}
+[76.930218] (-) TimerEvent: {}
+[77.031150] (-) TimerEvent: {}
+[77.132092] (-) TimerEvent: {}
+[77.233077] (-) TimerEvent: {}
+[77.334139] (-) TimerEvent: {}
+[77.434791] (-) TimerEvent: {}
+[77.535421] (-) TimerEvent: {}
+[77.635947] (-) TimerEvent: {}
+[77.736473] (-) TimerEvent: {}
+[77.837087] (-) TimerEvent: {}
+[77.938003] (-) TimerEvent: {}
+[78.038545] (-) TimerEvent: {}
+[78.139220] (-) TimerEvent: {}
+[78.239873] (-) TimerEvent: {}
+[78.340548] (-) TimerEvent: {}
+[78.413504] (multisense_ros) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX static library libmultisense_ros.a\x1b[0m\n'}
+[78.440721] (-) TimerEvent: {}
+[78.541482] (-) TimerEvent: {}
+[78.642259] (-) TimerEvent: {}
+[78.675822] (multisense_ros) StdoutLine: {'line': b'[ 83%] Built target multisense_ros\n'}
+[78.742434] (-) TimerEvent: {}
+[78.789104] (multisense_ros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver.dir/src/ros_driver.cpp.o\x1b[0m\n'}
+[78.842559] (-) TimerEvent: {}
+[78.943232] (-) TimerEvent: {}
+[79.043999] (-) TimerEvent: {}
+[79.144768] (-) TimerEvent: {}
+[79.245483] (-) TimerEvent: {}
+[79.346128] (-) TimerEvent: {}
+[79.446710] (-) TimerEvent: {}
+[79.547278] (-) TimerEvent: {}
+[79.647852] (-) TimerEvent: {}
+[79.748489] (-) TimerEvent: {}
+[79.849245] (-) TimerEvent: {}
+[79.950123] (-) TimerEvent: {}
+[80.050878] (-) TimerEvent: {}
+[80.151650] (-) TimerEvent: {}
+[80.252359] (-) TimerEvent: {}
+[80.353077] (-) TimerEvent: {}
+[80.453852] (-) TimerEvent: {}
+[80.554599] (-) TimerEvent: {}
+[80.655243] (-) TimerEvent: {}
+[80.755854] (-) TimerEvent: {}
+[80.856443] (-) TimerEvent: {}
+[80.957051] (-) TimerEvent: {}
+[81.057687] (-) TimerEvent: {}
+[81.158388] (-) TimerEvent: {}
+[81.259064] (-) TimerEvent: {}
+[81.359695] (-) TimerEvent: {}
+[81.460383] (-) TimerEvent: {}
+[81.561139] (-) TimerEvent: {}
+[81.661854] (-) TimerEvent: {}
+[81.762562] (-) TimerEvent: {}
+[81.863221] (-) TimerEvent: {}
+[81.963928] (-) TimerEvent: {}
+[82.064639] (-) TimerEvent: {}
+[82.165376] (-) TimerEvent: {}
+[82.266174] (-) TimerEvent: {}
+[82.366921] (-) TimerEvent: {}
+[82.467564] (-) TimerEvent: {}
+[82.568301] (-) TimerEvent: {}
+[82.669002] (-) TimerEvent: {}
+[82.769476] (-) TimerEvent: {}
+[82.869942] (-) TimerEvent: {}
+[82.970442] (-) TimerEvent: {}
+[83.071142] (-) TimerEvent: {}
+[83.171833] (-) TimerEvent: {}
+[83.272298] (-) TimerEvent: {}
+[83.372845] (-) TimerEvent: {}
+[83.473644] (-) TimerEvent: {}
+[83.574471] (-) TimerEvent: {}
+[83.675516] (-) TimerEvent: {}
+[83.776306] (-) TimerEvent: {}
+[83.877102] (-) TimerEvent: {}
+[83.977901] (-) TimerEvent: {}
+[84.078948] (-) TimerEvent: {}
+[84.179735] (-) TimerEvent: {}
+[84.280503] (-) TimerEvent: {}
+[84.381177] (-) TimerEvent: {}
+[84.481756] (-) TimerEvent: {}
+[84.582434] (-) TimerEvent: {}
+[84.683102] (-) TimerEvent: {}
+[84.783741] (-) TimerEvent: {}
+[84.884371] (-) TimerEvent: {}
+[84.985093] (-) TimerEvent: {}
+[85.085779] (-) TimerEvent: {}
+[85.186520] (-) TimerEvent: {}
+[85.287203] (-) TimerEvent: {}
+[85.387867] (-) TimerEvent: {}
+[85.488531] (-) TimerEvent: {}
+[85.589209] (-) TimerEvent: {}
+[85.689918] (-) TimerEvent: {}
+[85.790594] (-) TimerEvent: {}
+[85.891146] (-) TimerEvent: {}
+[85.991757] (-) TimerEvent: {}
+[86.092465] (-) TimerEvent: {}
+[86.193186] (-) TimerEvent: {}
+[86.293890] (-) TimerEvent: {}
+[86.394573] (-) TimerEvent: {}
+[86.495221] (-) TimerEvent: {}
+[86.595855] (-) TimerEvent: {}
+[86.696652] (-) TimerEvent: {}
+[86.797598] (-) TimerEvent: {}
+[86.898559] (-) TimerEvent: {}
+[86.999499] (-) TimerEvent: {}
+[87.100443] (-) TimerEvent: {}
+[87.201389] (-) TimerEvent: {}
+[87.302324] (-) TimerEvent: {}
+[87.403235] (-) TimerEvent: {}
+[87.504168] (-) TimerEvent: {}
+[87.604876] (-) TimerEvent: {}
+[87.705812] (-) TimerEvent: {}
+[87.806778] (-) TimerEvent: {}
+[87.907479] (-) TimerEvent: {}
+[88.008167] (-) TimerEvent: {}
+[88.108849] (-) TimerEvent: {}
+[88.209531] (-) TimerEvent: {}
+[88.310470] (-) TimerEvent: {}
+[88.411162] (-) TimerEvent: {}
+[88.511840] (-) TimerEvent: {}
+[88.612526] (-) TimerEvent: {}
+[88.713457] (-) TimerEvent: {}
+[88.814379] (-) TimerEvent: {}
+[88.915067] (-) TimerEvent: {}
+[89.015989] (-) TimerEvent: {}
+[89.116934] (-) TimerEvent: {}
+[89.217870] (-) TimerEvent: {}
+[89.318832] (-) TimerEvent: {}
+[89.419773] (-) TimerEvent: {}
+[89.520709] (-) TimerEvent: {}
+[89.621396] (-) TimerEvent: {}
+[89.722083] (-) TimerEvent: {}
+[89.822738] (-) TimerEvent: {}
+[89.923405] (-) TimerEvent: {}
+[90.024079] (-) TimerEvent: {}
+[90.124743] (-) TimerEvent: {}
+[90.225408] (-) TimerEvent: {}
+[90.326106] (-) TimerEvent: {}
+[90.426774] (-) TimerEvent: {}
+[90.527699] (-) TimerEvent: {}
+[90.628653] (-) TimerEvent: {}
+[90.729573] (-) TimerEvent: {}
+[90.830498] (-) TimerEvent: {}
+[90.931404] (-) TimerEvent: {}
+[91.032342] (-) TimerEvent: {}
+[91.133286] (-) TimerEvent: {}
+[91.234230] (-) TimerEvent: {}
+[91.335160] (-) TimerEvent: {}
+[91.436088] (-) TimerEvent: {}
+[91.537019] (-) TimerEvent: {}
+[91.637775] (-) TimerEvent: {}
+[91.738472] (-) TimerEvent: {}
+[91.839241] (-) TimerEvent: {}
+[91.939897] (-) TimerEvent: {}
+[92.040590] (-) TimerEvent: {}
+[92.141269] (-) TimerEvent: {}
+[92.241915] (-) TimerEvent: {}
+[92.342601] (-) TimerEvent: {}
+[92.443284] (-) TimerEvent: {}
+[92.544209] (-) TimerEvent: {}
+[92.644922] (-) TimerEvent: {}
+[92.745649] (-) TimerEvent: {}
+[92.763876] (multisense_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros_driver\x1b[0m\n'}
+[92.845853] (-) TimerEvent: {}
+[92.946871] (-) TimerEvent: {}
+[93.047523] (-) TimerEvent: {}
+[93.148158] (-) TimerEvent: {}
+[93.248964] (-) TimerEvent: {}
+[93.349775] (-) TimerEvent: {}
+[93.450599] (-) TimerEvent: {}
+[93.551312] (-) TimerEvent: {}
+[93.652025] (-) TimerEvent: {}
+[93.703388] (multisense_ros) StdoutLine: {'line': b'[100%] Built target ros_driver\n'}
+[93.727999] (multisense_ros) CommandEnded: {'returncode': 0}
+[93.752233] (-) TimerEvent: {}
+[93.814705] (multisense_ros) JobProgress: {'identifier': 'multisense_ros', 'progress': 'install'}
+[93.815570] (multisense_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros'], 'cwd': '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/lib:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Senior_Design_Project/camera_ros_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib/bin:/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2269,unix/jetson:/tmp/.ICE-unix/2269'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/626f6bfa_db2f_4a35_aac4_851a51aacf5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=133705ae52d0c9993d7282bb672d47af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_msgs:/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_lib:/opt/ros/humble')]), 'shell': False}
+[93.834545] (multisense_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[93.835073] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/multisense_ros/ros_driver\n'}
+[93.839763] (multisense_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/lib/multisense_ros/ros_driver" to ""\n'}
+[93.840101] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/launch\n'}
+[93.840416] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/launch/multisense_launch.py\n'}
+[93.840779] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials\n'}
+[93.841027] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials/textures\n'}
+[93.841260] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/materials/textures/head_diffuse.jpg\n'}
+[93.841995] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes\n'}
+[93.842325] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s21.STL\n'}
+[93.852289] (-) TimerEvent: {}
+[93.852683] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/head.dae\n'}
+[93.853157] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/base_link.STL\n'}
+[93.858749] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s30.STL\n'}
+[93.860431] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s7s.STL\n'}
+[93.862945] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/hokuyo_link.STL\n'}
+[93.864607] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/head_camera.dae\n'}
+[93.864932] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s7.STL\n'}
+[93.875646] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_s27.STL\n'}
+[93.878389] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/meshes/multisense_ks21.STL\n'}
+[93.880439] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf\n'}
+[93.880781] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27\n'}
+[93.881090] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27/multisenseS27.urdf.xacro\n'}
+[93.881388] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S27/standalone.urdf.xacro\n'}
+[93.881709] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7\n'}
+[93.882024] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7/multisenseS7.urdf.xacro\n'}
+[93.882393] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7/standalone.urdf.xacro\n'}
+[93.882679] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21\n'}
+[93.882943] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21/multisenseS21.urdf.xacro\n'}
+[93.883224] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S21/standalone.urdf.xacro\n'}
+[93.883532] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21\n'}
+[93.883800] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21/standalone.urdf.xacro\n'}
+[93.884057] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/KS21/multisenseKS21.urdf.xacro\n'}
+[93.884411] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30\n'}
+[93.884692] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30/standalone.urdf.xacro\n'}
+[93.884991] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S30/multisenseS30.urdf.xacro\n'}
+[93.885216] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S\n'}
+[93.885496] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S/multisenseS7S.urdf.xacro\n'}
+[93.885720] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/S7S/standalone.urdf.xacro\n'}
+[93.885935] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL\n'}
+[93.886235] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL/multisenseSL.urdf.xacro\n'}
+[93.886473] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/urdf/SL/standalone.urdf.xacro\n'}
+[93.886690] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/package_run_dependencies/multisense_ros\n'}
+[93.886975] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/parent_prefix_path/multisense_ros\n'}
+[93.887352] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/ament_prefix_path.sh\n'}
+[93.887658] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/ament_prefix_path.dsv\n'}
+[93.888009] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/path.sh\n'}
+[93.888337] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/environment/path.dsv\n'}
+[93.888653] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.bash\n'}
+[93.889008] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.sh\n'}
+[93.889316] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.zsh\n'}
+[93.889605] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/local_setup.dsv\n'}
+[93.889868] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.dsv\n'}
+[93.890211] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/ament_index/resource_index/packages/multisense_ros\n'}
+[93.890528] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/cmake/multisense_rosConfig.cmake\n'}
+[93.890818] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/cmake/multisense_rosConfig-version.cmake\n'}
+[93.891128] (multisense_ros) StdoutLine: {'line': b'-- Installing: /home/jetson/Senior_Design_Project/camera_ros_node/install/multisense_ros/share/multisense_ros/package.xml\n'}
+[93.895089] (multisense_ros) CommandEnded: {'returncode': 0}
+[93.952403] (-) TimerEvent: {}
+[94.016650] (multisense_ros) JobEnded: {'identifier': 'multisense_ros', 'rc': 0}
+[94.019742] (-) EventReactorShutdown: {}

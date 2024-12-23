@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6
+Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib -- -j6 -l6
+Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib
+Invoked command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_lib

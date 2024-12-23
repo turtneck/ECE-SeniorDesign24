@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/home/jetson/camera_ros_node/build/disparity_retrieve': /usr/bin/cmake /home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity -DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve
+[0.608s] -- The C compiler identification is GNU 11.4.0
+[0.995s] -- The CXX compiler identification is GNU 11.4.0
+[1.025s] -- Detecting C compiler ABI info
+[1.154s] -- Detecting C compiler ABI info - done
+[1.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.167s] -- Detecting C compile features
+[1.169s] -- Detecting C compile features - done
+[1.176s] -- Detecting CXX compiler ABI info
+[1.315s] -- Detecting CXX compiler ABI info - done
+[1.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.329s] -- Detecting CXX compile features
+[1.330s] -- Detecting CXX compile features - done
+[1.352s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.352s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.352s]   has asked CMake to find a package configuration file provided by
+[1.353s]   "ament_cmake", but CMake did not find one.
+[1.353s] 
+[1.353s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.353s]   any of the following names:
+[1.353s] 
+[1.353s]     ament_cmakeConfig.cmake
+[1.354s]     ament_cmake-config.cmake
+[1.354s] 
+[1.354s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.354s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.354s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.354s]   has been installed.
+[1.355s] 
+[1.355s] [0m
+[1.355s] -- Configuring incomplete, errors occurred!
+[1.355s] See also "/home/jetson/camera_ros_node/build/disparity_retrieve/CMakeFiles/CMakeOutput.log".
+[1.360s] Invoked command in '/home/jetson/camera_ros_node/build/disparity_retrieve' returned '1': /usr/bin/cmake /home/jetson/camera_ros_node/src/Senior_Design_Project/Docker_Image/Disparity -DCMAKE_INSTALL_PREFIX=/home/jetson/camera_ros_node/install/disparity_retrieve

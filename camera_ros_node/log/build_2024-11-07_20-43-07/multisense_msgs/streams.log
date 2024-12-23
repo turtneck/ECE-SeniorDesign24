@@ -1,0 +1,136 @@
+[0.035s] Invoking command in '/home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/Senior_Design_Project/camera_ros_node/build/multisense_msgs -- -j6 -l6
+[0.110s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.141s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.154s] [  1%] Built target ament_cmake_python_copy_multisense_msgs
+[0.680s] running egg_info
+[0.681s] creating multisense_msgs.egg-info
+[0.682s] writing multisense_msgs.egg-info/PKG-INFO
+[0.682s] writing dependency_links to multisense_msgs.egg-info/dependency_links.txt
+[0.682s] writing top-level names to multisense_msgs.egg-info/top_level.txt
+[0.683s] writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.687s] reading manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.688s] writing manifest file 'multisense_msgs.egg-info/SOURCES.txt'
+[0.757s] [  1%] Built target ament_cmake_python_build_multisense_msgs_egg
+[2.035s] [  1%] Built target multisense_msgs__cpp
+[2.058s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.058s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.115s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.168s] [  6%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/device_info__functions.c.o[0m
+[2.168s] [  6%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_config__functions.c.o[0m
+[2.169s] [  6%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_imu_data__functions.c.o[0m
+[2.449s] [  7%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_lidar_data__functions.c.o[0m
+[2.467s] [  9%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_cal__functions.c.o[0m
+[2.467s] [  9%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_data__functions.c.o[0m
+[2.660s] [ 10%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_lidar_cal__functions.c.o[0m
+[2.707s] [ 10%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/histogram__functions.c.o[0m
+[2.719s] [ 11%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/device_status__functions.c.o[0m
+[2.866s] [ 12%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/ptp_status__functions.c.o[0m
+[2.916s] [ 13%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/stamped_pps__functions.c.o[0m
+[3.121s] [ 14%] [32m[1mLinking C shared library libmultisense_msgs__rosidl_generator_c.so[0m
+[3.199s] [ 14%] Built target multisense_msgs__rosidl_generator_c
+[3.220s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.221s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.221s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.452s] [ 18%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/device_info__type_support.cpp.o[0m
+[3.782s] [ 19%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[4.014s] [ 20%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[4.186s] [ 21%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_cam_config__type_support.cpp.o[0m
+[4.504s] [ 22%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/device_info__type_support.cpp.o[0m
+[4.572s] [ 23%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_cam_config__type_support.cpp.o[0m
+[4.639s] [ 23%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_imu_data__type_support.cpp.o[0m
+[4.707s] [ 24%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_lidar_data__type_support.cpp.o[0m
+[4.774s] [ 25%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_cam_cal__type_support.cpp.o[0m
+[4.801s] [ 26%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_imu_data__type_support.cpp.o[0m
+[4.838s] [ 27%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_cam_data__type_support.cpp.o[0m
+[4.919s] [ 28%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/raw_lidar_cal__type_support.cpp.o[0m
+[4.982s] [ 29%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/histogram__type_support.cpp.o[0m
+[5.048s] [ 30%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/device_status__type_support.cpp.o[0m
+[5.100s] [ 31%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/device_info__type_support.c.o[0m
+[5.116s] [ 32%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/ptp_status__type_support.cpp.o[0m
+[5.196s] [ 33%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/multisense_msgs/msg/stamped_pps__type_support.cpp.o[0m
+[5.214s] [ 33%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_cam_config__type_support.cpp.o[0m
+[5.221s] [ 34%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[5.258s] [ 35%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_cam_config__type_support.c.o[0m
+[5.265s] [ 36%] [32m[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_c.so[0m
+[5.342s] [ 37%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_imu_data__type_support.c.o[0m
+[5.345s] [ 37%] Built target multisense_msgs__rosidl_typesupport_c
+[5.363s] [ 38%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_lidar_data__type_support.c.o[0m
+[5.433s] [ 39%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_lidar_data__type_support.cpp.o[0m
+[5.450s] [ 40%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_imu_data__type_support.cpp.o[0m
+[5.478s] [ 41%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_cam_cal__type_support.c.o[0m
+[5.646s] [ 42%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_cam_data__type_support.c.o[0m
+[5.763s] [ 42%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/raw_lidar_cal__type_support.c.o[0m
+[5.820s] [ 43%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_cam_config__type_support.cpp.o[0m
+[5.866s] [ 44%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/histogram__type_support.c.o[0m
+[5.967s] [ 45%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/device_status__type_support.c.o[0m
+[6.047s] [ 46%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/ptp_status__type_support.c.o[0m
+[6.069s] [ 47%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_cam_cal__type_support.cpp.o[0m
+[6.135s] [ 48%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multisense_msgs/msg/detail/stamped_pps__type_support.c.o[0m
+[6.189s] [ 49%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_lidar_data__type_support.cpp.o[0m
+[6.214s] [ 50%] [32m[1mLinking C shared library libmultisense_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.278s] [ 50%] Built target multisense_msgs__rosidl_typesupport_introspection_c
+[6.295s] [ 51%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_cam_data__type_support.cpp.o[0m
+[6.440s] [ 52%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_cam_cal__type_support.cpp.o[0m
+[6.685s] [ 53%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/raw_lidar_cal__type_support.cpp.o[0m
+[6.752s] [ 54%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_cam_config__type_support_c.cpp.o[0m
+[6.831s] [ 55%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_imu_data__type_support.cpp.o[0m
+[6.911s] [ 55%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/histogram__type_support.cpp.o[0m
+[7.281s] [ 56%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_cam_data__type_support.cpp.o[0m
+[7.301s] [ 57%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/device_status__type_support.cpp.o[0m
+[7.525s] [ 58%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_imu_data__type_support_c.cpp.o[0m
+[7.535s] [ 59%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/raw_lidar_cal__type_support.cpp.o[0m
+[7.688s] [ 60%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_lidar_data__type_support_c.cpp.o[0m
+[7.815s] [ 61%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_lidar_data__type_support.cpp.o[0m
+[7.953s] [ 62%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/ptp_status__type_support.cpp.o[0m
+[8.330s] [ 63%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_cam_cal__type_support_c.cpp.o[0m
+[8.330s] [ 63%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multisense_msgs/msg/stamped_pps__type_support.cpp.o[0m
+[8.528s] [ 64%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/histogram__type_support.cpp.o[0m
+[8.605s] [ 65%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_cam_data__type_support_c.cpp.o[0m
+[8.642s] [ 66%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/raw_lidar_cal__type_support_c.cpp.o[0m
+[8.945s] [ 67%] [32m[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_cpp.so[0m
+[8.993s] [ 68%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_cam_cal__type_support.cpp.o[0m
+[9.035s] [ 68%] Built target multisense_msgs__rosidl_typesupport_cpp
+[9.052s] [ 69%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/histogram__type_support_c.cpp.o[0m
+[9.128s] [ 70%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/device_status__type_support_c.cpp.o[0m
+[9.503s] [ 71%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/ptp_status__type_support_c.cpp.o[0m
+[9.512s] [ 72%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multisense_msgs/msg/detail/stamped_pps__type_support_c.cpp.o[0m
+[9.609s] [ 73%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/device_status__type_support.cpp.o[0m
+[9.901s] [ 74%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/ptp_status__type_support.cpp.o[0m
+[9.965s] [ 75%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multisense_msgs/msg/detail/stamped_pps__type_support.cpp.o[0m
+[10.029s] [ 76%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_cam_data__type_support.cpp.o[0m
+[10.368s] [ 77%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/raw_lidar_cal__type_support.cpp.o[0m
+[10.438s] [ 78%] [32m[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.615s] [ 78%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c
+[10.634s] [ 79%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/histogram__type_support.cpp.o[0m
+[10.683s] [ 80%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/device_status__type_support.cpp.o[0m
+[10.794s] [ 80%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/ptp_status__type_support.cpp.o[0m
+[10.829s] [ 81%] [32m[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.002s] [ 81%] Built target multisense_msgs__rosidl_typesupport_introspection_cpp
+[11.019s] [ 82%] [32mBuilding CXX object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multisense_msgs/msg/detail/dds_fastrtps/stamped_pps__type_support.cpp.o[0m
+[11.923s] [ 83%] [32m[1mLinking CXX shared library libmultisense_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.072s] [ 83%] Built target multisense_msgs__rosidl_typesupport_fastrtps_cpp
+[12.115s] [ 83%] Built target multisense_msgs
+[12.157s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.175s] [ 84%] Built target multisense_msgs__py
+[15.218s] [ 87%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_cam_config_s.c.o[0m
+[15.218s] [ 87%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_device_info_s.c.o[0m
+[15.219s] [ 87%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_lidar_data_s.c.o[0m
+[15.219s] [ 88%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_imu_data_s.c.o[0m
+[15.220s] [ 89%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_cam_cal_s.c.o[0m
+[15.225s] [ 89%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_cam_data_s.c.o[0m
+[15.552s] [ 90%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_raw_lidar_cal_s.c.o[0m
+[15.596s] [ 91%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_histogram_s.c.o[0m
+[15.683s] [ 92%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_device_status_s.c.o[0m
+[15.692s] [ 94%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_stamped_pps_s.c.o[0m
+[15.692s] [ 94%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_py.dir/rosidl_generator_py/multisense_msgs/msg/_ptp_status_s.c.o[0m
+[16.025s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/multisense_msgs/libmultisense_msgs__rosidl_generator_py.so[0m
+[16.113s] [ 95%] Built target multisense_msgs__rosidl_generator_py
+[16.153s] [ 97%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.154s] [ 97%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.154s] [ 97%] [32mBuilding C object CMakeFiles/multisense_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multisense_msgs/_multisense_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.650s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/multisense_msgs/multisense_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.651s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/multisense_msgs/multisense_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.654s] [100%] [32m[1mLinking C shared library rosidl_generator_py/multisense_msgs/multisense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.724s] [100%] Built target multisense_msgs__rosidl_typesupport_c__pyext
+[16.729s] [100%] Built target multisense_msgs__rosidl_typesupport_introspection_c__pyext
+[16.729s] [100%] Built target multisense_msgs__rosidl_typesupport_fastrtps_c__pyext

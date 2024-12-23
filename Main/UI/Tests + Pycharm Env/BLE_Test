@@ -1,0 +1,15 @@
+
+
+async def init_bluetooth(self):
+
+    device = await BleakScanner.find_device_by_name("lgilfillan")
+    self.client = BleakClient(device)
+    try :
+        async with BleakClient(device) as client :
+            if await client.connect():
+                return client.is_connected
+            else:
+                return False
+    except(AttributeError):
+            return False
+

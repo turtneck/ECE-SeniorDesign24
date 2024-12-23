@@ -1,0 +1,67 @@
+[  2%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o[0m
+[  4%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Constants.cc.o[0m
+[  6%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/dispatch.cc.o[0m
+[  8%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/constants.cc.o[0m
+[ 10%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o[0m
+[ 12%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/flash.cc.o[0m
+[ 14%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/TimeStamp.cc.o[0m
+[ 17%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Exception.cc.o[0m
+[ 19%] [32m[1mLinking CXX shared library libMultiSense.so[0m
+[ 19%] Built target MultiSense
+[ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ColorImageUtility/CMakeFiles/ColorImageUtility.dir/ColorImage.cc.o[0m
+[ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeIpUtility/CMakeFiles/ChangeIpUtility.dir/ChangeIpUtility.cc.o[0m
+[ 27%] [32mBuilding CXX object LibMultiSense/source/Utilities/AprilTagTestUtility/CMakeFiles/AprilTagTestUtility.dir/AprilTagTestUtility.cc.o[0m
+[ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeTransmitDelay/CMakeFiles/ChangeTransmitDelay.dir/ChangeTransmitDelay.cc.o[0m
+[ 29%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeFps/CMakeFiles/ChangeFps.dir/ChangeFps.cc.o[0m
+[ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeResolution/CMakeFiles/ChangeResolution.dir/ChangeResolution.cc.o[0m
+[ 34%] [32m[1mLinking CXX executable ChangeFps[0m
+[ 36%] [32m[1mLinking CXX executable ChangeResolution[0m
+[ 38%] [32m[1mLinking CXX executable ChangeTransmitDelay[0m
+[ 38%] Built target ChangeFps
+[ 40%] [32mBuilding CXX object LibMultiSense/source/Utilities/DeviceInfoUtility/CMakeFiles/DeviceInfoUtility.dir/DeviceInfoUtility.cc.o[0m
+[ 40%] Built target ChangeResolution
+[ 40%] Built target ChangeTransmitDelay
+[ 42%] [32mBuilding CXX object LibMultiSense/source/Utilities/DepthImageUtility/CMakeFiles/DepthImageUtility.dir/DepthImageUtility.cc.o[0m
+[ 44%] [32m[1mLinking CXX executable AprilTagTestUtility[0m
+[ 46%] [32m[1mLinking CXX executable ChangeIpUtility[0m
+[ 48%] [32mBuilding CXX object LibMultiSense/source/Utilities/ExternalCalUtility/CMakeFiles/ExternalCalUtility.dir/ExternalCalUtility.cc.o[0m
+[ 48%] Built target AprilTagTestUtility
+[ 48%] Built target ChangeIpUtility
+[ 51%] [32mBuilding CXX object LibMultiSense/source/Utilities/FeatureDetectorUtility/CMakeFiles/FeatureDetectorUtility.dir/FeatureDetectorUtility.cc.o[0m
+[ 53%] [32mBuilding CXX object LibMultiSense/source/Utilities/FlashUtility/CMakeFiles/FlashUtility.dir/FlashUtility.cc.o[0m
+[ 55%] [32m[1mLinking CXX executable ColorImageUtility[0m
+[ 55%] Built target ColorImageUtility
+[ 57%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImageCalUtility/CMakeFiles/ImageCalUtility.dir/ImageCalUtility.cc.o[0m
+[ 59%] [32m[1mLinking CXX executable DeviceInfoUtility[0m
+[ 61%] [32m[1mLinking CXX executable FlashUtility[0m
+[ 61%] Built target FlashUtility
+[ 61%] Built target DeviceInfoUtility
+[ 63%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImuConfigUtility/CMakeFiles/ImuConfigUtility.dir/ImuConfigUtility.cc.o[0m
+[ 65%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImuTestUtility/CMakeFiles/ImuTestUtility.dir/ImuTestUtility.cc.o[0m
+[ 68%] [32m[1mLinking CXX executable ExternalCalUtility[0m
+[ 68%] Built target ExternalCalUtility
+[ 70%] [32mBuilding CXX object LibMultiSense/source/Utilities/LidarCalUtility/CMakeFiles/LidarCalUtility.dir/LidarCalUtility.cc.o[0m
+[ 72%] [32m[1mLinking CXX executable DepthImageUtility[0m
+[ 72%] Built target DepthImageUtility
+[ 74%] [32mBuilding CXX object LibMultiSense/source/Utilities/PointCloudUtility/CMakeFiles/PointCloudUtility.dir/PointCloudUtility.cc.o[0m
+[ 76%] [32m[1mLinking CXX executable ImuTestUtility[0m
+[ 78%] [32m[1mLinking CXX executable FeatureDetectorUtility[0m
+[ 78%] Built target ImuTestUtility
+[ 80%] [32mBuilding CXX object LibMultiSense/source/Utilities/RectifiedFocalLengthUtility/CMakeFiles/RectifiedFocalLengthUtility.dir/RectifiedFocalLengthUtility.cc.o[0m
+[ 80%] Built target FeatureDetectorUtility
+[ 82%] [32mBuilding CXX object LibMultiSense/source/Utilities/SaveImageUtility/CMakeFiles/SaveImageUtility.dir/SaveImageUtility.cc.o[0m
+[ 85%] [32m[1mLinking CXX executable ImageCalUtility[0m
+[ 85%] Built target ImageCalUtility
+[ 87%] [32mBuilding CXX object LibMultiSense/source/Utilities/VersionInfoUtility/CMakeFiles/VersionInfoUtility.dir/VersionInfoUtility.cc.o[0m
+[ 89%] [32m[1mLinking CXX executable ImuConfigUtility[0m
+[ 89%] Built target ImuConfigUtility
+[ 91%] [32m[1mLinking CXX executable LidarCalUtility[0m
+[ 93%] [32m[1mLinking CXX executable VersionInfoUtility[0m
+[ 93%] Built target LidarCalUtility
+[ 93%] Built target VersionInfoUtility
+[ 95%] [32m[1mLinking CXX executable PointCloudUtility[0m
+[ 97%] [32m[1mLinking CXX executable RectifiedFocalLengthUtility[0m
+[ 97%] Built target PointCloudUtility
+[ 97%] Built target RectifiedFocalLengthUtility
+[100%] [32m[1mLinking CXX executable SaveImageUtility[0m
+[100%] Built target SaveImageUtility

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/sd_proj/sd_proj.egg-info/PKG-INFO
+../../../build/sd_proj/sd_proj.egg-info/SOURCES.txt
+../../../build/sd_proj/sd_proj.egg-info/dependency_links.txt
+../../../build/sd_proj/sd_proj.egg-info/entry_points.txt
+../../../build/sd_proj/sd_proj.egg-info/requires.txt
+../../../build/sd_proj/sd_proj.egg-info/top_level.txt
+../../../build/sd_proj/sd_proj.egg-info/zip-safe
+resource/sd_proj
+sd_proj/Camera_Node.py
+sd_proj/__init__.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

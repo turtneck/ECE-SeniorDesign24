@@ -1,0 +1,3 @@
+source;share/multisense_lib/environment/ament_prefix_path.sh
+source;share/multisense_lib/environment/library_path.sh
+source;share/multisense_lib/environment/path.sh

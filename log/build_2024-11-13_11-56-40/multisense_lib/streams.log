@@ -1,0 +1,68 @@
+[0.030s] Invoking command in '/home/jetson/Senior_Design_Project/build/multisense_lib': /usr/bin/cmake --build /home/jetson/Senior_Design_Project/build/multisense_lib -- -j6 -l6
+[0.120s] [  2%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o[0m
+[0.128s] [  4%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Constants.cc.o[0m
+[0.131s] [  6%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/dispatch.cc.o[0m
+[0.135s] [  8%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/constants.cc.o[0m
+[0.137s] [ 10%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o[0m
+[0.146s] [ 12%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/flash.cc.o[0m
+[0.248s] [ 14%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/TimeStamp.cc.o[0m
+[1.115s] [ 17%] [32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Exception.cc.o[0m
+[12.186s] [ 19%] [32m[1mLinking CXX shared library libMultiSense.so[0m
+[12.382s] [ 19%] Built target MultiSense
+[12.418s] [ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ColorImageUtility/CMakeFiles/ColorImageUtility.dir/ColorImage.cc.o[0m
+[12.419s] [ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeIpUtility/CMakeFiles/ChangeIpUtility.dir/ChangeIpUtility.cc.o[0m
+[12.419s] [ 27%] [32mBuilding CXX object LibMultiSense/source/Utilities/AprilTagTestUtility/CMakeFiles/AprilTagTestUtility.dir/AprilTagTestUtility.cc.o[0m
+[12.419s] [ 25%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeTransmitDelay/CMakeFiles/ChangeTransmitDelay.dir/ChangeTransmitDelay.cc.o[0m
+[12.424s] [ 29%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeFps/CMakeFiles/ChangeFps.dir/ChangeFps.cc.o[0m
+[12.426s] [ 31%] [32mBuilding CXX object LibMultiSense/source/Utilities/ChangeResolution/CMakeFiles/ChangeResolution.dir/ChangeResolution.cc.o[0m
+[13.585s] [ 34%] [32m[1mLinking CXX executable ChangeFps[0m
+[13.611s] [ 36%] [32m[1mLinking CXX executable ChangeResolution[0m
+[13.653s] [ 38%] [32m[1mLinking CXX executable ChangeTransmitDelay[0m
+[13.755s] [ 38%] Built target ChangeFps
+[13.792s] [ 40%] [32mBuilding CXX object LibMultiSense/source/Utilities/DeviceInfoUtility/CMakeFiles/DeviceInfoUtility.dir/DeviceInfoUtility.cc.o[0m
+[13.794s] [ 40%] Built target ChangeResolution
+[13.836s] [ 40%] Built target ChangeTransmitDelay
+[13.838s] [ 42%] [32mBuilding CXX object LibMultiSense/source/Utilities/DepthImageUtility/CMakeFiles/DepthImageUtility.dir/DepthImageUtility.cc.o[0m
+[13.852s] [ 44%] [32m[1mLinking CXX executable AprilTagTestUtility[0m
+[13.865s] [ 46%] [32m[1mLinking CXX executable ChangeIpUtility[0m
+[13.873s] [ 48%] [32mBuilding CXX object LibMultiSense/source/Utilities/ExternalCalUtility/CMakeFiles/ExternalCalUtility.dir/ExternalCalUtility.cc.o[0m
+[14.024s] [ 48%] Built target AprilTagTestUtility
+[14.040s] [ 48%] Built target ChangeIpUtility
+[14.071s] [ 51%] [32mBuilding CXX object LibMultiSense/source/Utilities/FeatureDetectorUtility/CMakeFiles/FeatureDetectorUtility.dir/FeatureDetectorUtility.cc.o[0m
+[14.076s] [ 53%] [32mBuilding CXX object LibMultiSense/source/Utilities/FlashUtility/CMakeFiles/FlashUtility.dir/FlashUtility.cc.o[0m
+[14.479s] [ 55%] [32m[1mLinking CXX executable ColorImageUtility[0m
+[14.646s] [ 55%] Built target ColorImageUtility
+[14.680s] [ 57%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImageCalUtility/CMakeFiles/ImageCalUtility.dir/ImageCalUtility.cc.o[0m
+[15.286s] [ 59%] [32m[1mLinking CXX executable DeviceInfoUtility[0m
+[15.297s] [ 61%] [32m[1mLinking CXX executable FlashUtility[0m
+[15.468s] [ 61%] Built target FlashUtility
+[15.484s] [ 61%] Built target DeviceInfoUtility
+[15.502s] [ 63%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImuConfigUtility/CMakeFiles/ImuConfigUtility.dir/ImuConfigUtility.cc.o[0m
+[15.522s] [ 65%] [32mBuilding CXX object LibMultiSense/source/Utilities/ImuTestUtility/CMakeFiles/ImuTestUtility.dir/ImuTestUtility.cc.o[0m
+[15.864s] [ 68%] [32m[1mLinking CXX executable ExternalCalUtility[0m
+[16.035s] [ 68%] Built target ExternalCalUtility
+[16.088s] [ 70%] [32mBuilding CXX object LibMultiSense/source/Utilities/LidarCalUtility/CMakeFiles/LidarCalUtility.dir/LidarCalUtility.cc.o[0m
+[16.241s] [ 72%] [32m[1mLinking CXX executable DepthImageUtility[0m
+[16.409s] [ 72%] Built target DepthImageUtility
+[16.446s] [ 74%] [32mBuilding CXX object LibMultiSense/source/Utilities/PointCloudUtility/CMakeFiles/PointCloudUtility.dir/PointCloudUtility.cc.o[0m
+[16.803s] [ 76%] [32m[1mLinking CXX executable ImuTestUtility[0m
+[16.875s] [ 78%] [32m[1mLinking CXX executable FeatureDetectorUtility[0m
+[16.994s] [ 78%] Built target ImuTestUtility
+[17.034s] [ 80%] [32mBuilding CXX object LibMultiSense/source/Utilities/RectifiedFocalLengthUtility/CMakeFiles/RectifiedFocalLengthUtility.dir/RectifiedFocalLengthUtility.cc.o[0m
+[17.083s] [ 80%] Built target FeatureDetectorUtility
+[17.124s] [ 82%] [32mBuilding CXX object LibMultiSense/source/Utilities/SaveImageUtility/CMakeFiles/SaveImageUtility.dir/SaveImageUtility.cc.o[0m
+[17.217s] [ 85%] [32m[1mLinking CXX executable ImageCalUtility[0m
+[17.380s] [ 85%] Built target ImageCalUtility
+[17.416s] [ 87%] [32mBuilding CXX object LibMultiSense/source/Utilities/VersionInfoUtility/CMakeFiles/VersionInfoUtility.dir/VersionInfoUtility.cc.o[0m
+[17.699s] [ 89%] [32m[1mLinking CXX executable ImuConfigUtility[0m
+[17.883s] [ 89%] Built target ImuConfigUtility
+[18.197s] [ 91%] [32m[1mLinking CXX executable LidarCalUtility[0m
+[18.274s] [ 93%] [32m[1mLinking CXX executable VersionInfoUtility[0m
+[18.379s] [ 93%] Built target LidarCalUtility
+[18.438s] [ 93%] Built target VersionInfoUtility
+[18.548s] [ 95%] [32m[1mLinking CXX executable PointCloudUtility[0m
+[18.664s] [ 97%] [32m[1mLinking CXX executable RectifiedFocalLengthUtility[0m
+[18.719s] [ 97%] Built target PointCloudUtility
+[18.810s] [ 97%] Built target RectifiedFocalLengthUtility
+[19.402s] [100%] [32m[1mLinking CXX executable SaveImageUtility[0m
+[19.546s] [100%] Built target SaveImageUtility

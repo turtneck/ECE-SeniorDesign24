@@ -1,0 +1,16 @@
+{
+  "package_name": "multisense_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/DeviceInfo.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/RawCamConfig.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/RawImuData.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/RawLidarData.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/RawCamCal.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/RawCamData.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/RawLidarCal.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/Histogram.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/DeviceStatus.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/PtpStatus.msg",
+    "/home/jetson/Senior_Design_Project/camera_ros_node/src/multisense_ros2/multisense_msgs:msg/StampedPps.msg"
+  ]
+}
