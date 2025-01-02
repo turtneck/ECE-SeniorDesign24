@@ -1,6 +1,6 @@
 # Senior-Design
 
-### [Please view the Final Report .docx document](https://github.com/turtneck/ECE-SeniorDesign24/blob/main/ECE%201896%20-%20Final%20Report%20Group%208.docx)
+### [Please view the Final Report .docx document](https://drive.google.com/file/d/1RjMMOHJZ0aeBHipP9XemsG-MgAUPd2ff/view?usp=sharing)
 ### [Presentation too large to fit on Github](https://drive.google.com/file/d/1ENcS8wTJWVnGqaPpgj693St8DHG5q8zP/view)
 
 
